@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Environment / secrets
+.env
+.env.*
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Power BI temporary files
+*.pbit.tmp
+
+# Local data exports
+data/raw/*.zip
+data/raw/*.xlsx
+data/raw/*.xls
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.parquet
+
+# Keep directory placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
