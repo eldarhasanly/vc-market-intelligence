@@ -17,6 +17,10 @@ This project will investigate:
 - Geographic and funding-stage differences
 - VC trends within the EdTech sector
 
+## Methodology
+
+The analytical scope, research questions, period definitions, and methodological principles are documented in [`docs/project_scope.md`](docs/project_scope.md).
+
 ## Tech Stack
 
 - Python
