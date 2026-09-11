@@ -77,6 +77,14 @@ Q4 2022 is treated as a transition period because assigning the entire quarter t
 
 The transition quarter will therefore normally be excluded from direct pre/post averages.
 
+### Frequency and Geographic Coverage
+
+Global market analysis will primarily use annual observations.
+
+Quarterly pre-GPT/post-GPT structural analysis will initially focus on the United States, where consistent quarterly PitchBook-NVCA data are publicly available.
+
+Global quarterly statistics from commercial market intelligence providers may be used for external validation but will not be treated as a redistributable primary dataset.
+
 ## 5. Interpretation of the Post-GPT Period
 
 The term **post-GPT** is used as a temporal market classification.
