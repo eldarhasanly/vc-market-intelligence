@@ -36,7 +36,24 @@ Coverage:
 - USD values and GDP-relative measures
 
 Access:
-SDMX API / OECD Data Explorer
+OECD SDMX REST API.
+
+Dataset:
+`OECD.SDD.TPS,DSD_VC@DF_VC_INV,1.0`
+
+Extraction period:
+2019–2025
+
+Frequency:
+Annual
+
+Unit used in the project:
+Millions of US dollars, exchange-rate converted.
+
+Extraction implementation:
+`src/extract/extract_oecd_vc.py`
+
+The raw API response is stored locally under `data/raw/oecd_vc/` and is not committed to the repository. The extractor also records retrieval metadata and a SHA-256 checksum for source-version tracking.
 
 Planned use:
 - Geographic VC analysis
@@ -55,6 +72,16 @@ Limitations:
 - Coverage differs by country and year
 - National VC definitions are harmonized but not perfectly identical
 - Missing observations exist for some countries
+
+### Reproducibility
+
+The OECD dataset is retrieved programmatically rather than manually downloaded.
+
+Running:
+
+`python src/extract/extract_oecd_vc.py`
+
+recreates the local raw dataset used as the input to the transformation pipeline.
 
 ## 4. PitchBook-NVCA Venture Monitor and Yearbook
 
