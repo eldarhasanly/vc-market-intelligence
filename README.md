@@ -6,6 +6,8 @@ An end-to-end data analytics and Power BI project examining changes in venture c
 
 🚧 In development
 
+Current stage: Data acquisition and pipeline development.
+
 ## Objectives
 
 This project will investigate:
@@ -20,6 +22,22 @@ This project will investigate:
 ## Methodology
 
 The analytical scope, research questions, period definitions, and methodological principles are documented in [`docs/project_scope.md`](docs/project_scope.md).
+
+## Project Roadmap
+
+| Stage | Status |
+|---|---|
+| Repository setup | ✅ Complete |
+| Research scope and analytical framework | ✅ Complete |
+| Data source research and governance | ✅ Complete |
+| OECD VC data extraction | ⏳ Next |
+| Data transformation and validation | Planned |
+| Exploratory data analysis | Planned |
+| Power BI semantic model | Planned |
+| DAX measures | Planned |
+| VC market dashboard | Planned |
+| EdTech deep dive | Planned |
+| Final documentation and release | Planned |
 
 ## Tech Stack
 
