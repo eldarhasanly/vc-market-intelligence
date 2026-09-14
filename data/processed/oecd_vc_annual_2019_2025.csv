@@ -1,0 +1,896 @@
+source_provider,source_dataset_id,country_code,country,stage_code,stage,year,vc_investment_usd_millions,observation_status_code,observation_status,unit_code,unit,unit_multiplier_code,unit_multiplier,currency_code,currency
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUS,Australia,LATER,Later stage venture,2019,342.0213855962032,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUS,Australia,SEED,Seed,2019,44.49058674422155,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUS,Australia,START,Start-up and other early stage,2019,100.79898559237697,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUS,Australia,_T,Total,2019,487.31095793280167,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,LATER,Later stage venture,2019,33.95849790075021,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,SEED,Seed,2019,4.40889361595706,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,START,Start-up and other early stage,2019,38.54600367416,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,_T,Total,2019,76.91339519086726,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,LATER,Later stage venture,2020,57.99224311781159,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,SEED,Seed,2020,1.5340264788469848,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,START,Start-up and other early stage,2020,46.38014068200986,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,_T,Total,2020,105.90641027866845,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,LATER,Later stage venture,2021,753.103362727032,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,SEED,Seed,2021,16.878378364633015,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,START,Start-up and other early stage,2021,64.19689674017137,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,_T,Total,2021,834.1786378318365,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,LATER,Later stage venture,2022,97.41822484957846,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,SEED,Seed,2022,3.0548625179182807,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,START,Start-up and other early stage,2022,89.88663141586339,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,_T,Total,2022,190.3597187833601,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,LATER,Later stage venture,2023,10.49888047609036,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,SEED,Seed,2023,8.884686982896795,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,START,Start-up and other early stage,2023,87.3560815240213,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,_T,Total,2023,106.73964898300846,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,LATER,Later stage venture,2024,111.74604150463657,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,SEED,Seed,2024,11.954892227106583,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,START,Start-up and other early stage,2024,35.88091238828277,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,_T,Total,2024,159.58184612002592,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,LATER,Later stage venture,2025,40.7641416033394,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,SEED,Seed,2025,30.66322235753896,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,START,Start-up and other early stage,2025,36.66004285619238,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),AUT,Austria,_T,Total,2025,108.08740681707071,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,LATER,Later stage venture,2019,147.62275222672994,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,SEED,Seed,2019,26.570593066024166,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,START,Start-up and other early stage,2019,311.8371801350682,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,_T,Total,2019,486.0305254278223,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,LATER,Later stage venture,2020,181.0775569430446,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,SEED,Seed,2020,28.822850409774272,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,START,Start-up and other early stage,2020,281.98793292658854,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,_T,Total,2020,491.8883402794074,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,LATER,Later stage venture,2021,98.8676042154473,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,SEED,Seed,2021,21.499415714460067,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,START,Start-up and other early stage,2021,340.0863901907114,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,_T,Total,2021,460.4534101206188,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,LATER,Later stage venture,2022,215.8464865690217,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,SEED,Seed,2022,21.186127663719446,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,START,Start-up and other early stage,2022,160.1645177892823,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,_T,Total,2022,397.1971320220234,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,LATER,Later stage venture,2023,197.90972176838977,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,SEED,Seed,2023,24.899367410278167,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,START,Start-up and other early stage,2023,142.82411318996782,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,_T,Total,2023,365.63320236863575,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,LATER,Later stage venture,2024,237.1798663595665,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,SEED,Seed,2024,22.55680887396118,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,START,Start-up and other early stage,2024,302.3813831426062,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,_T,Total,2024,562.1180583761338,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,LATER,Later stage venture,2025,137.63985575268086,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,SEED,Seed,2025,33.01358727881258,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,START,Start-up and other early stage,2025,164.07016128565684,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BEL,Belgium,_T,Total,2025,334.72360431715026,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,LATER,Later stage venture,2019,0.0,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,SEED,Seed,2019,1.9457077675452852,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,START,Start-up and other early stage,2019,1.6232889890337536,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,_T,Total,2019,3.568996756579039,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,LATER,Later stage venture,2020,1.1058435254715044,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,SEED,Seed,2020,3.953940716357968,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,START,Start-up and other early stage,2020,3.618232316366297,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,_T,Total,2020,8.678016558195768,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,LATER,Later stage venture,2021,0.0,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,SEED,Seed,2021,10.542423673786654,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,START,Start-up and other early stage,2021,10.562126552250657,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,_T,Total,2021,21.10455022603731,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,LATER,Later stage venture,2022,0.0,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,SEED,Seed,2022,5.490511461379195,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,START,Start-up and other early stage,2022,6.953339857947951,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,_T,Total,2022,12.443851319327145,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,LATER,Later stage venture,2023,7.211512705393369,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,SEED,Seed,2023,0.9730676813874112,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,START,Start-up and other early stage,2023,18.3079656931366,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,_T,Total,2023,26.49254607991738,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,LATER,Later stage venture,2024,24.974717763781623,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,SEED,Seed,2024,5.514235929910979,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,START,Start-up and other early stage,2024,0.0,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,_T,Total,2024,30.4889536936926,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,LATER,Later stage venture,2025,18.31626912679221,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,SEED,Seed,2025,8.485223014553341,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,START,Start-up and other early stage,2025,2.9700534860983065,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),BGR,Bulgaria,_T,Total,2025,29.771545627443864,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,LATER,Later stage venture,2019,1585.500020892477,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,SEED,Seed,2019,260.87047729874,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,START,Start-up and other early stage,2019,2051.0013459066454,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,_T,Total,2019,3897.371844097863,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,LATER,Later stage venture,2020,1349.580133930606,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,SEED,Seed,2020,259.82973310562693,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,START,Start-up and other early stage,2020,1374.4780280681912,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,_T,Total,2020,2983.8878951044244,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,LATER,Later stage venture,2021,3590.7790070939177,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,SEED,Seed,2021,688.773201181072,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,START,Start-up and other early stage,2021,4891.248800739522,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,_T,Total,2021,9170.801009014513,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,LATER,Later stage venture,2022,3310.28168011708,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,SEED,Seed,2022,772.0202612756734,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,START,Start-up and other early stage,2022,3159.476354498697,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,_T,Total,2022,7241.77829589145,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,LATER,Later stage venture,2023,1771.8440853152847,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,SEED,Seed,2023,792.2923824681935,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,START,Start-up and other early stage,2023,2394.039119121417,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,_T,Total,2023,4958.175586904896,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,LATER,Later stage venture,2024,1633.56003221856,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,SEED,Seed,2024,568.7238273401284,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,START,Start-up and other early stage,2024,2350.9954400077054,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,_T,Total,2024,4553.279299566394,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,LATER,Later stage venture,2025,2069.7968521206044,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,SEED,Seed,2025,593.4761499356194,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,START,Start-up and other early stage,2025,1619.922049596738,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CAN,Canada,_T,Total,2025,4283.195051652961,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,LATER,Later stage venture,2019,0.7395079830398736,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,SEED,Seed,2019,0.8532784419690849,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,START,Start-up and other early stage,2019,2.9989892973740107,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,_T,Total,2019,4.59177572238297,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,LATER,Later stage venture,2020,0.968290182487613,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,SEED,Seed,2020,3.240502708011457,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,START,Start-up and other early stage,2020,9.030160325387422,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,_T,Total,2020,13.238953215886491,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,LATER,Later stage venture,2021,27.543212931781326,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,SEED,Seed,2021,4.818083890347922,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,START,Start-up and other early stage,2021,10.014522677304546,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,_T,Total,2021,42.3758194994338,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,LATER,Later stage venture,2022,5.025471949285512,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,SEED,Seed,2022,5.818990782532378,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,START,Start-up and other early stage,2022,5.046960782353479,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,_T,Total,2022,15.891423514171368,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,LATER,Later stage venture,2023,0.0750400426210141,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,SEED,Seed,2023,2.539997315858753,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,START,Start-up and other early stage,2023,2.308508515790566,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,_T,Total,2023,4.923545874270333,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,LATER,Later stage venture,2024,8.430661435666202,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,SEED,Seed,2024,5.539623215783749,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,START,Start-up and other early stage,2024,1.9948271955235344,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,_T,Total,2024,15.965111846973484,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,LATER,Later stage venture,2025,0.6045409773468212,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,SEED,Seed,2025,4.429533890092597,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,START,Start-up and other early stage,2025,4.486033046853982,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HRV,Croatia,_T,Total,2025,9.5201079142934,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,LATER,Later stage venture,2019,14.698263670412556,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,SEED,Seed,2019,6.233357192320324,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,START,Start-up and other early stage,2019,11.71464021667832,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,_T,Total,2019,32.6462610794112,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,LATER,Later stage venture,2020,5.025160295801368,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,SEED,Seed,2020,3.9439117749453354,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,START,Start-up and other early stage,2020,11.166006325025151,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,_T,Total,2020,20.135078395771853,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,LATER,Later stage venture,2021,20.040824883777432,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,SEED,Seed,2021,6.004618790143241,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,START,Start-up and other early stage,2021,105.5030848587549,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,_T,Total,2021,131.5485285326756,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,LATER,Later stage venture,2022,42.46162756565429,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,SEED,Seed,2022,10.838155637956612,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,START,Start-up and other early stage,2022,23.47909895892979,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,_T,Total,2022,76.7788821625407,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,LATER,Later stage venture,2023,50.70857911830675,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,SEED,Seed,2023,5.080567704089129,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,START,Start-up and other early stage,2023,9.447400801064338,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,_T,Total,2023,65.23654762346021,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,LATER,Later stage venture,2024,9.495723812440568,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,SEED,Seed,2024,7.822363614784907,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,START,Start-up and other early stage,2024,6.708594117121469,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,_T,Total,2024,24.026681544346943,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,LATER,Later stage venture,2025,27.6506873190219,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,SEED,Seed,2025,2.9729856287840875,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,START,Start-up and other early stage,2025,7.967511086490536,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CZE,Czechia,_T,Total,2025,38.591184034296525,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,LATER,Later stage venture,2019,129.61470620522255,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,SEED,Seed,2019,11.602468871164223,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,START,Start-up and other early stage,2019,205.65912050545256,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,_T,Total,2019,346.8762955818393,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,LATER,Later stage venture,2020,191.1011958336341,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,SEED,Seed,2020,17.198469365843472,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,START,Start-up and other early stage,2020,85.37069517709979,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,_T,Total,2020,293.6703603765774,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,LATER,Later stage venture,2021,433.2004004190957,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,SEED,Seed,2021,35.71782295262271,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,START,Start-up and other early stage,2021,538.0647936838438,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,_T,Total,2021,1006.9830170555624,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,LATER,Later stage venture,2022,104.78679582308256,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,SEED,Seed,2022,60.28238025849712,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,START,Start-up and other early stage,2022,184.5287251924776,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,_T,Total,2022,349.5979012740573,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,LATER,Later stage venture,2023,171.3365072748402,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,SEED,Seed,2023,88.61261298121805,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,START,Start-up and other early stage,2023,341.62374066265073,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,_T,Total,2023,601.572860918709,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,LATER,Later stage venture,2024,109.36155734200048,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,SEED,Seed,2024,100.50119086204624,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,START,Start-up and other early stage,2024,385.4908847058612,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,_T,Total,2024,595.3536329099079,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,LATER,Later stage venture,2025,111.04909261450256,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,SEED,Seed,2025,68.08939377941572,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,START,Start-up and other early stage,2025,421.626087314972,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DNK,Denmark,_T,Total,2025,600.7645737088903,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,LATER,Later stage venture,2019,12.764729692917172,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,SEED,Seed,2019,4.954122479421987,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,START,Start-up and other early stage,2019,11.614548001085351,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,_T,Total,2019,29.33340017342451,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,LATER,Later stage venture,2020,10.056831109401369,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,SEED,Seed,2020,13.899749904740844,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,START,Start-up and other early stage,2020,8.505648845056987,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,_T,Total,2020,32.4622298591992,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,LATER,Later stage venture,2021,76.73287954426272,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,SEED,Seed,2021,26.94345108057165,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,START,Start-up and other early stage,2021,71.85977657988262,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,_T,Total,2021,175.53610720471698,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,LATER,Later stage venture,2022,51.74538863418275,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,SEED,Seed,2022,14.32677942184997,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,START,Start-up and other early stage,2022,93.59200420166408,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,_T,Total,2022,159.6641722576968,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,LATER,Later stage venture,2023,16.17328090939352,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,SEED,Seed,2023,20.50554584840629,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,START,Start-up and other early stage,2023,15.10374404831904,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,_T,Total,2023,51.78257080611885,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,LATER,Later stage venture,2024,35.046397050383355,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,SEED,Seed,2024,7.040884919631356,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,START,Start-up and other early stage,2024,44.941519254114304,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,_T,Total,2024,87.02880122412901,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,LATER,Later stage venture,2025,124.90946575120554,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,SEED,Seed,2025,14.36208564874411,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,START,Start-up and other early stage,2025,20.592812656389665,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),EST,Estonia,_T,Total,2025,159.86436405633933,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,LATER,Later stage venture,2019,157.4664258960604,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,SEED,Seed,2019,34.72734179681434,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,START,Start-up and other early stage,2019,104.3686305958695,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,_T,Total,2019,296.56239828874425,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,LATER,Later stage venture,2020,321.38352158248074,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,SEED,Seed,2020,18.737041785188552,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,START,Start-up and other early stage,2020,157.09648724441078,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,_T,Total,2020,497.2170506120801,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,LATER,Later stage venture,2021,223.2398086165316,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,SEED,Seed,2021,44.40429356494416,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,START,Start-up and other early stage,2021,175.12470281579837,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,_T,Total,2021,442.7688049972741,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,LATER,Later stage venture,2022,123.1281862948352,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,SEED,Seed,2022,66.21976335364401,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,START,Start-up and other early stage,2022,164.5229492206782,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,_T,Total,2022,353.8708988691574,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,LATER,Later stage venture,2023,41.24807334149936,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,SEED,Seed,2023,39.65429419995832,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,START,Start-up and other early stage,2023,118.41147885153184,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,_T,Total,2023,199.31384639298952,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,LATER,Later stage venture,2024,101.0856763127151,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,SEED,Seed,2024,56.58793304892344,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,START,Start-up and other early stage,2024,155.70692405818423,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,_T,Total,2024,313.3805334198228,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,LATER,Later stage venture,2025,107.1642105955897,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,SEED,Seed,2025,31.90168387374852,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,START,Start-up and other early stage,2025,189.31172456037328,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FIN,Finland,_T,Total,2025,328.37761902971147,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,LATER,Later stage venture,2019,1032.7294492299616,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,SEED,Seed,2019,126.27880651389864,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,START,Start-up and other early stage,2019,625.0867116965572,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,_T,Total,2019,1784.0949674404171,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,LATER,Later stage venture,2020,649.557022084589,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,SEED,Seed,2020,194.3965800821102,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,START,Start-up and other early stage,2020,821.4675186840428,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,_T,Total,2020,1665.421120850742,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,LATER,Later stage venture,2021,1794.5497647091795,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,SEED,Seed,2021,264.65877102353426,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,START,Start-up and other early stage,2021,974.7811380454984,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,_T,Total,2021,3033.9896737782124,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,LATER,Later stage venture,2022,2014.698747793524,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,SEED,Seed,2022,104.8068774606785,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,START,Start-up and other early stage,2022,1172.687856637958,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,_T,Total,2022,3292.19348189216,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,LATER,Later stage venture,2023,826.371030235773,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,SEED,Seed,2023,266.4581303161383,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,START,Start-up and other early stage,2023,1296.3556403231714,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,_T,Total,2023,2389.1848008750826,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,LATER,Later stage venture,2024,1716.2722535393978,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,SEED,Seed,2024,257.3024015695383,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,START,Start-up and other early stage,2024,849.8483395553072,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,_T,Total,2024,2823.422994664243,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,LATER,Later stage venture,2025,1239.6005392098723,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,SEED,Seed,2025,320.7830023778461,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,START,Start-up and other early stage,2025,1067.245341576726,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),FRA,France,_T,Total,2025,2627.628883164444,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,LATER,Later stage venture,2019,979.778551374465,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,SEED,Seed,2019,167.29119164098236,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,START,Start-up and other early stage,2019,1201.864269850841,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,_T,Total,2019,2348.9340128662884,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,LATER,Later stage venture,2020,595.7308821500334,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,SEED,Seed,2020,137.6023750368929,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,START,Start-up and other early stage,2020,1388.2024049167317,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,_T,Total,2020,2121.535662103658,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,LATER,Later stage venture,2021,2930.294336516632,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,SEED,Seed,2021,247.5025906152348,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,START,Start-up and other early stage,2021,1694.15916945325,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,_T,Total,2021,4871.956096585116,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,LATER,Later stage venture,2022,1520.8204091357236,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,SEED,Seed,2022,279.1290339989917,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,START,Start-up and other early stage,2022,1724.7682463712497,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,_T,Total,2022,3524.717689505965,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,LATER,Later stage venture,2023,1119.8631360449156,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,SEED,Seed,2023,176.64238973514497,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,START,Start-up and other early stage,2023,1276.203550375797,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,_T,Total,2023,2572.709076155857,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,LATER,Later stage venture,2024,1587.3877997645932,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,SEED,Seed,2024,209.96990387000267,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,START,Start-up and other early stage,2024,1324.7016377661162,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,_T,Total,2024,3122.059341400712,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,LATER,Later stage venture,2025,1096.7107818109237,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,SEED,Seed,2025,313.6539387776945,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,START,Start-up and other early stage,2025,1356.2938975848372,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),DEU,Germany,_T,Total,2025,2766.658618173456,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,LATER,Later stage venture,2019,4.813740376353447,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,SEED,Seed,2019,8.851942399096108,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,START,Start-up and other early stage,2019,14.287729979525036,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,_T,Total,2019,27.953412754974597,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,LATER,Later stage venture,2020,2.7983804572987703,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,SEED,Seed,2020,5.451245130818004,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,START,Start-up and other early stage,2020,13.963347383868353,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,_T,Total,2020,22.212972971985128,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,LATER,Later stage venture,2021,0.0591370154262689,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,SEED,Seed,2021,3.3814545420740587,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,START,Start-up and other early stage,2021,74.6118358667749,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,_T,Total,2021,78.05242742427522,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,LATER,Later stage venture,2022,52.96832561317038,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,SEED,Seed,2022,7.8011738859732604,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,START,Start-up and other early stage,2022,7.016073471203727,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,_T,Total,2022,67.78557297034736,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,LATER,Later stage venture,2023,7.119818706717087,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,SEED,Seed,2023,4.5490917365169805,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,START,Start-up and other early stage,2023,11.858727150469104,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,_T,Total,2023,23.52763759370317,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,LATER,Later stage venture,2024,0.270595116050398,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,SEED,Seed,2024,5.479009909788459,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,START,Start-up and other early stage,2024,24.5418946453069,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,_T,Total,2024,30.29149967114576,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,LATER,Later stage venture,2025,1.5797164230483294,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,SEED,Seed,2025,2.3831344321952264,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,START,Start-up and other early stage,2025,9.351740427144474,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GRC,Greece,_T,Total,2025,13.31459128238803,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,LATER,Later stage venture,2019,38.16852806543857,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,SEED,Seed,2019,33.75409305067617,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,START,Start-up and other early stage,2019,86.77968224522165,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,_T,Total,2019,158.7023033613364,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,LATER,Later stage venture,2020,31.59837552301148,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,SEED,Seed,2020,48.37091996129326,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,START,Start-up and other early stage,2020,68.27176820180857,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,_T,Total,2020,148.2410636861133,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,LATER,Later stage venture,2021,73.43172124173445,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,SEED,Seed,2021,23.974086916793887,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,START,Start-up and other early stage,2021,61.92530204881125,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,_T,Total,2021,159.33111020733958,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,LATER,Later stage venture,2022,22.019173383142533,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,SEED,Seed,2022,14.332823921052944,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,START,Start-up and other early stage,2022,51.84009982901122,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,_T,Total,2022,88.1920971332067,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,LATER,Later stage venture,2023,1.0812686256630286,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,SEED,Seed,2023,6.902007954763527,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,START,Start-up and other early stage,2023,46.638727262056136,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,_T,Total,2023,54.62200384248269,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,LATER,Later stage venture,2024,1.122428541377051,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,SEED,Seed,2024,0.4762474042487005,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,START,Start-up and other early stage,2024,31.49185960594532,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,_T,Total,2024,33.09053555157107,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,LATER,Later stage venture,2025,26.734270996352237,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,SEED,Seed,2025,0.0,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,START,Start-up and other early stage,2025,8.599171659082822,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),HUN,Hungary,_T,Total,2025,35.33344265543506,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,LATER,Later stage venture,2019,27.291881685067956,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,SEED,Seed,2019,19.667331134491363,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,START,Start-up and other early stage,2019,118.79198491181104,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,_T,Total,2019,165.75119773137035,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,LATER,Later stage venture,2020,78.86771587277934,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,SEED,Seed,2020,15.168878262911612,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,START,Start-up and other early stage,2020,190.09623459063235,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,_T,Total,2020,284.1328287263233,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,LATER,Later stage venture,2021,68.82642616541364,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,SEED,Seed,2021,3.883468666027656,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,START,Start-up and other early stage,2021,178.94995700384155,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,_T,Total,2021,251.65985183528284,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,LATER,Later stage venture,2022,190.01431882890355,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,SEED,Seed,2022,40.1239332946338,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,START,Start-up and other early stage,2022,192.5419620139029,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,_T,Total,2022,422.6802141374402,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,LATER,Later stage venture,2023,128.87938098149695,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,SEED,Seed,2023,27.613167845026005,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,START,Start-up and other early stage,2023,122.79173049215152,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,_T,Total,2023,279.28427931867446,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,LATER,Later stage venture,2024,222.8870323297845,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,SEED,Seed,2024,19.053143311340627,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,START,Start-up and other early stage,2024,109.84862855089118,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,_T,Total,2024,351.78880419201624,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,LATER,Later stage venture,2025,204.4049092976097,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,SEED,Seed,2025,34.92664872675308,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,START,Start-up and other early stage,2025,171.80263588002003,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),IRL,Ireland,_T,Total,2025,411.1341939043828,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,LATER,Later stage venture,2019,4522.95,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,SEED,Seed,2019,658.215,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,START,Start-up and other early stage,2019,3704.683,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,_T,Total,2019,8885.848,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,LATER,Later stage venture,2020,7745.3,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,SEED,Seed,2020,700.799,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,START,Start-up and other early stage,2020,4492.0,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,_T,Total,2020,12938.099,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,LATER,Later stage venture,2021,17416.4,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,SEED,Seed,2021,1315.652,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,START,Start-up and other early stage,2021,9115.52,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,_T,Total,2021,27847.572,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,LATER,Later stage venture,2022,6885.05,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,SEED,Seed,2022,1693.31,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,START,Start-up and other early stage,2022,6695.0650000000005,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,_T,Total,2022,15273.425,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,LATER,Later stage venture,2023,4565.09,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,SEED,Seed,2023,944.895,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,START,Start-up and other early stage,2023,2358.244,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,_T,Total,2023,7868.228999999999,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,LATER,Later stage venture,2024,5129.35,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,SEED,Seed,2024,1082.335,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,START,Start-up and other early stage,2024,3583.434,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ISR,Israel,_T,Total,2024,9795.119,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,LATER,Later stage venture,2019,96.29551780543233,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,SEED,Seed,2019,29.46264350515707,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,START,Start-up and other early stage,2019,90.31151236460713,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,_T,Total,2019,216.0696736751965,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,LATER,Later stage venture,2020,227.8515268420653,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,SEED,Seed,2020,29.70911463354237,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,START,Start-up and other early stage,2020,137.17397154378313,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,_T,Total,2020,394.7346130193909,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,LATER,Later stage venture,2021,165.30756795073705,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,SEED,Seed,2021,65.77471962135657,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,START,Start-up and other early stage,2021,285.0458431326313,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,_T,Total,2021,516.128130704725,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,LATER,Later stage venture,2022,292.61045756279685,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,SEED,Seed,2022,84.37653333754544,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,START,Start-up and other early stage,2022,359.7748476699324,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,_T,Total,2022,736.7618385702747,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,LATER,Later stage venture,2023,282.8916401456692,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,SEED,Seed,2023,58.70151142756037,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,START,Start-up and other early stage,2023,353.3780280765671,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,_T,Total,2023,694.9711796497966,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,LATER,Later stage venture,2024,362.0865719284302,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,SEED,Seed,2024,57.35642317850657,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,START,Start-up and other early stage,2024,325.6265859917996,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,_T,Total,2024,745.0695810987363,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,LATER,Later stage venture,2025,439.0052279347741,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,SEED,Seed,2025,169.7912658993147,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,START,Start-up and other early stage,2025,647.7662222186866,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ITA,Italy,_T,Total,2025,1256.5627160527754,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),JPN,Japan,_T,Total,2019,2502.530374235373,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),JPN,Japan,_T,Total,2020,2074.463747005251,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),JPN,Japan,_T,Total,2021,3031.3156544521244,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),JPN,Japan,_T,Total,2022,2449.464296013889,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),JPN,Japan,_T,Total,2023,1900.476257115016,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),JPN,Japan,_T,Total,2024,2341.3403139910315,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),KOR,Korea,_T,Total,2019,2708.4392557648616,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),KOR,Korea,_T,Total,2020,2581.875975687912,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),KOR,Korea,_T,Total,2021,4669.07838470836,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),KOR,Korea,_T,Total,2022,3666.81809029753,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),KOR,Korea,_T,Total,2023,2572.640326271146,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),KOR,Korea,_T,Total,2024,2622.3159438892453,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),KOR,Korea,_T,Total,2025,2628.8615402342543,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,LATER,Later stage venture,2019,0.364948688997959,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,SEED,Seed,2019,0.4309976848595528,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,START,Start-up and other early stage,2019,5.232423841645584,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,_T,Total,2019,6.028370215503096,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,LATER,Later stage venture,2020,0.0,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,SEED,Seed,2020,1.6713755604756286,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,START,Start-up and other early stage,2020,3.177589564165379,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,_T,Total,2020,4.848965124641008,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,LATER,Later stage venture,2021,0.8953344135537119,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,SEED,Seed,2021,1.0265003137691764,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,START,Start-up and other early stage,2021,11.309043490236371,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,_T,Total,2021,13.23087821755926,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,LATER,Later stage venture,2022,2.278228614227477,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,SEED,Seed,2022,2.285115552343757,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,START,Start-up and other early stage,2022,3.1091471753944657,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,_T,Total,2022,7.672491341965699,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,LATER,Later stage venture,2023,0.2162537251326057,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,SEED,Seed,2023,1.0947844834838163,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,START,Start-up and other early stage,2023,1.42659338664103,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,_T,Total,2023,2.737631595257452,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,LATER,Later stage venture,2024,0.4870712088907164,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,SEED,Seed,2024,0.3247141392604776,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,START,Start-up and other early stage,2024,1.1765475645871306,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,_T,Total,2024,1.988332912738325,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,LATER,Later stage venture,2025,0.0,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,SEED,Seed,2025,4.227266908886838,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,START,Start-up and other early stage,2025,3.8419426597741912,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LVA,Latvia,_T,Total,2025,8.06920956866103,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,LATER,Later stage venture,2019,0.0,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,SEED,Seed,2019,2.8555667649781715,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,START,Start-up and other early stage,2019,2.363210682437704,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,_T,Total,2019,5.218777447415876,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,LATER,Later stage venture,2020,4.483827873788244,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,SEED,Seed,2020,5.9514584930504215,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,START,Start-up and other early stage,2020,4.505335426445769,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,_T,Total,2020,14.940621793284436,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,LATER,Later stage venture,2021,9.113215143040495,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,SEED,Seed,2021,13.056151991780808,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,START,Start-up and other early stage,2021,31.730214002429395,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,_T,Total,2021,53.8995811372507,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,LATER,Later stage venture,2022,60.79724733085067,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,SEED,Seed,2022,1.6679026825097834,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,START,Start-up and other early stage,2022,12.52122222090591,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,_T,Total,2022,74.98637223426636,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,LATER,Later stage venture,2023,1.0509931041444638,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,SEED,Seed,2023,9.53678927834791,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,START,Start-up and other early stage,2023,21.155204476763515,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,_T,Total,2023,31.74298685925589,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,LATER,Later stage venture,2024,2.9765462765543784,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,SEED,Seed,2024,6.646898430661977,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,START,Start-up and other early stage,2024,13.76679712418005,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,_T,Total,2024,23.39024183139641,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,LATER,Later stage venture,2025,17.293261901524772,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,SEED,Seed,2025,16.225427838734593,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,START,Start-up and other early stage,2025,28.433765631734698,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LTU,Lithuania,_T,Total,2025,61.95245537199406,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,LATER,Later stage venture,2019,0.0,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,SEED,Seed,2019,0.0,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,START,Start-up and other early stage,2019,16.32767000882795,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,_T,Total,2019,16.32767000882795,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,LATER,Later stage venture,2020,1.142196105019906,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,SEED,Seed,2020,0.7995372735139343,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,START,Start-up and other early stage,2020,38.70332644056057,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,_T,Total,2020,40.64505981909441,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,LATER,Later stage venture,2021,0.4730961234101516,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,SEED,Seed,2021,1.7741104627880684,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,START,Start-up and other early stage,2021,30.970445283038863,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,_T,Total,2021,33.21765186923708,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,LATER,Later stage venture,2022,12.076403944193585,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,SEED,Seed,2022,5.286293650511584,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,START,Start-up and other early stage,2022,207.61991262328897,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,_T,Total,2022,224.9826102179941,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,LATER,Later stage venture,2023,31.37555015488308,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,SEED,Seed,2023,2.133342998433156,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,START,Start-up and other early stage,2023,2.047836275515723,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,_T,Total,2023,35.55672942883196,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,LATER,Later stage venture,2024,8.50426330723191,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,SEED,Seed,2024,0.0411304576396605,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,START,Start-up and other early stage,2024,10.066138317074808,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,_T,Total,2024,18.61153208194638,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,LATER,Later stage venture,2025,11.220732532811097,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,SEED,Seed,2025,1.0260246867867546,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,START,Start-up and other early stage,2025,7.819483295775707,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),LUX,Luxembourg,_T,Total,2025,20.06624051537356,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,LATER,Later stage venture,2019,166.90164809708477,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,SEED,Seed,2019,27.568156798435457,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,START,Start-up and other early stage,2019,383.0601072953624,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,_T,Total,2019,577.5299121908826,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,LATER,Later stage venture,2020,276.45942965122697,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,SEED,Seed,2020,38.97337586567043,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,START,Start-up and other early stage,2020,529.8674687015423,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,_T,Total,2020,845.3002742184397,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,LATER,Later stage venture,2021,820.8578122138127,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,SEED,Seed,2021,161.26499705840536,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,START,Start-up and other early stage,2021,546.588329991264,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,_T,Total,2021,1528.711139263482,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,LATER,Later stage venture,2022,305.26649107080567,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,SEED,Seed,2022,79.06484015379776,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,START,Start-up and other early stage,2022,685.748845266349,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,_T,Total,2022,1070.0801764909525,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,LATER,Later stage venture,2023,428.5601818330522,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,SEED,Seed,2023,100.05519227572834,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,START,Start-up and other early stage,2023,752.7889918549764,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,_T,Total,2023,1281.404365963757,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,LATER,Later stage venture,2024,646.1259357246762,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,SEED,Seed,2024,97.6155645444848,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,START,Start-up and other early stage,2024,695.6015467433309,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,_T,Total,2024,1439.343047012492,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,LATER,Later stage venture,2025,373.8549202900856,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,SEED,Seed,2025,138.47830323901982,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,START,Start-up and other early stage,2025,817.768794964289,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NLD,Netherlands,_T,Total,2025,1330.1020184933943,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NZL,New Zealand,_T,Total,2019,73.91913036317219,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NZL,New Zealand,_T,Total,2020,82.48715209106261,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NZL,New Zealand,_T,Total,2021,268.6377139623709,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NZL,New Zealand,_T,Total,2022,202.38611068758888,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NZL,New Zealand,_T,Total,2023,236.0551045709682,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NZL,New Zealand,_T,Total,2024,355.62369887707337,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NZL,New Zealand,_T,Total,2025,399.3934498299884,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,LATER,Later stage venture,2019,74.01801991245127,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,SEED,Seed,2019,13.787336070030562,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,START,Start-up and other early stage,2019,62.069476692462416,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,_T,Total,2019,149.87483267494423,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,LATER,Later stage venture,2020,31.70608461571497,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,SEED,Seed,2020,21.30648045519713,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,START,Start-up and other early stage,2020,75.7610109988916,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,_T,Total,2020,128.7735760698037,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,LATER,Later stage venture,2021,89.2417302856765,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,SEED,Seed,2021,39.15235887974338,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,START,Start-up and other early stage,2021,114.3581196198474,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,_T,Total,2021,242.75220878526727,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,LATER,Later stage venture,2022,19.953829082307493,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,SEED,Seed,2022,25.70223206822692,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,START,Start-up and other early stage,2022,98.64983894937326,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,_T,Total,2022,144.30590009990766,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,LATER,Later stage venture,2023,116.04954485294724,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,SEED,Seed,2023,15.269210586104254,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,START,Start-up and other early stage,2023,129.7226191319065,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,_T,Total,2023,261.041374570958,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,LATER,Later stage venture,2024,113.60015923981388,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,SEED,Seed,2024,16.591810135746204,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,START,Start-up and other early stage,2024,105.88711605191337,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,_T,Total,2024,236.07908542747344,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,LATER,Later stage venture,2025,47.49884108929651,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,SEED,Seed,2025,16.81640901845868,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,START,Start-up and other early stage,2025,128.03838905265107,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),NOR,Norway,_T,Total,2025,192.35363916040623,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,LATER,Later stage venture,2019,50.10533919260308,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,SEED,Seed,2019,6.903273126277854,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,START,Start-up and other early stage,2019,55.41649567626481,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,_T,Total,2019,112.42510799514577,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,LATER,Later stage venture,2020,100.38569678074312,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,SEED,Seed,2020,20.38161000307936,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,START,Start-up and other early stage,2020,37.363610363099454,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,_T,Total,2020,158.13091714692197,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,LATER,Later stage venture,2021,12.999486903599356,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,SEED,Seed,2021,15.355659354422018,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,START,Start-up and other early stage,2021,115.27499173441925,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,_T,Total,2021,143.6301379924406,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,LATER,Later stage venture,2022,97.59106172312984,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,SEED,Seed,2022,18.99723969624812,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,START,Start-up and other early stage,2022,125.23218801130449,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,_T,Total,2022,241.82048943068244,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,LATER,Later stage venture,2023,30.81706409704176,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,SEED,Seed,2023,13.027124401988168,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,START,Start-up and other early stage,2023,40.72756143779144,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,_T,Total,2023,84.57174993682136,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,LATER,Later stage venture,2024,34.19239886412829,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,SEED,Seed,2024,25.026801093269214,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,START,Start-up and other early stage,2024,48.50363336180175,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,_T,Total,2024,107.72283331919924,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,LATER,Later stage venture,2025,275.53395771078794,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,SEED,Seed,2025,36.33573769638203,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,START,Start-up and other early stage,2025,38.84204029031707,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),POL,Poland,_T,Total,2025,350.71173569748703,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,LATER,Later stage venture,2019,5.097605526872504,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,SEED,Seed,2019,9.59099707855216,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,START,Start-up and other early stage,2019,37.72395115481967,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,_T,Total,2019,52.412553760244336,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,LATER,Later stage venture,2020,6.649854301464844,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,SEED,Seed,2020,8.010563943336107,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,START,Start-up and other early stage,2020,31.230428469740485,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,_T,Total,2020,45.89084671454144,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,LATER,Later stage venture,2021,0.963933351448184,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,SEED,Seed,2021,10.114203748354775,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,START,Start-up and other early stage,2021,45.09445801717798,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,_T,Total,2021,56.172595116980936,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,LATER,Later stage venture,2022,9.075362742349272,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,SEED,Seed,2022,26.57571485548882,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,START,Start-up and other early stage,2022,31.6938998208501,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,_T,Total,2022,67.34497741868819,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,LATER,Later stage venture,2023,20.455266857313067,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,SEED,Seed,2023,5.214958581572787,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,START,Start-up and other early stage,2023,16.344348418659774,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,_T,Total,2023,42.01457385754563,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,LATER,Later stage venture,2024,29.611764739627155,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,SEED,Seed,2024,13.583874825729982,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,START,Start-up and other early stage,2024,39.32721178630065,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,_T,Total,2024,82.52285135165779,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,LATER,Later stage venture,2025,40.73815199122916,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,SEED,Seed,2025,8.770929095637433,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,START,Start-up and other early stage,2025,117.03687324807414,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),PRT,Portugal,_T,Total,2025,166.54595433494077,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,LATER,Later stage venture,2019,3.91816077145048,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,SEED,Seed,2019,1.1174706467627382,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,START,Start-up and other early stage,2019,19.35083330211865,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,_T,Total,2019,24.38646472033187,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,LATER,Later stage venture,2020,0.7798458126633911,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,SEED,Seed,2020,2.374054604283875,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,START,Start-up and other early stage,2020,8.320487434472199,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,_T,Total,2020,11.474387851419465,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,LATER,Later stage venture,2021,1.4677807228799953,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,SEED,Seed,2021,7.391902207624987,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,START,Start-up and other early stage,2021,8.387284623876873,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,_T,Total,2021,17.246967554381854,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,LATER,Later stage venture,2022,4.995136231586457,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,SEED,Seed,2022,13.515868784874009,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,START,Start-up and other early stage,2022,16.088961549245163,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,_T,Total,2022,34.59996656570563,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,LATER,Later stage venture,2023,2.565850448698366,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,SEED,Seed,2023,5.883074465369972,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,START,Start-up and other early stage,2023,12.126589827104716,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,_T,Total,2023,20.57551474117305,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,LATER,Later stage venture,2024,3.238482348891164,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,SEED,Seed,2024,3.75261306938692,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,START,Start-up and other early stage,2024,7.458683778813171,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,_T,Total,2024,14.449779197091257,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,LATER,Later stage venture,2025,1.75147385960294,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,SEED,Seed,2025,2.2723960849429115,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,START,Start-up and other early stage,2025,28.299297638642603,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ROU,Romania,_T,Total,2025,32.32316758318846,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),RUS,Russia,_T,Total,2019,131.0,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,LATER,Later stage venture,2019,6.408991547586857,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,SEED,Seed,2019,0.0,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,START,Start-up and other early stage,2019,16.001645448408087,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,_T,Total,2019,22.410636995994945,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,LATER,Later stage venture,2020,0.3426588315059718,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,SEED,Seed,2020,5.672145857528855,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,START,Start-up and other early stage,2020,16.830785017676625,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,_T,Total,2020,22.84558970671145,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,LATER,Later stage venture,2021,11.537631709665073,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,SEED,Seed,2021,1.3010143393779168,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,START,Start-up and other early stage,2021,11.868798996052178,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,_T,Total,2021,24.707445045095167,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,LATER,Later stage venture,2022,4.5491701318548525,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,SEED,Seed,2022,4.586026834312011,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,START,Start-up and other early stage,2022,9.730169448689546,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,_T,Total,2022,18.86536641485641,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,LATER,Later stage venture,2023,5.406343128315142,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,SEED,Seed,2023,7.541654035647005,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,START,Start-up and other early stage,2023,4.703518521634174,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,_T,Total,2023,17.651515685596323,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,LATER,Later stage venture,2024,23.53095129174261,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,SEED,Seed,2024,0.6494282785209552,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,START,Start-up and other early stage,2024,4.784121651771037,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,_T,Total,2024,28.964501222034603,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,LATER,Later stage venture,2025,0.0,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,SEED,Seed,2025,0.6214907243752368,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,START,Start-up and other early stage,2025,0.7683885319548384,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVK,Slovak Republic,_T,Total,2025,1.389879256330075,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,LATER,Later stage venture,2019,0.0,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,SEED,Seed,2019,0.0279868626532177,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,START,Start-up and other early stage,2019,1.1194745061287086,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,_T,Total,2019,1.1474613687819264,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,LATER,Later stage venture,2020,0.7207600081507114,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,SEED,Seed,2020,0.0571098052509953,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,START,Start-up and other early stage,2020,2.7983804572987703,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,_T,Total,2020,3.576250270700477,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,LATER,Later stage venture,2021,0.2956850771313448,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,SEED,Seed,2021,0.0863400425223526,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,START,Start-up and other early stage,2021,0.7084614448067019,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,_T,Total,2021,1.0904865644603994,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,LATER,Later stage venture,2022,2.1060972832661355,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,SEED,Seed,2022,1.0530486416330678,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,START,Start-up and other early stage,2022,4.844023751512112,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,_T,Total,2022,8.003169676411316,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,LATER,Later stage venture,2023,0.0,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,SEED,Seed,2023,0.5406343128315143,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,START,Start-up and other early stage,2023,0.0,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,_T,Total,2023,0.5406343128315143,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,LATER,Later stage venture,2024,4.896689220048003,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,SEED,Seed,2024,0.3247141392604776,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,START,Start-up and other early stage,2024,0.5411902321007961,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,_T,Total,2024,5.762593591409277,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,LATER,Later stage venture,2025,0.8474873514207775,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,SEED,Seed,2025,7.664675606249511,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,START,Start-up and other early stage,2025,11.706625280959006,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SVN,Slovenia,_T,Total,2025,20.21878823862929,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ZAF,South Africa,_T,Total,2019,484.48180385144417,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ZAF,South Africa,_T,Total,2020,109.36195846304132,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ZAF,South Africa,_T,Total,2021,40.599029999449456,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ZAF,South Africa,_T,Total,2022,67.25420971428267,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ZAF,South Africa,_T,Total,2023,81.2997370314478,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ZAF,South Africa,_T,Total,2024,27.279684757927075,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,LATER,Later stage venture,2019,272.0551534639452,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,SEED,Seed,2019,23.469648684047645,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,START,Start-up and other early stage,2019,334.8484935668154,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,_T,Total,2019,630.3732957148083,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,LATER,Later stage venture,2020,344.73287688131006,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,SEED,Seed,2020,83.8688443625311,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,START,Start-up and other early stage,2020,414.1454248649695,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,_T,Total,2020,842.7471461088107,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,LATER,Later stage venture,2021,1155.829181737438,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,SEED,Seed,2021,58.61533233098458,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,START,Start-up and other early stage,2021,473.7962465357832,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,_T,Total,2021,1688.240760604206,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,LATER,Later stage venture,2022,424.44925161149246,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,SEED,Seed,2022,43.6367666667983,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,START,Start-up and other early stage,2022,474.775867810804,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,_T,Total,2022,942.8618860890948,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,LATER,Later stage venture,2023,312.3333954269852,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,SEED,Seed,2023,39.685423923691154,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,START,Start-up and other early stage,2023,453.6705047521972,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,_T,Total,2023,805.6893241028736,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,LATER,Later stage venture,2024,368.6566213461339,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,SEED,Seed,2024,24.4065970872817,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,START,Start-up and other early stage,2024,620.4150701780316,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,_T,Total,2024,1013.4782886114472,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,LATER,Later stage venture,2025,673.4676886294407,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,SEED,Seed,2025,79.28752664952226,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,START,Start-up and other early stage,2025,951.0265761185568,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),ESP,Spain,_T,Total,2025,1703.7817913975196,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,LATER,Later stage venture,2019,71.28005394434192,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,SEED,Seed,2019,21.266925866808435,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,START,Start-up and other early stage,2019,273.884811402018,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,_T,Total,2019,366.4317912131684,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,LATER,Later stage venture,2020,238.7309104764968,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,SEED,Seed,2020,35.941165021751864,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,START,Start-up and other early stage,2020,361.07327142325744,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,_T,Total,2020,635.7453469215061,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,LATER,Later stage venture,2021,687.0977130604359,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,SEED,Seed,2021,65.51911761328103,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,START,Start-up and other early stage,2021,427.1295599990793,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,_T,Total,2021,1179.7463906727962,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,LATER,Later stage venture,2022,530.958361140398,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,SEED,Seed,2022,43.02685142405085,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,START,Start-up and other early stage,2022,383.2531779033529,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,_T,Total,2022,957.2383904678018,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,LATER,Later stage venture,2023,173.66962546455085,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,SEED,Seed,2023,25.44927900791787,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,START,Start-up and other early stage,2023,211.7720072441538,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,_T,Total,2023,410.8909117166225,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,LATER,Later stage venture,2024,174.78929164205832,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,SEED,Seed,2024,77.67486925249885,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,START,Start-up and other early stage,2024,433.6719686893309,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,_T,Total,2024,686.1361295838881,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,LATER,Later stage venture,2025,683.3753807591172,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,SEED,Seed,2025,82.96788172095889,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,START,Start-up and other early stage,2025,609.1965078639595,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),SWE,Sweden,_T,Total,2025,1375.5397703440356,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,LATER,Later stage venture,2019,124.0411337025782,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,SEED,Seed,2019,24.1884296801977,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,START,Start-up and other early stage,2019,361.9060244587705,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,_T,Total,2019,510.1355878415464,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,LATER,Later stage venture,2020,124.57231609043636,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,SEED,Seed,2020,99.9143809799677,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,START,Start-up and other early stage,2020,379.276530702687,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,_T,Total,2020,603.7632277730911,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,LATER,Later stage venture,2021,349.2417463709435,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,SEED,Seed,2021,55.364286735328406,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,START,Start-up and other early stage,2021,363.72158652690246,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,_T,Total,2021,768.3276196331743,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,LATER,Later stage venture,2022,361.5972957710883,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,SEED,Seed,2022,59.16939208818229,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,START,Start-up and other early stage,2022,465.6826137720334,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,_T,Total,2022,886.449301631304,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,LATER,Later stage venture,2023,401.060601257151,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,SEED,Seed,2023,60.74815830758797,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,START,Start-up and other early stage,2023,327.48335289636617,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,_T,Total,2023,789.2921124611051,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,LATER,Later stage venture,2024,612.6360017818148,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,SEED,Seed,2024,123.12943684664472,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,START,Start-up and other early stage,2024,515.1752176437108,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,_T,Total,2024,1250.9406562721704,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,LATER,Later stage venture,2025,609.7275999375164,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,SEED,Seed,2025,94.01459685094493,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,START,Start-up and other early stage,2025,1039.0861618468516,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),CHE,Switzerland,_T,Total,2025,1742.828358635313,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,LATER,Later stage venture,2019,1485.2844180589664,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,SEED,Seed,2019,191.37508479179772,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,START,Start-up and other early stage,2019,1703.460517354396,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,_T,Total,2019,3380.12002020516,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,LATER,Later stage venture,2020,1339.4915102847906,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,SEED,Seed,2020,207.94620119281703,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,START,Start-up and other early stage,2020,1572.190894321275,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,_T,Total,2020,3119.6286057988827,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,LATER,Later stage venture,2021,4008.5608399367497,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,SEED,Seed,2021,295.140034914967,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,START,Start-up and other early stage,2021,2355.7088994135315,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,_T,Total,2021,6659.409774265248,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,LATER,Later stage venture,2022,1278.3374257436062,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,SEED,Seed,2022,345.77039590679885,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,START,Start-up and other early stage,2022,2149.8101853497133,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,_T,Total,2022,3773.9180070001194,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,LATER,Later stage venture,2023,1848.8916823583972,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,SEED,Seed,2023,239.94081741053552,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,START,Start-up and other early stage,2023,1786.538899784953,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,_T,Total,2023,3875.371399553886,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,LATER,Later stage venture,2024,3618.558084134625,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,SEED,Seed,2024,526.9547642356167,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,START,Start-up and other early stage,2024,2393.053368771192,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,_T,Total,2024,6538.566217141433,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,LATER,Later stage venture,2025,2950.067310835399,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,SEED,Seed,2025,515.3141190398362,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,START,Start-up and other early stage,2025,3030.2588239931038,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),GBR,United Kingdom,_T,Total,2025,6495.640253868339,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,LATER,Later stage venture,2019,61860.1320169665,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,SEED,Seed,2019,10099.8753865601,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,START,Start-up and other early stage,2019,45343.4123076258,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,_T,Total,2019,117303.4197111524,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,LATER,Later stage venture,2020,71696.216807817,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,SEED,Seed,2020,11860.4096254484,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,START,Start-up and other early stage,2020,45708.6543806052,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,_T,Total,2020,129265.2808138706,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,LATER,Later stage venture,2021,159081.965252412,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,SEED,Seed,2021,18941.3682952742,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,START,Start-up and other early stage,2021,89092.9351079086,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,_T,Total,2021,267116.2686555948,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,LATER,Later stage venture,2022,96461.5027277082,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,SEED,Seed,2022,24937.8722968861,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,START,Start-up and other early stage,2022,69953.2315157852,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,_T,Total,2022,191352.6065403795,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,LATER,Later stage venture,2023,74172.1256067993,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,SEED,Seed,2023,16981.4605971452,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,START,Start-up and other early stage,2023,40526.7326341646,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,_T,Total,2023,131680.3188381091,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,LATER,Later stage venture,2024,83936.9375092948,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,SEED,Seed,2024,18294.6470014048,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,START,Start-up and other early stage,2024,53838.9788001722,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,_T,Total,2024,156070.5633108718,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,LATER,Later stage venture,2025,101868.305428187,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,SEED,Seed,2025,21927.8078850431,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,START,Start-up and other early stage,2025,68322.6334893757,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
+OECD,OECD.SDD.TPS:DSD_VC@DF_VC_INV(1.0),USA,United States,_T,Total,2025,192118.7468026058,A,Normal value,USD_EXC,"US dollars, exchange rate converted",6,Millions,USD,US dollar
