@@ -57,3 +57,22 @@ The processed dataset retains country, business development stage, observation s
 The combination of country, stage, and year is treated as the analytical key.
 
 The processed dataset is generated from the raw OECD SDMX response and should not be manually edited.
+
+## Data Quality
+
+Processed OECD data are validated using:
+
+`src/validation/validate_oecd_vc.py`
+
+The validation pipeline checks:
+
+- required schema
+- analytical-key uniqueness
+- missing investment values
+- negative investment values
+- expected year coverage
+- expected business-development stages
+- currency and unit consistency
+- country-year-stage coverage
+
+Reported total investment is also compared with available stage components as a diagnostic check. Differences are not automatically treated as errors because national reporting methodologies and stage coverage may vary.

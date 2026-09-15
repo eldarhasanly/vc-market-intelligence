@@ -31,8 +31,8 @@ The analytical scope, research questions, period definitions, and methodological
 | Research scope and analytical framework | ✅ Complete |
 | Data source research and governance | ✅ Complete |
 | OECD VC data transformation | ✅ Complete |
-| Data quality and validation | ⏳ Next |
-| Exploratory data analysis | Planned |
+| Data quality and validation | ✅ Complete |
+| Exploratory data analysis | ⏳ Next |
 | Power BI semantic model | Planned |
 | DAX measures | Planned |
 | VC market dashboard | Planned |
