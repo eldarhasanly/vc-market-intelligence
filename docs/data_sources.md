@@ -282,7 +282,7 @@ Detailed extraction procedures, transformation rules, validation requirements, a
 
 The OWID series will be maintained as a separate analytical source from OECD.AI venture capital benchmarks to preserve methodological consistency.
 
-## 6. EdTech Research Sources
+## 7. EdTech Research Sources
 
 ### HolonIQ
 
@@ -309,6 +309,34 @@ Purpose:
 
 Important note:
 Brighteye's definition of EdTech / Learning & Work differs from other providers. Figures will therefore not be merged directly with HolonIQ or other sector datasets.
+
+### HolonIQ EdTech VC Historical Benchmark
+
+**Status:** Primary EdTech market benchmark (local data)
+
+**Source:** [2026 Global Education Outlook](https://www.holoniq.com/notes/2026-global-education-outlook)
+
+**Publication date:** 19 December 2025
+
+**Coverage:** 2019–2025
+
+**Frequency:** Annual
+
+**Unit:** Nominal USD billions
+
+**Market:** Global EdTech venture capital, excluding private equity.
+
+The historical series is based on the published chart in HolonIQ's 2026 Global Education Outlook.
+
+The dataset preserves the December 2025 publication vintage.
+A February 2026 update revised the reported 2025 funding figure
+from $2.4B to $2.6B. These releases are not combined.
+
+Original and processed numerical observations remain local because public redistribution rights have not been established.
+
+See:
+- [EdTech methodology](edtech_market_methodology.md)
+- [EdTech classification rules](edtech_taxonomy.md)
 
 ## 7. Dealroom
 

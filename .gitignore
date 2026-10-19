@@ -32,3 +32,6 @@ data/raw/*
 
 # Third-party AI investment data: locally reproducible
 data/processed/owid_private_ai_genai_2019_2025.csv
+
+# Third-party EdTech market data
+data/processed/edtech_vc_holoniq_2019_2025_local.csv
