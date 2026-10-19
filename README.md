@@ -34,7 +34,8 @@ The analytical scope, research questions, period definitions, and methodological
 | Data quality and validation | ✅ Complete |
 | Exploratory data analysis | ✅ Complete |
 | OECD.AI published benchmark indicators | ✅ Complete |
-| Additional market datasets and full annual AI series | ⏳ Next |
+| AI and GenAI private-investment time series | ✅ Complete |
+| EdTech data acquisition | ⏳ Next |
 | Power BI semantic model | Planned |
 | DAX measures | Planned |
 | VC market dashboard | Planned |

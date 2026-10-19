@@ -175,6 +175,113 @@ Each record includes its own metric, observation year, geography, precision qual
 
 The OECD publication is publicly accessible, but its underlying Preqin transactions are proprietary. This repository reproduces a limited set of attributed published summary figures, not Preqin source records. OECD's open-content permissions do not automatically apply to third-party source materials. Recheck applicable source notices before redistributing additional figures or data.
 
+## 6. Our World in Data / Stanford AI Index
+
+**Providers:** Our World in Data (OWID), Stanford University AI Index
+
+**Underlying data:** Quid via AI Index Report (2026), with inflation adjustments using U.S. Bureau of Labor Statistics data.
+
+**Status:** PRIMARY COMPLEMENTARY DATASET (AI and GenAI private-investment trends)
+
+### Coverage
+
+- Annual global private investment in artificial intelligence
+- Annual global private investment in generative AI
+- AI investment series: 2013–2025
+- Generative AI investment series: 2019–2025
+- Project extraction period: 2019–2025
+- Frequency: Annual
+- Unit: Constant 2021 US dollars (inflation-adjusted)
+
+### Data Sources
+
+**Artificial Intelligence:**
+
+[Private Investment in Artificial Intelligence](https://ourworldindata.org/grapher/private-investment-in-artificial-intelligence)
+
+**Generative AI:**
+
+[Global Investment in Generative AI](https://ourworldindata.org/grapher/global-investment-in-generative-ai)
+
+Both datasets are accessible through the Our World in Data API as CSV files accompanied by JSON metadata.
+
+### Measurement Definition
+
+These indicators measure external private-market investment in AI and generative AI companies, including venture capital and private equity.
+
+They do not exclusively measure venture capital investment.
+
+The indicators exclude internal corporate research and development, capital expenditures, public-sector funding, and investment in publicly traded companies.
+
+The general AI series covers privately held AI companies raising more than USD 1.5 million.
+
+### Price Basis
+
+The investment figures are expressed in constant 2021 US dollars.
+
+Our World in Data adjusts the original investment values using the U.S. Consumer Price Index (CPI) to improve comparability across years.
+
+Consequently, these figures must not be directly combined with nominal investment figures from OECD.AI, PitchBook/NVCA, or other market intelligence providers.
+
+### Planned Use
+
+- Analyze historical private investment in AI and GenAI
+- Compare investment trends before and after 2022
+- Examine the relative growth of generative AI investment
+- Provide contextual evidence for the broader post-GPT analysis
+- Compare directional trends with OECD.AI venture capital benchmarks
+
+### Extraction and Transformation
+
+Extraction implementation:
+
+`src/extract/extract_owid_ai.py`
+
+Transformation implementation:
+
+`src/transform/transform_owid_ai.py`
+
+Validation implementation:
+
+`src/validation/validate_owid_ai.py`
+
+Processed local dataset:
+
+`data/processed/owid_private_ai_genai_2019_2025.csv`
+
+The pipeline downloads the original data and metadata, transforms the relevant observations into a standardized analytical structure, and validates the resulting dataset.
+
+### Repository and Redistribution Policy
+
+The series relies on third-party data provided through Our World in Data.
+
+Although OWID-produced content is generally available under Creative Commons Attribution licensing, third-party data remain subject to the original providers' licensing conditions.
+
+Until redistribution rights for the underlying investment data are confirmed:
+
+- Raw downloaded files will not be committed to Git.
+- The generated processed investment dataset will remain local.
+- Python extraction, transformation, and validation scripts may be version-controlled.
+- Source metadata and methodological documentation will be maintained.
+- Published findings will provide appropriate attribution to OWID, Stanford AI Index, Quid, and other relevant data providers.
+
+### Limitations
+
+- The investment universe includes private equity and is not restricted to venture capital.
+- AI and GenAI company classifications depend on the underlying provider's methodology.
+- Large investment transactions may substantially influence annual totals.
+- Inflation adjustments use a general consumer price index rather than an AI-specific investment price index.
+- The series cannot be directly combined with nominal OECD.AI venture capital observations.
+- The data do not establish a causal relationship between ChatGPT's release and subsequent investment trends.
+
+### Methodological Documentation
+
+Detailed extraction procedures, transformation rules, validation requirements, and source-specific limitations are documented in:
+
+[`docs/owid_ai_methodology.md`](owid_ai_methodology.md)
+
+The OWID series will be maintained as a separate analytical source from OECD.AI venture capital benchmarks to preserve methodological consistency.
+
 ## 6. EdTech Research Sources
 
 ### HolonIQ
