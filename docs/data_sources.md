@@ -154,6 +154,27 @@ Limitations:
 - Historical observations may be revised
 - AI classification depends on provider and OECD classification methodology
 
+### OECD AI published-benchmark ingestion (October 2026)
+
+A small table of individually verified, **published aggregate** indicators has been curated from the OECD (2026) policy brief, *Venture capital investments in artificial intelligence through 2025*:
+
+- Source publication: https://doi.org/10.1787/a13752f5-en
+- Input transcription: `src/config/oecd_ai_report_2026.json`
+- Transformation: `src/transform/build_oecd_ai_benchmarks.py`
+- Validation: `src/validation/validate_oecd_ai_benchmarks.py`
+- Output: `data/processed/oecd_ai_benchmarks_2026.csv`
+- Unit: nominal USD billions for funding amounts; percentage points for shares.
+
+Each record includes its own metric, observation year, geography, precision qualifier and source-evidence note. The table intentionally contains only values explicitly stated in the report. **Missing years are not zero values and must not be interpolated.** It is not a 2019–2025 time-series panel, and it does not provide deal counts or company-level data.
+
+**Provider comparability:** the OECD.AI figures use Preqin's global deal coverage and must not be divided by, joined numerically with, or presented as the sector subset of the separate OECD country-level VC series (`DSD_VC@DF_VC_INV`). The global 2025 total of USD 427.1B in this benchmark belongs to the *Preqin-based* analytical universe only.
+
+**Geography:** EU27 is an aggregate region while United States, China and United Kingdom refer to recipient-firm jurisdictions. These observations are not investor-origin flows. Only an explicitly disjoint set of geography observations should be summed.
+
+**Mega-deal definition:** the report describes mega-deals as funding rounds **over** USD 100 million; this may differ from datasets using *at least* USD 100 million.
+
+The OECD publication is publicly accessible, but its underlying Preqin transactions are proprietary. This repository reproduces a limited set of attributed published summary figures, not Preqin source records. OECD's open-content permissions do not automatically apply to third-party source materials. Recheck applicable source notices before redistributing additional figures or data.
+
 ## 6. EdTech Research Sources
 
 ### HolonIQ

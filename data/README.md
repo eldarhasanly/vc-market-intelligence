@@ -76,3 +76,15 @@ The validation pipeline checks:
 - country-year-stage coverage
 
 Reported total investment is also compared with available stage components as a diagnostic check. Differences are not automatically treated as errors because national reporting methodologies and stage coverage may vary.
+
+### OECD.AI Published Market Benchmarks
+
+- File: `processed/oecd_ai_benchmarks_2026.csv`
+- Source: OECD (2026), *Venture capital investments in artificial intelligence through 2025* (Preqin-based analysis)
+- Type: **sparse, published aggregate observations**; not a complete 2019–2025 annual time series
+- Units: `USD_billions` and `percent` (percentage points)
+- Source-of-truth transcription: `src/config/oecd_ai_report_2026.json`
+- Build: `python src/transform/build_oecd_ai_benchmarks.py`
+- Check: `python src/validation/validate_oecd_ai_benchmarks.py`
+
+The global OECD.AI/Preqin figures are not directly comparable to the separate OECD country-level venture-capital dataset. Blank/unreported years must not be converted to zeros or filled by interpolation. The underlying Preqin transaction-level dataset is **not** included.

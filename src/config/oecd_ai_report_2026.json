@@ -1,0 +1,171 @@
+{
+  "publication_title": "Venture capital investments in artificial intelligence through 2025",
+  "publisher": "OECD",
+  "publication_date": "2026-02-17",
+  "source_url": "https://www.oecd.org/en/publications/venture-capital-investments-in-artificial-intelligence-through-2025_a13752f5-en/full-report.html",
+  "underlying_provider": "Preqin",
+  "data_scope": "Published aggregate benchmark observations; not underlying deal-level data",
+  "methods_note": "Nominal USD, rounded publication figures. 2025 figures use a source vintage around January 2026, but table-specific update dates may differ. This is not a complete annual panel.",
+  "observations": [
+    {
+      "year": 2021,
+      "geography": "World",
+      "metric": "ai_vc",
+      "value": 257.3,
+      "unit": "USD_billions",
+      "precision": "reported_rounded",
+      "evidence": "Global annual AI VC, comparison of 2021 peak with 2023 and 2025.",
+      "note": ""
+    },
+    {
+      "year": 2022,
+      "geography": "World",
+      "metric": "ai_share_of_total_vc",
+      "value": 30,
+      "unit": "percent",
+      "precision": "reported_rounded",
+      "evidence": "Key messages: 2022 AI share of all VC.",
+      "note": ""
+    },
+    {
+      "year": 2022,
+      "geography": "World",
+      "metric": "genai_vc",
+      "value": 2.8,
+      "unit": "USD_billions",
+      "precision": "reported_rounded",
+      "evidence": "Key messages: global GenAI VC in 2022.",
+      "note": ""
+    },
+    {
+      "year": 2023,
+      "geography": "World",
+      "metric": "ai_vc",
+      "value": 123.6,
+      "unit": "USD_billions",
+      "precision": "reported_rounded",
+      "evidence": "Global AI VC declined to 123.6 billion in 2023.",
+      "note": ""
+    },
+    {
+      "year": 2023,
+      "geography": "World",
+      "metric": "genai_vc",
+      "value": 15.3,
+      "unit": "USD_billions",
+      "precision": "reported_rounded",
+      "evidence": "Key messages: global GenAI VC in 2023.",
+      "note": ""
+    },
+    {
+      "year": 2024,
+      "geography": "World",
+      "metric": "ai_it_infrastructure_and_hosting_vc",
+      "value": 47.4,
+      "unit": "USD_billions",
+      "precision": "reported_rounded",
+      "evidence": "AI firms classified as IT infrastructure and hosting, in 2024.",
+      "note": "Broad industry definition includes model developers; not exclusively compute hardware."
+    },
+    {
+      "year": 2025,
+      "geography": "World",
+      "metric": "total_vc",
+      "value": 427.1,
+      "unit": "USD_billions",
+      "precision": "reported_rounded",
+      "evidence": "Global total VC, from the same Preqin-based analytical universe.",
+      "note": ""
+    },
+    {
+      "year": 2025,
+      "geography": "World",
+      "metric": "ai_vc",
+      "value": 258.7,
+      "unit": "USD_billions",
+      "precision": "reported_rounded",
+      "evidence": "Global AI VC in 2025.",
+      "note": ""
+    },
+    {
+      "year": 2025,
+      "geography": "World",
+      "metric": "genai_vc",
+      "value": 35.3,
+      "unit": "USD_billions",
+      "precision": "reported_rounded",
+      "evidence": "Global GenAI VC in 2025.",
+      "note": ""
+    },
+    {
+      "year": 2025,
+      "geography": "World",
+      "metric": "ai_share_of_total_vc",
+      "value": 61,
+      "unit": "percent",
+      "precision": "reported_rounded",
+      "evidence": "AI funding as share of all VC in 2025.",
+      "note": ""
+    },
+    {
+      "year": 2025,
+      "geography": "World",
+      "metric": "ai_mega_deal_share_of_ai_vc",
+      "value": 73,
+      "unit": "percent",
+      "precision": "approximately_reported",
+      "evidence": "Share of AI investment value from mega-deals exceeding USD 100 million.",
+      "note": "OECD uses deals OVER USD 100 million; may differ from >= USD 100 million definitions."
+    },
+    {
+      "year": 2025,
+      "geography": "World",
+      "metric": "ai_it_infrastructure_and_hosting_vc",
+      "value": 109.3,
+      "unit": "USD_billions",
+      "precision": "reported_rounded",
+      "evidence": "AI firms classified as IT infrastructure and hosting, in 2025.",
+      "note": "Broad industry definition includes model developers; not exclusively compute hardware."
+    },
+    {
+      "year": 2025,
+      "geography": "United States",
+      "metric": "ai_vc",
+      "value": 194,
+      "unit": "USD_billions",
+      "precision": "approximately_reported",
+      "evidence": "AI VC into firms domiciled in the United States, 2025.",
+      "note": "Destination (recipient) location, not investor source."
+    },
+    {
+      "year": 2025,
+      "geography": "EU27",
+      "metric": "ai_vc",
+      "value": 15.8,
+      "unit": "USD_billions",
+      "precision": "reported_rounded",
+      "evidence": "AI VC into firms in the EU27, 2025.",
+      "note": "Region aggregate; not an individual country."
+    },
+    {
+      "year": 2025,
+      "geography": "China",
+      "metric": "ai_vc",
+      "value": 13.9,
+      "unit": "USD_billions",
+      "precision": "reported_rounded",
+      "evidence": "AI VC into firms in China, 2025.",
+      "note": ""
+    },
+    {
+      "year": 2025,
+      "geography": "United Kingdom",
+      "metric": "ai_vc",
+      "value": 13.8,
+      "unit": "USD_billions",
+      "precision": "reported_rounded",
+      "evidence": "AI VC into firms in the United Kingdom, 2025.",
+      "note": ""
+    }
+  ]
+}
