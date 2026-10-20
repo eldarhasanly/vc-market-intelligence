@@ -338,6 +338,33 @@ See:
 - [EdTech methodology](edtech_market_methodology.md)
 - [EdTech classification rules](edtech_taxonomy.md)
 
+### Curated AI-Enabled EdTech Funding Rounds
+
+**Status:** Curated company-level case-study dataset
+
+**Coverage:** 2022–2025
+
+**Unit of analysis:** Individual announced funding round
+
+**Currency:** Nominal USD millions
+
+**Selection:** Publicly announced rounds involving selected AI-enabled EdTech companies.
+
+**Source:** Company and company-issued funding announcements, with source URLs preserved for individual observations.
+
+**Input:**
+`src/config/edtech_verified_rounds_2022_2025.json`
+
+**Processed dataset:**
+`data/processed/edtech_verified_rounds_2022_2025.csv`
+
+**Methodology:**
+[EdTech Funding Rounds Methodology](edtech_rounds_methodology.md)
+
+This dataset is a purposefully selected sample rather than a comprehensive representation of global EdTech investment.
+
+It must not be used to estimate global EdTech funding, market-wide investment growth, or AI's share of total EdTech venture capital.
+
 ## 7. Dealroom
 
 Status: BENCHMARK ONLY
