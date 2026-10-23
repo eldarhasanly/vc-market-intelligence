@@ -11,7 +11,7 @@ annotation __PBI_TimeIntelligenceEnabled = 1
 
 annotation PBI_ProTooling = ["DevMode"]
 
-annotation PBI_QueryOrder = ["DimYear","FactOECDVCTotal","DimOECDCountry","DimOECDStage","DimEdTechCompany","DimEdTechStage","FactOECDVCStage","FactOWIDPrivateAI","FactOECDAIBenchmarks","FactEdTechMarket","FactEdTechRounds"]
+annotation PBI_QueryOrder = ["DimYear","FactOECDVCTotal","DimOECDCountry","DimOECDStage","DimEdTechCompany","DimEdTechStage","FactOECDVCStage","FactOWIDPrivateAI","FactOECDAIBenchmarks","FactEdTechMarket","FactEdTechRounds","_Measures"]
 
 ref table DimYear
 ref table FactOECDVCTotal
@@ -28,6 +28,7 @@ ref table FactEdTechMarket
 ref table LocalDateTable_69eeb6f7-2fa7-4f9c-9eac-43ffb6c6ad7a
 ref table FactEdTechRounds
 ref table LocalDateTable_e7a6b102-5340-442a-8a28-237ffdcaeb2f
+ref table _Measures
 
 ref cultureInfo en-US
 

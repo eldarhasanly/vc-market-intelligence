@@ -1,0 +1,212 @@
+table _Measures
+	lineageTag: 1e1beda2-1ca6-46c6-a4fc-80565419c99d
+
+	measure 'OECD VC Investment (USD M)' = SUM(FactOECDVCTotal[vc_investment_usd_millions])
+		formatString: 0.00
+		lineageTag: e8b5d271-8862-446d-9f1c-80fb1aa73db8
+
+	measure 'OECD VC Investment (USD B)' = DIVIDE ([OECD VC Investment (USD M)], 1000)
+		formatString: 0.00
+		lineageTag: b374096d-4746-4ec5-8539-680a9ca6aa5f
+
+	measure 'OECD VC YoY Growth (%)' =
+			
+			VAR CurrentYear =
+			    SELECTEDVALUE ( DimYear[year] )
+			
+			VAR CurrentInvestment = [OECD VC Investment (USD M)]
+			
+			VAR PreviousInvestment =
+			    CALCULATE (
+			        [OECD VC Investment (USD M)],
+			        REMOVEFILTERS ( DimYear ),
+			        DimYear[year] = CurrentYear - 1
+			    )
+			
+			RETURN
+			    IF (
+			        ISBLANK ( CurrentYear )
+			            || ISBLANK ( CurrentInvestment )
+			            || ISBLANK ( PreviousInvestment ),
+			        BLANK (),
+			        DIVIDE (
+			            CurrentInvestment - PreviousInvestment,
+			            PreviousInvestment
+			        )
+			    )
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: cee796a3-a032-42a5-8f6d-62f8f86bad4f
+
+	measure 'OECD Stage Investment (USD M)' = SUM(FactOECDVCStage[vc_investment_usd_millions])
+		formatString: 0.00
+		lineageTag: 1dba2174-3a6e-4e4a-a690-acb6c9bc9e01
+
+	measure 'OECD Stage Investment (USD B)' = DIVIDE([OECD Stage Investment (USD M)], 1000)
+		formatString: 0.00
+		lineageTag: 92c88e23-39bf-490f-9b9e-52059b74c128
+
+	measure 'OECD Stage Share (%)' =
+			
+			DIVIDE (
+			    [OECD Stage Investment (USD M)],
+			    CALCULATE (
+			        [OECD Stage Investment (USD M)],
+			        REMOVEFILTERS ( DimOECDStage )
+			    )
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 38e4f685-a1f7-44b9-9ef2-47536c34c2e0
+
+	measure 'Private AI Investment (2021 USD B)' =
+			
+			CALCULATE (
+			    SUM ( FactOWIDPrivateAI[value_usd_bn_2021_prices] ),
+			    FactOWIDPrivateAI[metric] = "private_ai_investment"
+			)
+		formatString: 0.00
+		lineageTag: 2e95421e-be50-4f21-8311-dc0cbe6cbab5
+
+	measure 'Private GenAI Investment (2021 USD B)' =
+			
+			CALCULATE (
+			    SUM ( FactOWIDPrivateAI[value_usd_bn_2021_prices] ),
+			    FactOWIDPrivateAI[metric] = "private_genai_investment"
+			)
+		formatString: 0.00
+		lineageTag: 462a9ddc-f00d-438a-b98c-d7b211352114
+
+	measure 'GenAI Share of Private AI (%)' =
+			
+			DIVIDE (
+			    [Private GenAI Investment (2021 USD B)],
+			    [Private AI Investment (2021 USD B)]
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 9a27ed15-9849-4e8b-a7a0-5f8d2ce7b00d
+
+	measure 'OECD AI VC Investment (USD B)' =
+			
+			IF (
+			    HASONEVALUE ( DimYear[year] ),
+			    CALCULATE (
+			        MAX ( FactOECDAIBenchmarks[value] ),
+			        FactOECDAIBenchmarks[metric] = "ai_vc",
+			        FactOECDAIBenchmarks[geography] = "World"
+			    )
+			)
+		formatString: 0.00
+		lineageTag: 12cb6cf5-2dae-425a-981a-77993818d133
+
+	measure 'OECD GenAI VC Investment (USD B)' =
+			
+			IF (
+			    HASONEVALUE ( DimYear[year] ),
+			    CALCULATE (
+			        MAX ( FactOECDAIBenchmarks[value] ),
+			        FactOECDAIBenchmarks[metric] = "genai_vc",
+			        FactOECDAIBenchmarks[geography] = "World"
+			    )
+			)
+		formatString: 0.00
+		lineageTag: ac6b7bbb-1380-46d7-88d7-0fcf8da4b941
+
+	measure 'OECD AI Share of Global VC (%)' =
+			
+			IF (
+			    HASONEVALUE ( DimYear[year] ),
+			    DIVIDE (
+			        CALCULATE (
+			            MAX ( FactOECDAIBenchmarks[value] ),
+			            FactOECDAIBenchmarks[metric] = "ai_share_of_total_vc",
+			            FactOECDAIBenchmarks[geography] = "World"
+			        ),
+			        100
+			    )
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 1bc6c686-5975-4de3-982d-51c337f51101
+
+	measure 'OECD AI Mega-Deal Share (%)' =
+			
+			IF (
+			    HASONEVALUE ( DimYear[year] ),
+			    DIVIDE (
+			        CALCULATE (
+			            MAX ( FactOECDAIBenchmarks[value] ),
+			            FactOECDAIBenchmarks[metric] = "ai_mega_deal_share_of_ai_vc",
+			            FactOECDAIBenchmarks[geography] = "World"
+			        ),
+			        100
+			    )
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: ddbf021d-0e86-45d9-80f5-ce4f89f79830
+
+	measure 'EdTech VC Investment (USD B)' = SUM(FactEdTechMarket[edtech_vc_usd_billions])
+		formatString: 0.00
+		lineageTag: 01ddf393-c87e-4fac-b2e4-ad08f77eaaab
+
+	measure 'EdTech VC YoY Growth (%)' =
+			
+			VAR CurrentYear =
+			    SELECTEDVALUE ( DimYear[year] )
+			
+			VAR CurrentInvestment =
+			    [EdTech VC Investment (USD B)]
+			
+			VAR PreviousInvestment =
+			    CALCULATE (
+			        [EdTech VC Investment (USD B)],
+			        REMOVEFILTERS ( DimYear ),
+			        DimYear[year] = CurrentYear - 1
+			    )
+			
+			RETURN
+			    IF (
+			        ISBLANK ( CurrentYear )
+			            || ISBLANK ( CurrentInvestment )
+			            || ISBLANK ( PreviousInvestment ),
+			        BLANK (),
+			        DIVIDE (
+			            CurrentInvestment - PreviousInvestment,
+			            PreviousInvestment
+			        )
+			    )
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: caefdeb3-57d9-4e01-9711-687d0ac12a1f
+
+	measure 'Curated EdTech Funding (USD M)' = SUM(FactEdTechRounds[round_amount_usd_millions])
+		formatString: 0.00
+		lineageTag: 4fd0741d-e1dd-4e64-9df5-1d650e54dae1
+
+	measure 'Curated EdTech Round Count' = COUNTROWS(FactEdTechRounds)
+		formatString: 0
+		lineageTag: 430c8711-c5d8-417e-9df3-2691243ac1ed
+
+	measure 'Curated EdTech Company Count' = DISTINCTCOUNT(FactEdTechRounds[company_id])
+		formatString: 0
+		lineageTag: 8093e1c7-1eeb-4c26-bb68-201b157caa1c
+
+	column Placeholder
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: c5fe65ae-6c9b-4719-a805-3479c1373948
+		summarizeBy: sum
+		sourceColumn: Placeholder
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition _Measures = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i45WMlSKjQUA", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Placeholder = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Placeholder", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

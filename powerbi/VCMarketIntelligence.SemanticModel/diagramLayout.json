@@ -4,14 +4,14 @@
     {
       "ordinal": 0,
       "scrollPosition": {
-        "x": 507.99997965494794,
+        "x": 1400,
         "y": 0
       },
       "nodes": [
         {
           "location": {
             "x": 2573.4327666960539,
-            "y": 302.66666666666669
+            "y": 304.74431768674361
           },
           "nodeIndex": "DimYear",
           "nodeLineageTag": "340dc3d0-3271-4986-add0-001ea00cfc9e",
@@ -24,7 +24,7 @@
         {
           "location": {
             "x": 2419.0994333627209,
-            "y": 538.66666666666663
+            "y": 540.74431768674356
           },
           "nodeIndex": "FactOECDVCTotal",
           "nodeLineageTag": "0845a54c-ce08-4700-a69e-720b3145b4a8",
@@ -37,7 +37,7 @@
         {
           "location": {
             "x": 618.38305001469348,
-            "y": 4.1553020401538276
+            "y": 6.2329530602307557
           },
           "nodeIndex": "DimEdTechCompany",
           "nodeLineageTag": "15752563-06ab-4ada-8982-3cc7329f2eff",
@@ -50,7 +50,7 @@
         {
           "location": {
             "x": 1475,
-            "y": 666.80707948642043
+            "y": 668.88473050649736
           },
           "nodeIndex": "DimEdTechStage",
           "nodeLineageTag": "398b9b6e-a05a-4a9c-952c-5570ea9e4636",
@@ -63,7 +63,7 @@
         {
           "location": {
             "x": 1470.7661000293872,
-            "y": 28.155302040154652
+            "y": 30.23295306023158
           },
           "nodeIndex": "DimOECDCountry",
           "nodeLineageTag": "0c457ded-46d9-472e-a67c-43a02979dbdc",
@@ -76,7 +76,7 @@
         {
           "location": {
             "x": 902.38305001469348,
-            "y": 58.140412819753138
+            "y": 60.218063839830066
           },
           "nodeIndex": "DimOECDStage",
           "nodeLineageTag": "77df4d20-af94-45ba-9a10-ae0ea9ad7564",
@@ -89,7 +89,7 @@
         {
           "location": {
             "x": 1704.7661000293872,
-            "y": 25
+            "y": 27.077651020076928
           },
           "nodeIndex": "FactEdTechMarket",
           "nodeLineageTag": "ebdcd2e7-0f70-4219-a36f-664d1e57ca24",
@@ -102,7 +102,7 @@
         {
           "location": {
             "x": 1090.8682278598517,
-            "y": 476.66666666666669
+            "y": 478.74431768674361
           },
           "nodeIndex": "FactEdTechRounds",
           "nodeLineageTag": "8c39aeeb-3901-40c8-bb6a-ef553d406182",
@@ -115,7 +115,7 @@
         {
           "location": {
             "x": 1988.7661000293872,
-            "y": 25
+            "y": 27.077651020076928
           },
           "nodeIndex": "FactOECDAIBenchmarks",
           "nodeLineageTag": "66053280-c140-42b1-937c-e6ed185cee99",
@@ -128,7 +128,7 @@
         {
           "location": {
             "x": 1186.5846112078787,
-            "y": 25.000000000000014
+            "y": 27.077651020076942
           },
           "nodeIndex": "FactOECDVCStage",
           "nodeLineageTag": "c0685051-af29-4765-8d40-2ad64fd8bb98",
@@ -141,7 +141,7 @@
         {
           "location": {
             "x": 2272.7661000293874,
-            "y": 27
+            "y": 29.077651020076928
           },
           "nodeIndex": "FactOWIDPrivateAI",
           "nodeLineageTag": "9460197f-8fd8-4081-a0ea-7daca04f9d2b",
@@ -150,6 +150,19 @@
             "width": 234
           },
           "zIndex": 10
+        },
+        {
+          "location": {
+            "x": 2107.3830500146937,
+            "y": 718
+          },
+          "nodeIndex": "_Measures",
+          "nodeLineageTag": "1e1beda2-1ca6-46c6-a4fc-80565419c99d",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
         }
       ],
       "name": "All tables",
