@@ -1,0 +1,52 @@
+table FactOECDVCTotal
+	lineageTag: 0845a54c-ce08-4700-a69e-720b3145b4a8
+
+	column country_code
+		dataType: string
+		lineageTag: c5457bf6-a8c5-49cb-8155-0298a458e13b
+		summarizeBy: none
+		sourceColumn: country_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: d54be02f-b58b-4b4c-a9d0-5c716d1a227b
+		summarizeBy: none
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column vc_investment_usd_millions
+		dataType: double
+		lineageTag: ea04f9be-8bc6-4cd4-86d4-43a963a37f0c
+		summarizeBy: sum
+		sourceColumn: vc_investment_usd_millions
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column source_provider
+		dataType: string
+		lineageTag: b1c9f149-e780-448f-8e13-e029541dfd75
+		summarizeBy: none
+		sourceColumn: source_provider
+
+		annotation SummarizationSetBy = Automatic
+
+	partition FactOECDVCTotal = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\eldar\Desktop\portfolio\power_bi\VC Market Intelligence\data\mart\powerbi\FactOECDVCTotal.csv"),[Delimiter=",", Columns=4, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"country_code", type text}, {"year", Int64.Type}, {"vc_investment_usd_millions", type number}, {"source_provider", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,26 @@
+table DimEdTechStage
+	lineageTag: 398b9b6e-a05a-4a9c-952c-5570ea9e4636
+
+	column stage_group
+		dataType: string
+		lineageTag: 925f0efe-176d-4feb-8cba-64c896eed634
+		summarizeBy: none
+		sourceColumn: stage_group
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimEdTechStage = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\eldar\Desktop\portfolio\power_bi\VC Market Intelligence\data\mart\powerbi\DimEdTechStage.csv"),[Delimiter=",", Columns=1, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", type text}}),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Changed Type", [PromoteAllScalars=true]),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Promoted Headers",{{"stage_group", type text}})
+				in
+				    #"Changed Type1"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

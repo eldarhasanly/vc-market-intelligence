@@ -1,0 +1,33 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["DevMode"]
+
+annotation PBI_QueryOrder = ["DimYear","FactOECDVCTotal","DimOECDCountry","DimOECDStage","DimEdTechCompany","DimEdTechStage","FactOECDVCStage","FactOWIDPrivateAI","FactOECDAIBenchmarks","FactEdTechMarket","FactEdTechRounds"]
+
+ref table DimYear
+ref table FactOECDVCTotal
+ref table DimOECDCountry
+ref table DimOECDStage
+ref table DimEdTechCompany
+ref table DimEdTechStage
+ref table FactOECDVCStage
+ref table FactOWIDPrivateAI
+ref table FactOECDAIBenchmarks
+ref table DateTableTemplate_57b174e8-889d-4192-b63a-dee065c4f6e2
+ref table LocalDateTable_2e8a8598-68e9-46a2-8717-eeaf19778449
+ref table FactEdTechMarket
+ref table LocalDateTable_69eeb6f7-2fa7-4f9c-9eac-43ffb6c6ad7a
+ref table FactEdTechRounds
+ref table LocalDateTable_e7a6b102-5340-442a-8a28-237ffdcaeb2f
+
+ref cultureInfo en-US
+

@@ -1,0 +1,50 @@
+table DimEdTechCompany
+	lineageTag: 15752563-06ab-4ada-8982-3cc7329f2eff
+
+	column company_id
+		dataType: string
+		lineageTag: bccb85ef-b9d4-46d6-a4bc-75f041eea405
+		summarizeBy: none
+		sourceColumn: company_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column company_name
+		dataType: string
+		lineageTag: d8aa01eb-a481-4718-bcac-f0f3d27951f9
+		summarizeBy: none
+		sourceColumn: company_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column subsector
+		dataType: string
+		lineageTag: a03787e5-67c2-42e7-97a2-f0bed97e5224
+		summarizeBy: none
+		sourceColumn: subsector
+
+		annotation SummarizationSetBy = Automatic
+
+	column ai_product_role
+		dataType: string
+		lineageTag: f7c99a30-f045-42a4-8aa4-330d0d0fe004
+		summarizeBy: none
+		sourceColumn: ai_product_role
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimEdTechCompany = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\eldar\Desktop\portfolio\power_bi\VC Market Intelligence\data\mart\powerbi\DimEdTechCompany.csv"),[Delimiter=",", Columns=4, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}}),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Changed Type", [PromoteAllScalars=true]),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Promoted Headers",{{"company_id", type text}, {"company_name", type text}, {"subsector", type text}, {"ai_product_role", type text}})
+				in
+				    #"Changed Type1"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

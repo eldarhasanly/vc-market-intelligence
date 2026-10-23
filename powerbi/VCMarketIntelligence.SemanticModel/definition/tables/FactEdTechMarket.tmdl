@@ -1,0 +1,132 @@
+table FactEdTechMarket
+	lineageTag: ebdcd2e7-0f70-4219-a36f-664d1e57ca24
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: dc7d98fb-0ecf-4ace-8c8c-e910a48eb228
+		summarizeBy: none
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column edtech_vc_usd_billions
+		dataType: double
+		lineageTag: 86ec1e32-9f75-47a9-89e7-7d5e674e0f9d
+		summarizeBy: sum
+		sourceColumn: edtech_vc_usd_billions
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column metric_code
+		dataType: string
+		lineageTag: 8b2a6450-021d-4e9b-a0ae-ed378b5b6bfc
+		summarizeBy: none
+		sourceColumn: metric_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column geography
+		dataType: string
+		lineageTag: 8647dbe4-252b-487f-bab2-2c43507c5141
+		summarizeBy: none
+		sourceColumn: geography
+
+		annotation SummarizationSetBy = Automatic
+
+	column currency
+		dataType: string
+		lineageTag: 2fefdfcf-5f96-4e62-b629-3742ba16c345
+		summarizeBy: none
+		sourceColumn: currency
+
+		annotation SummarizationSetBy = Automatic
+
+	column price_basis
+		dataType: string
+		lineageTag: b0049959-c379-496e-8058-8b553f0ef0e0
+		summarizeBy: none
+		sourceColumn: price_basis
+
+		annotation SummarizationSetBy = Automatic
+
+	column capital_type
+		dataType: string
+		lineageTag: 7eed62d5-bcb7-4de7-bc2a-eeb94c59419b
+		summarizeBy: none
+		sourceColumn: capital_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column value_precision
+		dataType: string
+		lineageTag: d52515f5-5c9e-4b04-a878-4fba817d5f28
+		summarizeBy: none
+		sourceColumn: value_precision
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_provider
+		dataType: string
+		lineageTag: 00d02e9b-59c7-4026-bf13-07dc6e761752
+		summarizeBy: none
+		sourceColumn: source_provider
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_publication_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 72a94c6e-e2d7-48c0-8814-c7cee7186dee
+		summarizeBy: none
+		sourceColumn: source_publication_date
+
+		variation Variation
+			isDefault
+			relationship: fef001f9-b176-4888-8314-2692a3580d08
+			defaultHierarchy: LocalDateTable_69eeb6f7-2fa7-4f9c-9eac-43ffb6c6ad7a.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column source_url
+		dataType: string
+		lineageTag: b4162b49-a346-4e15-8d84-7a52952c449a
+		summarizeBy: none
+		sourceColumn: source_url
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_chart
+		dataType: string
+		lineageTag: a9f7c3c4-c3e3-40a8-8f9f-fdb6fe34a05c
+		summarizeBy: none
+		sourceColumn: source_chart
+
+		annotation SummarizationSetBy = Automatic
+
+	column series_vintage
+		dataType: string
+		lineageTag: d56e5eb8-3b3b-4be0-adcf-82445191630e
+		summarizeBy: none
+		sourceColumn: series_vintage
+
+		annotation SummarizationSetBy = Automatic
+
+	partition FactEdTechMarket = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\eldar\Desktop\portfolio\power_bi\VC Market Intelligence\data\mart\powerbi\FactEdTechMarket.csv"),[Delimiter=",", Columns=13, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"year", Int64.Type}, {"edtech_vc_usd_billions", type number}, {"metric_code", type text}, {"geography", type text}, {"currency", type text}, {"price_basis", type text}, {"capital_type", type text}, {"value_precision", type text}, {"source_provider", type text}, {"source_publication_date", type date}, {"source_url", type text}, {"source_chart", type text}, {"series_vintage", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

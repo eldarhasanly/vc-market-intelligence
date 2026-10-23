@@ -1,0 +1,60 @@
+table FactOECDVCStage
+	lineageTag: c0685051-af29-4765-8d40-2ad64fd8bb98
+
+	column country_code
+		dataType: string
+		lineageTag: 3e460c7f-8060-4436-a9b2-da8ef824c98d
+		summarizeBy: none
+		sourceColumn: country_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: 58e58bd1-56cd-468f-ada4-43400b1d92b8
+		summarizeBy: none
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column stage_code
+		dataType: string
+		lineageTag: 7aefc02e-6d09-4d7c-8085-a77f466b30da
+		summarizeBy: none
+		sourceColumn: stage_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column vc_investment_usd_millions
+		dataType: double
+		lineageTag: 3212b59c-2b99-4673-9284-b84f93f07b15
+		summarizeBy: sum
+		sourceColumn: vc_investment_usd_millions
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column source_provider
+		dataType: string
+		lineageTag: 6fce200b-bb2f-4925-a7b1-6e31bdfd5012
+		summarizeBy: none
+		sourceColumn: source_provider
+
+		annotation SummarizationSetBy = Automatic
+
+	partition FactOECDVCStage = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\eldar\Desktop\portfolio\power_bi\VC Market Intelligence\data\mart\powerbi\FactOECDVCStage.csv"),[Delimiter=",", Columns=5, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"country_code", type text}, {"year", Int64.Type}, {"stage_code", type text}, {"vc_investment_usd_millions", type number}, {"source_provider", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

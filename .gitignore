@@ -26,6 +26,10 @@ Thumbs.db
 # Power BI temporary files
 *.pbit.tmp
 
+# Power BI local settings and cached data
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
 # Raw source data
 data/raw/*
 !data/raw/.gitkeep

@@ -1,0 +1,35 @@
+table DimYear
+	lineageTag: 340dc3d0-3271-4986-add0-001ea00cfc9e
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: ed4417a9-433f-474e-8a68-4df47cf1a5cb
+		summarizeBy: none
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column year_label
+		dataType: int64
+		formatString: 0
+		lineageTag: 482a9afb-991a-4659-937a-979fcc2c9013
+		summarizeBy: sum
+		sourceColumn: year_label
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimYear = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\eldar\Desktop\portfolio\power_bi\VC Market Intelligence\data\mart\powerbi\DimYear.csv"),[Delimiter=",", Columns=2, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"year", Int64.Type}, {"year_label", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

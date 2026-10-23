@@ -1,0 +1,92 @@
+table FactOWIDPrivateAI
+	lineageTag: 9460197f-8fd8-4081-a0ea-7daca04f9d2b
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: c923208d-5e73-4bbe-bda7-86d7af6de264
+		summarizeBy: none
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column geography
+		dataType: string
+		lineageTag: f725552d-6fd9-4453-b674-6a6aa802a8dd
+		summarizeBy: none
+		sourceColumn: geography
+
+		annotation SummarizationSetBy = Automatic
+
+	column metric
+		dataType: string
+		lineageTag: 336ef6af-84b7-4b46-b426-e3c2c2a0ce0a
+		summarizeBy: none
+		sourceColumn: metric
+
+		annotation SummarizationSetBy = Automatic
+
+	column value_usd_bn_2021_prices
+		dataType: double
+		lineageTag: 9c3af13d-f121-44fe-87a5-ddba43483a92
+		summarizeBy: sum
+		sourceColumn: value_usd_bn_2021_prices
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column unit
+		dataType: string
+		lineageTag: bc95308f-2f54-49e8-826b-6159f59a77bb
+		summarizeBy: none
+		sourceColumn: unit
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_provider
+		dataType: string
+		lineageTag: 94195138-c2cd-4e24-9d73-9b46b6cd3dc3
+		summarizeBy: none
+		sourceColumn: source_provider
+
+		annotation SummarizationSetBy = Automatic
+
+	column original_provider
+		dataType: string
+		lineageTag: 376916f0-461d-47e4-8626-fa95a728cf88
+		summarizeBy: none
+		sourceColumn: original_provider
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_url
+		dataType: string
+		lineageTag: eadeade0-760b-426c-8307-7cb669ca269f
+		summarizeBy: none
+		sourceColumn: source_url
+
+		annotation SummarizationSetBy = Automatic
+
+	column original_indicator
+		dataType: string
+		lineageTag: d90d2670-2e32-4b6c-beac-d9aaca3cc54a
+		summarizeBy: none
+		sourceColumn: original_indicator
+
+		annotation SummarizationSetBy = Automatic
+
+	partition FactOWIDPrivateAI = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\eldar\Desktop\portfolio\power_bi\VC Market Intelligence\data\mart\powerbi\FactOWIDPrivateAI.csv"),[Delimiter=",", Columns=9, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"year", Int64.Type}, {"geography", type text}, {"metric", type text}, {"value_usd_bn_2021_prices", type number}, {"unit", type text}, {"source_provider", type text}, {"original_provider", type text}, {"source_url", type text}, {"original_indicator", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,165 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 507.99997965494794,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 2573.4327666960539,
+            "y": 302.66666666666669
+          },
+          "nodeIndex": "DimYear",
+          "nodeLineageTag": "340dc3d0-3271-4986-add0-001ea00cfc9e",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 11
+        },
+        {
+          "location": {
+            "x": 2419.0994333627209,
+            "y": 538.66666666666663
+          },
+          "nodeIndex": "FactOECDVCTotal",
+          "nodeLineageTag": "0845a54c-ce08-4700-a69e-720b3145b4a8",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 618.38305001469348,
+            "y": 4.1553020401538276
+          },
+          "nodeIndex": "DimEdTechCompany",
+          "nodeLineageTag": "15752563-06ab-4ada-8982-3cc7329f2eff",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 1475,
+            "y": 666.80707948642043
+          },
+          "nodeIndex": "DimEdTechStage",
+          "nodeLineageTag": "398b9b6e-a05a-4a9c-952c-5570ea9e4636",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 1470.7661000293872,
+            "y": 28.155302040154652
+          },
+          "nodeIndex": "DimOECDCountry",
+          "nodeLineageTag": "0c457ded-46d9-472e-a67c-43a02979dbdc",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 902.38305001469348,
+            "y": 58.140412819753138
+          },
+          "nodeIndex": "DimOECDStage",
+          "nodeLineageTag": "77df4d20-af94-45ba-9a10-ae0ea9ad7564",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 1704.7661000293872,
+            "y": 25
+          },
+          "nodeIndex": "FactEdTechMarket",
+          "nodeLineageTag": "ebdcd2e7-0f70-4219-a36f-664d1e57ca24",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 1090.8682278598517,
+            "y": 476.66666666666669
+          },
+          "nodeIndex": "FactEdTechRounds",
+          "nodeLineageTag": "8c39aeeb-3901-40c8-bb6a-ef553d406182",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 7
+        },
+        {
+          "location": {
+            "x": 1988.7661000293872,
+            "y": 25
+          },
+          "nodeIndex": "FactOECDAIBenchmarks",
+          "nodeLineageTag": "66053280-c140-42b1-937c-e6ed185cee99",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 8
+        },
+        {
+          "location": {
+            "x": 1186.5846112078787,
+            "y": 25.000000000000014
+          },
+          "nodeIndex": "FactOECDVCStage",
+          "nodeLineageTag": "c0685051-af29-4765-8d40-2ad64fd8bb98",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 9
+        },
+        {
+          "location": {
+            "x": 2272.7661000293874,
+            "y": 27
+          },
+          "nodeIndex": "FactOWIDPrivateAI",
+          "nodeLineageTag": "9460197f-8fd8-4081-a0ea-7daca04f9d2b",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 10
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 60,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

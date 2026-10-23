@@ -1,0 +1,140 @@
+table FactEdTechRounds
+	lineageTag: 8c39aeeb-3901-40c8-bb6a-ef553d406182
+
+	column round_id
+		dataType: string
+		lineageTag: 5e5be453-95a4-4ffd-a47d-76b920b65a0c
+		summarizeBy: none
+		sourceColumn: round_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column company_id
+		dataType: string
+		lineageTag: 8c52f027-0acf-4baa-9ddd-726d13a82651
+		summarizeBy: none
+		sourceColumn: company_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: 54870622-30a6-412b-acb5-2e6222e868aa
+		summarizeBy: none
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column quarter
+		dataType: string
+		lineageTag: 9d8d0920-0215-4029-a9ab-8b12ca42aa31
+		summarizeBy: none
+		sourceColumn: quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_publication_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 5e0b17cd-e476-4a76-918f-bb8c7a0908b5
+		summarizeBy: none
+		sourceColumn: source_publication_date
+
+		variation Variation
+			isDefault
+			relationship: 2e22ed1e-27d7-43fc-85c5-5f32485e2ff8
+			defaultHierarchy: LocalDateTable_e7a6b102-5340-442a-8a28-237ffdcaeb2f.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column analysis_period
+		dataType: string
+		lineageTag: 1a5e6261-88a6-43e3-8260-f6ce8a90cc17
+		summarizeBy: none
+		sourceColumn: analysis_period
+
+		annotation SummarizationSetBy = Automatic
+
+	column stage_group
+		dataType: string
+		lineageTag: 611cea23-3b4f-4baa-b729-4b46cb910f53
+		summarizeBy: none
+		sourceColumn: stage_group
+
+		annotation SummarizationSetBy = Automatic
+
+	column round_stage_reported
+		dataType: string
+		lineageTag: a1628621-a8d2-47e5-a0c1-e0c424e7ac6f
+		summarizeBy: none
+		sourceColumn: round_stage_reported
+
+		annotation SummarizationSetBy = Automatic
+
+	column round_amount_usd_millions
+		dataType: double
+		lineageTag: 99d6848a-c5f6-492d-90e2-9fe193d4aa26
+		summarizeBy: sum
+		sourceColumn: round_amount_usd_millions
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column currency
+		dataType: string
+		lineageTag: 44509701-38b7-4002-bbc5-c371a2dcdc2e
+		summarizeBy: none
+		sourceColumn: currency
+
+		annotation SummarizationSetBy = Automatic
+
+	column lead_investor
+		dataType: string
+		lineageTag: 5f4e81f2-3f3d-47ca-a21f-99a26e529464
+		summarizeBy: none
+		sourceColumn: lead_investor
+
+		annotation SummarizationSetBy = Automatic
+
+	column funding_source_url
+		dataType: string
+		lineageTag: 1f383285-8ab4-45a0-ab28-19ea0cd69dac
+		summarizeBy: none
+		sourceColumn: funding_source_url
+
+		annotation SummarizationSetBy = Automatic
+
+	column ai_evidence_url
+		dataType: string
+		lineageTag: 7e075301-b6b1-4494-adf1-cdf18132e89f
+		summarizeBy: none
+		sourceColumn: ai_evidence_url
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_type
+		dataType: string
+		lineageTag: a793eebb-ff31-4d30-a748-342a7d650129
+		summarizeBy: none
+		sourceColumn: source_type
+
+		annotation SummarizationSetBy = Automatic
+
+	partition FactEdTechRounds = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\eldar\Desktop\portfolio\power_bi\VC Market Intelligence\data\mart\powerbi\FactEdTechRounds.csv"),[Delimiter=",", Columns=14, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"round_id", type text}, {"company_id", type text}, {"year", Int64.Type}, {"quarter", type text}, {"source_publication_date", type date}, {"analysis_period", type text}, {"stage_group", type text}, {"round_stage_reported", type text}, {"round_amount_usd_millions", type number}, {"currency", type text}, {"lead_investor", type text}, {"funding_source_url", type text}, {"ai_evidence_url", type text}, {"source_type", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

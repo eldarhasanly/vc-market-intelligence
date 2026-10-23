@@ -1,0 +1,59 @@
+relationship AutoDetected_b73a6696-b4c4-4943-89e2-493c7b2c3f6b
+	fromColumn: FactOECDVCTotal.year
+	toColumn: DimYear.year
+
+relationship 1530b376-32fa-44b8-9e0c-d103fc32a162
+	joinOnDateBehavior: datePartOnly
+	fromColumn: FactOECDAIBenchmarks.source_publication_date
+	toColumn: LocalDateTable_2e8a8598-68e9-46a2-8717-eeaf19778449.Date
+
+relationship fef001f9-b176-4888-8314-2692a3580d08
+	joinOnDateBehavior: datePartOnly
+	fromColumn: FactEdTechMarket.source_publication_date
+	toColumn: LocalDateTable_69eeb6f7-2fa7-4f9c-9eac-43ffb6c6ad7a.Date
+
+relationship 2e22ed1e-27d7-43fc-85c5-5f32485e2ff8
+	joinOnDateBehavior: datePartOnly
+	fromColumn: FactEdTechRounds.source_publication_date
+	toColumn: LocalDateTable_e7a6b102-5340-442a-8a28-237ffdcaeb2f.Date
+
+relationship AutoDetected_3d024b81-4e46-4b5f-bde2-b2a27e905609
+	fromColumn: FactOECDVCStage.year
+	toColumn: DimYear.year
+
+relationship AutoDetected_2030cb7c-0a02-452b-a4b7-c412869ad5cc
+	fromColumn: FactOWIDPrivateAI.year
+	toColumn: DimYear.year
+
+relationship AutoDetected_f1e928a9-d86f-4b55-b6fd-ba2485ac5d87
+	fromColumn: FactOECDAIBenchmarks.year
+	toColumn: DimYear.year
+
+relationship AutoDetected_430cd1a4-dc0d-4671-9df2-03991b34233c
+	fromColumn: FactEdTechMarket.year
+	toColumn: DimYear.year
+
+relationship AutoDetected_7caa1b9d-ad59-4ead-806d-1dcfa008f349
+	fromColumn: FactEdTechRounds.year
+	toColumn: DimYear.year
+
+relationship AutoDetected_5d9f26c4-3175-4d76-9bd8-07682f029b5b
+	fromColumn: FactOECDVCTotal.country_code
+	toColumn: DimOECDCountry.country_code
+
+relationship AutoDetected_fa715fb0-e944-444e-b249-c8b46b3092aa
+	fromColumn: FactOECDVCStage.country_code
+	toColumn: DimOECDCountry.country_code
+
+relationship AutoDetected_ae7cff95-c31d-4fb7-be71-4d5d43f86ef0
+	fromColumn: FactOECDVCStage.stage_code
+	toColumn: DimOECDStage.stage_code
+
+relationship AutoDetected_8f1b299e-857c-4aad-8beb-301881152c94
+	fromColumn: FactEdTechRounds.company_id
+	toColumn: DimEdTechCompany.company_id
+
+relationship AutoDetected_88bf2e52-52d4-47e2-8aae-df9477cdb8c6
+	fromColumn: FactEdTechRounds.stage_group
+	toColumn: DimEdTechStage.stage_group
+

@@ -1,0 +1,124 @@
+table FactOECDAIBenchmarks
+	lineageTag: 66053280-c140-42b1-937c-e6ed185cee99
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: 414ea4f8-141b-4072-9723-a3dc1308206d
+		summarizeBy: none
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column geography
+		dataType: string
+		lineageTag: b3d1cdb4-7323-4588-b183-861a3688ff75
+		summarizeBy: none
+		sourceColumn: geography
+
+		annotation SummarizationSetBy = Automatic
+
+	column metric
+		dataType: string
+		lineageTag: 972e2fa9-08c5-4110-bddc-a35fe2b46c03
+		summarizeBy: none
+		sourceColumn: metric
+
+		annotation SummarizationSetBy = Automatic
+
+	column value
+		dataType: double
+		lineageTag: 1bf8b1c4-0d68-4cb5-aff7-e48ee5e16179
+		summarizeBy: sum
+		sourceColumn: value
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column unit
+		dataType: string
+		lineageTag: 10a7e526-b0ef-445b-915d-67b496739ed9
+		summarizeBy: none
+		sourceColumn: unit
+
+		annotation SummarizationSetBy = Automatic
+
+	column precision
+		dataType: string
+		lineageTag: 4cfac940-7f4a-429b-9d30-c57418e8aeed
+		summarizeBy: none
+		sourceColumn: precision
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_publisher
+		dataType: string
+		lineageTag: e1cda12f-3472-4a7d-9626-61525cd24f90
+		summarizeBy: none
+		sourceColumn: source_publisher
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_publication_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: c570c46d-5467-4279-8bdc-ccb4fbb60647
+		summarizeBy: none
+		sourceColumn: source_publication_date
+
+		variation Variation
+			isDefault
+			relationship: 1530b376-32fa-44b8-9e0c-d103fc32a162
+			defaultHierarchy: LocalDateTable_2e8a8598-68e9-46a2-8717-eeaf19778449.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column source_url
+		dataType: string
+		lineageTag: d6410028-71ac-46c8-a87f-c0be5efe8fb2
+		summarizeBy: none
+		sourceColumn: source_url
+
+		annotation SummarizationSetBy = Automatic
+
+	column underlying_provider
+		dataType: string
+		lineageTag: 2ffea05d-175f-4005-ad89-7c98ae0ce86a
+		summarizeBy: none
+		sourceColumn: underlying_provider
+
+		annotation SummarizationSetBy = Automatic
+
+	column evidence
+		dataType: string
+		lineageTag: 4c3eb92d-da4e-467c-8adf-d1d4ddf5ad38
+		summarizeBy: none
+		sourceColumn: evidence
+
+		annotation SummarizationSetBy = Automatic
+
+	column note
+		dataType: string
+		lineageTag: f57eec2a-f3ca-4e10-8fa4-dcdccdd09e94
+		summarizeBy: none
+		sourceColumn: note
+
+		annotation SummarizationSetBy = Automatic
+
+	partition FactOECDAIBenchmarks = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\eldar\Desktop\portfolio\power_bi\VC Market Intelligence\data\mart\powerbi\FactOECDAIBenchmarks.csv"),[Delimiter=",", Columns=12, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"year", Int64.Type}, {"geography", type text}, {"metric", type text}, {"value", type number}, {"unit", type text}, {"precision", type text}, {"source_publisher", type text}, {"source_publication_date", type date}, {"source_url", type text}, {"underlying_provider", type text}, {"evidence", type text}, {"note", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
