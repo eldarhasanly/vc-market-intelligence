@@ -365,7 +365,7 @@ This dataset is a purposefully selected sample rather than a comprehensive repre
 
 It must not be used to estimate global EdTech funding, market-wide investment growth, or AI's share of total EdTech venture capital.
 
-## 7. Dealroom
+## 8. Dealroom
 
 Status: BENCHMARK ONLY
 
@@ -377,7 +377,7 @@ Purpose:
 Repository policy:
 Dealroom data will not be scraped or redistributed.
 
-## 8. Crunchbase
+## 9. Crunchbase
 
 Status: EXCLUDED FROM VERSION 1.0
 
@@ -386,7 +386,7 @@ Full structured CSV access requires an appropriate commercial licence.
 
 The source may be reconsidered if licensed access becomes available.
 
-## 9. Canonical Source Mapping
+## 10. Canonical Source Mapping
 
 | Analytical Question | Canonical Source |
 |---|---|
@@ -401,7 +401,7 @@ The source may be reconsidered if licensed access becomes available.
 | AI-enabled EdTech | OECD.AI + curated dataset |
 | Company-level EdTech rounds | Curated primary-source dataset |
 
-## 10. Source Integration Rule
+## 11. Source Integration Rule
 
 Statistics from different providers will not be combined into a single continuous series unless their definitions and methodologies are demonstrably compatible.
 
@@ -409,7 +409,7 @@ Every analytical observation will retain a Source identifier.
 
 Provider-specific values will be compared as separate series where appropriate.
 
-## 11. Data Versioning
+## 12. Data Versioning
 
 Each source ingestion will record:
 
@@ -425,7 +425,7 @@ Raw source files will remain unchanged after ingestion.
 
 Transformations will produce new files in data/processed/.
 
-## 12. Outstanding Data Gap
+## 13. Outstanding Data Gap
 
 A reproducible, openly redistributable global EdTech deal-level dataset covering both the pre-GPT and post-GPT periods has not yet been identified.
 
