@@ -4,10 +4,10 @@
   "position": {
     "x": 333.33333333333337,
     "y": 168.33333333333334,
-    "z": 6,
+    "z": 6000,
     "height": 175,
     "width": 300,
-    "tabOrder": 6
+    "tabOrder": 6000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -567,20 +567,6 @@
           ]
         },
         "howCreated": "User"
-      },
-      {
-        "name": "aef70f8410453409452e",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "_Measures"
-              }
-            },
-            "Property": "OECD VC YoY Growth (%)"
-          }
-        },
-        "type": "Advanced"
       }
     ]
   }

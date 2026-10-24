@@ -4,10 +4,10 @@
   "position": {
     "x": 10.909090909090908,
     "y": 169.09090909090907,
-    "z": 5,
+    "z": 5000,
     "height": 175.23715755532035,
     "width": 299.43436630812022,
-    "tabOrder": 5
+    "tabOrder": 5000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -515,20 +515,6 @@
   },
   "filterConfig": {
     "filters": [
-      {
-        "name": "72fdb150e5a4e778ef6c",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "_Measures"
-              }
-            },
-            "Property": "OECD VC Investment (USD B)"
-          }
-        },
-        "type": "Advanced"
-      },
       {
         "name": "362abeb8618e30a249ce",
         "field": {

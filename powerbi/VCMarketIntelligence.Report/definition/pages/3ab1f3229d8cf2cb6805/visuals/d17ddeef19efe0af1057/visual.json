@@ -4,10 +4,10 @@
   "position": {
     "x": 18.714647894257514,
     "y": 301,
-    "z": 3,
+    "z": 3000,
     "height": 733,
     "width": 930,
-    "tabOrder": 3
+    "tabOrder": 3000
   },
   "visual": {
     "visualType": "clusteredBarChart",
@@ -276,34 +276,6 @@
   },
   "filterConfig": {
     "filters": [
-      {
-        "name": "809de845ca4ef37719e9",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "_Measures"
-              }
-            },
-            "Property": "OECD VC Investment (USD B)"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "71c39348bafbbe5dfcfe",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "_Measures"
-              }
-            },
-            "Property": "OECD Country VC Share (%)"
-          }
-        },
-        "type": "Advanced"
-      },
       {
         "name": "ec9e569d0c87484327a6",
         "field": {

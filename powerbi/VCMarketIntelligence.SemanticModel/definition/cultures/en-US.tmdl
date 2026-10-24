@@ -2403,12 +2403,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "AI": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "private AI": {
 			            "State": "Generated",
 			            "Weight": 0.97
@@ -9529,6 +9523,16 @@ cultureInfo en-US
 			            "State": "Generated",
 			            "Weight": 0.75
 			          }
+			        },
+			        {
+			          "AI VC ($B)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -9551,6 +9555,16 @@ cultureInfo en-US
 			            "State": "Generated",
 			            "Weight": 0.75
 			          }
+			        },
+			        {
+			          "GenAI VC ($B)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -9571,6 +9585,16 @@ cultureInfo en-US
 			        {
 			          "OECD AI share of global VC (%)": {
 			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Share of Global VC": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ],
@@ -9678,6 +9702,16 @@ cultureInfo en-US
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "Mega-Deal Share": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ],
@@ -9993,6 +10027,1390 @@ cultureInfo en-US
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "dim_year.market_regime": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimYear",
+			          "ConceptualProperty": "Market Regime"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "market regime": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "regime": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "market administration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "market organization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "market system": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "market establishment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "administration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "organization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "system": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "establishment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "market government": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "market command": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "dim_year.market_regime_order": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimYear",
+			          "ConceptualProperty": "Market Regime Order"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "market regime order": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "regime order": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "market regime instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "market regime direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "market regime edict": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "regime instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "regime direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "regime edict": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "market regime command": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "market regime directive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "market regime demand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "market regime mandate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.preGPT_average_annual_VC_USD_b": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Pre-GPT Average Annual VC (USD B)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pre-GPT average annual VC (USD b)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pre-GPT average annual VC": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "pre GPT average annual VC (USD b)": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.postGPT_average_annual_VC_USD_b": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Post-GPT Average Annual VC (USD B)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "post-GPT average annual VC (USD b)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "post-GPT average annual VC": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "post GPT average annual VC (USD b)": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.postGPT_VC_change": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Post-GPT VC Change (%)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "post-GPT VC change": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "post-GPT VC change (%)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "post GPT VC change": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "change": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "VC change": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "GPT VC change": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "post GPT VC change (%)": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "post-gpt vc alteration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "post-gpt vc modification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "post-gpt vc variation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "post-gpt vc transformation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "post-gpt vc revolution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "post-gpt vc conversion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "post-gpt vc adjustment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "post-gpt vc amendment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "post gpt vc alteration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "post gpt vc modification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "percentage",
+			        "%"
+			      ]
+			    },
+			    "entity__measure.VC_regime_color": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "VC Regime Color"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "VC regime color": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "color": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "regime color": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "vc regime hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "regime hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "vc regime tint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "vc regime shade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "vc regime dye": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "vc regime paint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "vc regime pigment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "regime tint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "regime shade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.OECD_reporting_country_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "OECD Reporting Country Count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "OECD reporting country count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "country count": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "reporting country count": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "oecd reporting country amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "reporting country amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "country amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "oecd reporting nation count": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "oecd reporting location count": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "reporting nation count": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "reporting location count": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "nation count": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "location count": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.OECD_country_VC_share": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "OECD Country VC Share (%)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "OECD country VC share": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "OECD country VC share (%)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "share": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "VC share": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "country VC share": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "oecd nation vc share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "oecd location vc share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "nation vc share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "location vc share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "oecd country vc part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "oecd country vc portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "oecd country vc segment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "oecd country vc cut": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "oecd country vc stake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "oecd country vc bit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "percentage",
+			        "%"
+			      ]
+			    },
+			    "entity__measure.OECD_top_10_VC_share": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "OECD Top 10 VC Share (%)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "OECD top 10 VC share": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "OECD top 10 VC share (%)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "share": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "VC share": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "10 VC share": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "top 10 VC share": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "oecd best 10 vc share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "oecd first 10 vc share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "oecd leading 10 vc share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "oecd maximum 10 vc share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "oecd peak 10 vc share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "oecd upper 10 vc share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "best 10 vc share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "first 10 vc share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "leading 10 vc share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "maximum 10 vc share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "percentage",
+			        "%"
+			      ]
+			    },
+			    "entity__measure.oecd_vc_2023_usd_b": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "OECD VC 2023 (USD B)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "oecd vc 2023 (usd b)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "oecd vc 2023": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.oecd_vc_2025_usd_b": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "OECD VC 2025 (USD B)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "oecd vc 2025 (usd b)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "oecd vc 2025": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.OECD_VC_recovery_20232025": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "OECD VC Recovery 2023-2025 (%)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "OECD VC recovery 2023-2025": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "OECD VC recovery 2023-2025 (%)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "OECD VC recovery 2023 2025": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "recovery 2023 2025": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "VC recovery 2023 2025": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "OECD VC recovery 2023 2025 (%)": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "percentage",
+			        "%"
+			      ]
+			    },
+			    "entity__measure.OECD_recovery_color": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "OECD Recovery Color"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "OECD recovery color": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "color": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "recovery color": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "oecd recovery hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "recovery hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "oecd recovery tint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "oecd recovery shade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "oecd recovery dye": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "oecd recovery paint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "oecd recovery pigment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "recovery tint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "recovery shade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.private_nonGenAI_investment_2021_USD_b": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Private Non-GenAI Investment (2021 USD B)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "private non-GenAI investment (2021 USD b)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "private non-GenAI investment": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "private non GenAI investment (2021 USD b)": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Non-GenAI": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.GenAI_share_change_20222025_pp": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "GenAI Share Change 2022-2025 (pp)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "GenAI share change 2022-2025 (pp)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "GenAI share change 2022-2025": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "GenAI share change 2022 2025 (pp)": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.GenAI_share_YoY_change_pp": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "GenAI Share YoY Change (pp)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "GenAI share YoY change (pp)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "GenAI share YoY change": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.GenAI_share_change_color": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "GenAI Share Change Color"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "GenAI share change color": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "genai share change hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "genai share change tint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "genai share change shade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "genai share change dye": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "genai share change paint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "genai share change pigment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
 			          }
 			        }
 			      ]
@@ -10643,6 +12061,633 @@ cultureInfo en-US
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "dim_years_have_fact_OECDVC_totals"
+			        }
+			      ]
+			    },
+			    "fact_OWID_private_AI_has_entity__measure_GenAI_share_change_color": {
+			      "Binding": {
+			        "ConceptualEntity": "FactOWIDPrivateAI"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_OWID_private_AI": {
+			          "Target": {
+			            "Entity": "fact_OWID_private_AI"
+			          }
+			        },
+			        "entity__measure.GenAI_share_change_color": {
+			          "Target": {
+			            "Entity": "entity__measure.GenAI_share_change_color"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_OWID_private_AI"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.GenAI_share_change_color"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_OWID_private_AI_have_GenAI_share_change_color"
+			        }
+			      ]
+			    },
+			    "dim_year_has_entity__measure_GenAI_share_change_color": {
+			      "Binding": {
+			        "ConceptualEntity": "DimYear"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_year": {
+			          "Target": {
+			            "Entity": "dim_year"
+			          }
+			        },
+			        "entity__measure.GenAI_share_change_color": {
+			          "Target": {
+			            "Entity": "entity__measure.GenAI_share_change_color"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_year"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.GenAI_share_change_color"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_years_have_GenAI_share_change_color"
+			        }
+			      ]
+			    },
+			    "fact_OWID_private_AI_has_entity__measure_GenAI_share_YoY_change_pp": {
+			      "Binding": {
+			        "ConceptualEntity": "FactOWIDPrivateAI"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_OWID_private_AI": {
+			          "Target": {
+			            "Entity": "fact_OWID_private_AI"
+			          }
+			        },
+			        "entity__measure.GenAI_share_YoY_change_pp": {
+			          "Target": {
+			            "Entity": "entity__measure.GenAI_share_YoY_change_pp"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_OWID_private_AI"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.GenAI_share_YoY_change_pp"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_OWID_private_AI_have_GenAI_share_YoY_change_pp"
+			        }
+			      ]
+			    },
+			    "dim_year_has_entity__measure_GenAI_share_YoY_change_pp": {
+			      "Binding": {
+			        "ConceptualEntity": "DimYear"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_year": {
+			          "Target": {
+			            "Entity": "dim_year"
+			          }
+			        },
+			        "entity__measure.GenAI_share_YoY_change_pp": {
+			          "Target": {
+			            "Entity": "entity__measure.GenAI_share_YoY_change_pp"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_year"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.GenAI_share_YoY_change_pp"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_years_have_GenAI_share_YoY_change_pp"
+			        }
+			      ]
+			    },
+			    "fact_OWID_private_AI_has_entity__measure_GenAI_share_change_20222025_pp": {
+			      "Binding": {
+			        "ConceptualEntity": "FactOWIDPrivateAI"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_OWID_private_AI": {
+			          "Target": {
+			            "Entity": "fact_OWID_private_AI"
+			          }
+			        },
+			        "entity__measure.GenAI_share_change_20222025_pp": {
+			          "Target": {
+			            "Entity": "entity__measure.GenAI_share_change_20222025_pp"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_OWID_private_AI"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.GenAI_share_change_20222025_pp"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_OWID_private_AI_have_GenAI_share_change_20222025_pp"
+			        }
+			      ]
+			    },
+			    "fact_OWID_private_AI_has_entity__measure_private_nonGenAI_investment_2021_USD_b": {
+			      "Binding": {
+			        "ConceptualEntity": "FactOWIDPrivateAI"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_OWID_private_AI": {
+			          "Target": {
+			            "Entity": "fact_OWID_private_AI"
+			          }
+			        },
+			        "entity__measure.private_nonGenAI_investment_2021_USD_b": {
+			          "Target": {
+			            "Entity": "entity__measure.private_nonGenAI_investment_2021_USD_b"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_OWID_private_AI"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.private_nonGenAI_investment_2021_USD_b"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_OWID_private_AI_have_private_nonGenAI_investment_2021_USD_b"
+			        }
+			      ]
+			    },
+			    "fact_OECDVC_total_has_entity__measure_OECD_recovery_color": {
+			      "Binding": {
+			        "ConceptualEntity": "FactOECDVCTotal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_OECDVC_total": {
+			          "Target": {
+			            "Entity": "fact_OECDVC_total"
+			          }
+			        },
+			        "entity__measure.OECD_recovery_color": {
+			          "Target": {
+			            "Entity": "entity__measure.OECD_recovery_color"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_OECDVC_total"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.OECD_recovery_color"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_OECDVC_totals_have_OECD_recovery_color"
+			        }
+			      ]
+			    },
+			    "fact_OECDVC_total_has_entity__measure_OECD_VC_recovery_20232025": {
+			      "Binding": {
+			        "ConceptualEntity": "FactOECDVCTotal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_OECDVC_total": {
+			          "Target": {
+			            "Entity": "fact_OECDVC_total"
+			          }
+			        },
+			        "entity__measure.OECD_VC_recovery_20232025": {
+			          "Target": {
+			            "Entity": "entity__measure.OECD_VC_recovery_20232025"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_OECDVC_total"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.OECD_VC_recovery_20232025"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_OECDVC_totals_have_OECD_VC_recovery_20232025"
+			        }
+			      ]
+			    },
+			    "fact_OECDVC_total_has_entity__measure_oecd_vc_2025_usd_b": {
+			      "Binding": {
+			        "ConceptualEntity": "FactOECDVCTotal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_OECDVC_total": {
+			          "Target": {
+			            "Entity": "fact_OECDVC_total"
+			          }
+			        },
+			        "entity__measure.oecd_vc_2025_usd_b": {
+			          "Target": {
+			            "Entity": "entity__measure.oecd_vc_2025_usd_b"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_OECDVC_total"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.oecd_vc_2025_usd_b"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_OECDVC_totals_have_oecd_vc_2025_usd_b"
+			        }
+			      ]
+			    },
+			    "fact_OECDVC_total_has_entity__measure_oecd_vc_2023_usd_b": {
+			      "Binding": {
+			        "ConceptualEntity": "FactOECDVCTotal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_OECDVC_total": {
+			          "Target": {
+			            "Entity": "fact_OECDVC_total"
+			          }
+			        },
+			        "entity__measure.oecd_vc_2023_usd_b": {
+			          "Target": {
+			            "Entity": "entity__measure.oecd_vc_2023_usd_b"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_OECDVC_total"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.oecd_vc_2023_usd_b"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_OECDVC_totals_have_oecd_vc_2023_usd_b"
+			        }
+			      ]
+			    },
+			    "entity__measure_has_OECD_top_10_VC_share": {
+			      "Binding": {
+			        "ConceptualEntity": "_Measures"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity__measure": {
+			          "Target": {
+			            "Entity": "entity__measure"
+			          }
+			        },
+			        "entity__measure.OECD_top_10_VC_share": {
+			          "Target": {
+			            "Entity": "entity__measure.OECD_top_10_VC_share"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity__measure"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.OECD_top_10_VC_share"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing_measures_have_OECD_top_10_VC_share"
+			        }
+			      ]
+			    },
+			    "fact_OECDVC_total_has_entity__measure_OECD_country_VC_share": {
+			      "Binding": {
+			        "ConceptualEntity": "FactOECDVCTotal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_OECDVC_total": {
+			          "Target": {
+			            "Entity": "fact_OECDVC_total"
+			          }
+			        },
+			        "entity__measure.OECD_country_VC_share": {
+			          "Target": {
+			            "Entity": "entity__measure.OECD_country_VC_share"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_OECDVC_total"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.OECD_country_VC_share"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_OECDVC_totals_have_OECD_country_VC_share"
+			        }
+			      ]
+			    },
+			    "fact_OECDVC_total_has_entity__measure_OECD_reporting_country_count": {
+			      "Binding": {
+			        "ConceptualEntity": "FactOECDVCTotal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_OECDVC_total": {
+			          "Target": {
+			            "Entity": "fact_OECDVC_total"
+			          }
+			        },
+			        "entity__measure.OECD_reporting_country_count": {
+			          "Target": {
+			            "Entity": "entity__measure.OECD_reporting_country_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_OECDVC_total"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.OECD_reporting_country_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_OECDVC_totals_have_OECD_reporting_country_count"
+			        }
+			      ]
+			    },
+			    "dim_year_has_entity__measure_VC_regime_color": {
+			      "Binding": {
+			        "ConceptualEntity": "DimYear"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_year": {
+			          "Target": {
+			            "Entity": "dim_year"
+			          }
+			        },
+			        "entity__measure.VC_regime_color": {
+			          "Target": {
+			            "Entity": "entity__measure.VC_regime_color"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_year"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.VC_regime_color"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_years_have_VC_regime_color"
+			        }
+			      ]
+			    },
+			    "fact_OECDVC_total_has_entity__measure_postGPT_VC_change": {
+			      "Binding": {
+			        "ConceptualEntity": "FactOECDVCTotal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_OECDVC_total": {
+			          "Target": {
+			            "Entity": "fact_OECDVC_total"
+			          }
+			        },
+			        "entity__measure.postGPT_VC_change": {
+			          "Target": {
+			            "Entity": "entity__measure.postGPT_VC_change"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_OECDVC_total"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.postGPT_VC_change"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_OECDVC_totals_have_postGPT_VC_change"
+			        }
+			      ]
+			    },
+			    "fact_OECDVC_total_has_entity__measure_postGPT_average_annual_VC_USD_b": {
+			      "Binding": {
+			        "ConceptualEntity": "FactOECDVCTotal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_OECDVC_total": {
+			          "Target": {
+			            "Entity": "fact_OECDVC_total"
+			          }
+			        },
+			        "entity__measure.postGPT_average_annual_VC_USD_b": {
+			          "Target": {
+			            "Entity": "entity__measure.postGPT_average_annual_VC_USD_b"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_OECDVC_total"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.postGPT_average_annual_VC_USD_b"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_OECDVC_totals_have_postGPT_average_annual_VC_USD_b"
+			        }
+			      ]
+			    },
+			    "fact_OECDVC_total_has_entity__measure_preGPT_average_annual_VC_USD_b": {
+			      "Binding": {
+			        "ConceptualEntity": "FactOECDVCTotal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_OECDVC_total": {
+			          "Target": {
+			            "Entity": "fact_OECDVC_total"
+			          }
+			        },
+			        "entity__measure.preGPT_average_annual_VC_USD_b": {
+			          "Target": {
+			            "Entity": "entity__measure.preGPT_average_annual_VC_USD_b"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_OECDVC_total"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.preGPT_average_annual_VC_USD_b"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_OECDVC_totals_have_preGPT_average_annual_VC_USD_b"
+			        }
+			      ]
+			    },
+			    "dim_year_has_market_regime_order": {
+			      "Binding": {
+			        "ConceptualEntity": "DimYear"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_year": {
+			          "Target": {
+			            "Entity": "dim_year"
+			          }
+			        },
+			        "dim_year.market_regime_order": {
+			          "Target": {
+			            "Entity": "dim_year.market_regime_order"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_year"
+			            },
+			            "Object": {
+			              "Role": "dim_year.market_regime_order"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_years_have_market_regime_orders"
+			        }
+			      ]
+			    },
+			    "dim_year_has_market_regime": {
+			      "Binding": {
+			        "ConceptualEntity": "DimYear"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_year": {
+			          "Target": {
+			            "Entity": "dim_year"
+			          }
+			        },
+			        "dim_year.market_regime": {
+			          "Target": {
+			            "Entity": "dim_year.market_regime"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_year"
+			            },
+			            "Object": {
+			              "Role": "dim_year.market_regime"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_years_have_market_regimes"
 			        }
 			      ]
 			    },

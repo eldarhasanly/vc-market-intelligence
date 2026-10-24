@@ -4,10 +4,10 @@
   "position": {
     "x": 11.111111111111111,
     "y": 355.55555555555554,
-    "z": 7,
+    "z": 7000,
     "height": 634.44444444444446,
     "width": 620,
-    "tabOrder": 7
+    "tabOrder": 7000
   },
   "visual": {
     "visualType": "lineChart",
@@ -279,37 +279,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "863ec1d0e758e4087c9f",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "DimYear"
-              }
-            },
-            "Property": "year"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "35f66d9ddd3e7a99f674",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "_Measures"
-              }
-            },
-            "Property": "OECD VC Investment (USD B)"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

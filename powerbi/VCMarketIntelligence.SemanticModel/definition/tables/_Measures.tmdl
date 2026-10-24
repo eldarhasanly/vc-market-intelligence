@@ -315,6 +315,84 @@ table _Measures
 			    )
 		lineageTag: a77909a8-db00-4b81-896a-6a06f67c3aca
 
+	measure 'Private Non-GenAI Investment (2021 USD B)' =
+			
+			VAR TotalAI =
+			    [Private AI Investment (2021 USD B)]
+			VAR GenAI =
+			    [Private GenAI Investment (2021 USD B)]
+			RETURN
+			    IF (
+			        NOT ISBLANK ( TotalAI )
+			            && NOT ISBLANK ( GenAI ),
+			        TotalAI - GenAI
+			    )
+		formatString: 0.00
+		lineageTag: 806e2384-5b0b-4552-a682-6aaba3276a73
+
+	measure 'GenAI Share Change 2022-2025 (pp)' =
+			
+			VAR Share2022 =
+			    CALCULATE (
+			        [GenAI Share of Private AI (%)],
+			        REMOVEFILTERS ( DimYear ),
+			        DimYear[year] = 2022
+			    )
+			VAR Share2025 =
+			    CALCULATE (
+			        [GenAI Share of Private AI (%)],
+			        REMOVEFILTERS ( DimYear ),
+			        DimYear[year] = 2025
+			    )
+			RETURN
+			    IF (
+			        NOT ISBLANK ( Share2022 )
+			            && NOT ISBLANK ( Share2025 ),
+			        ( Share2025 - Share2022 ) * 100
+			    )
+		formatString: 0.00
+		lineageTag: d0a3c84d-1f18-4592-a061-82e3a10b52dd
+
+	measure 'GenAI Share YoY Change (pp)' =
+			
+			VAR CurrentYear =
+			    SELECTEDVALUE ( DimYear[year] )
+			VAR CurrentShare =
+			    [GenAI Share of Private AI (%)]
+			VAR PreviousShare =
+			    IF (
+			        NOT ISBLANK ( CurrentYear ),
+			        CALCULATE (
+			            [GenAI Share of Private AI (%)],
+			            REMOVEFILTERS ( DimYear ),
+			            DimYear[year] = CurrentYear - 1
+			        )
+			    )
+			RETURN
+			    IF (
+			        NOT ISBLANK ( CurrentYear )
+			            && NOT ISBLANK ( CurrentShare )
+			            && NOT ISBLANK ( PreviousShare ),
+			        ( CurrentShare - PreviousShare ) * 100
+			    )
+		lineageTag: 90badf6e-d31c-4313-b439-d6280965ea59
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'GenAI Share Change Color' =
+			
+			VAR ChangePP =
+			    [GenAI Share YoY Change (pp)]
+			RETURN
+			    SWITCH (
+			        TRUE (),
+			        ISBLANK ( ChangePP ), "#CBD5E1",
+			        ChangePP > 0, "#00A9F4",
+			        ChangePP < 0, "#C4425C",
+			        "#64748B"
+			    )
+		lineageTag: c4ebfbc9-f68e-4e99-b1f0-850a853385bd
+
 	column Placeholder
 		dataType: int64
 		isHidden

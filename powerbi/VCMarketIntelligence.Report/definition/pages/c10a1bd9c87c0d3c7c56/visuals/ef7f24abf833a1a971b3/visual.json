@@ -4,10 +4,10 @@
   "position": {
     "x": 971.46035887464,
     "y": 301.1356979348709,
-    "z": 5,
+    "z": 5000,
     "height": 733,
     "width": 930,
-    "tabOrder": 5
+    "tabOrder": 5000
   },
   "visual": {
     "visualType": "hundredPercentStackedColumnChart",
@@ -554,48 +554,6 @@
             }
           ]
         }
-      },
-      {
-        "name": "e4847a2e4f1dac4d0a8e",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "_Measures"
-              }
-            },
-            "Property": "OECD Stage Investment (USD B)"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "c9c3427027824a3f455a",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "DimOECDStage"
-              }
-            },
-            "Property": "stage_code"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "fb0213c1b48e5db56c15",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "_Measures"
-              }
-            },
-            "Property": "OECD Stage Share (%)"
-          }
-        },
-        "type": "Advanced"
       }
     ]
   }

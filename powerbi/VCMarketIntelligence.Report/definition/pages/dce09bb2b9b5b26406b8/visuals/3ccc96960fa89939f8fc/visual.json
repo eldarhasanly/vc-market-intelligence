@@ -4,10 +4,10 @@
   "position": {
     "x": 649.90868141876092,
     "y": 168.4318310483176,
-    "z": 9,
+    "z": 9000,
     "height": 175.23715755532035,
     "width": 299.43436630812022,
-    "tabOrder": 9
+    "tabOrder": 9000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -568,20 +568,6 @@
           ]
         },
         "howCreated": "User"
-      },
-      {
-        "name": "681c78baf2f69cda03f7",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "_Measures"
-              }
-            },
-            "Property": "Private AI Investment (2021 USD B)"
-          }
-        },
-        "type": "Advanced"
       }
     ]
   }
