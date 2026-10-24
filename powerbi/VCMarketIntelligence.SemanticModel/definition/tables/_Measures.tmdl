@@ -219,6 +219,102 @@ table _Measures
 			    )
 		lineageTag: fa795e76-abd9-4fa7-8ccf-032ad9401752
 
+	measure 'OECD Reporting Country Count' = DISTINCTCOUNT(FactOECDVCTotal[country_code])
+		formatString: 0
+		lineageTag: 8dfbef33-47ad-4aa1-afe3-f860c8474033
+
+	measure 'OECD Country VC Share (%)' = DIVIDE([OECD VC Investment (USD B)], CALCULATE([OECD VC Investment (USD B)], REMOVEFILTERS(DimOECDCountry)))
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 3b4e1a04-576f-4537-b2ea-710dbfb4096c
+
+	measure 'OECD Top 10 VC Share (%)' =
+			
+			VAR CountryAmounts =
+			    ADDCOLUMNS (
+			        ALL ( DimOECDCountry ),
+			        "@Investment",
+			            CALCULATE (
+			                [OECD VC Investment (USD B)]
+			            )
+			    )
+			VAR TopTen =
+			    TOPN (
+			        10,
+			        FILTER (
+			            CountryAmounts,
+			            NOT ISBLANK ( [@Investment] )
+			        ),
+			        [@Investment], DESC,
+			        DimOECDCountry[country_code], ASC
+			    )
+			VAR TopTenInvestment =
+			    SUMX ( TopTen, [@Investment] )
+			VAR TotalInvestment =
+			    CALCULATE (
+			        [OECD VC Investment (USD B)],
+			        REMOVEFILTERS ( DimOECDCountry )
+			    )
+			RETURN
+			    DIVIDE (
+			        TopTenInvestment,
+			        TotalInvestment
+			    )
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: b191d7ce-3479-4e4f-b37d-93bd52d58154
+
+	measure 'OECD VC 2023 (USD B)' =
+			
+			CALCULATE (
+			    [OECD VC Investment (USD B)],
+			    REMOVEFILTERS ( DimYear ),
+			    DimYear[year] = 2023
+			)
+		formatString: 0.00
+		lineageTag: a11a9b09-d6c7-47af-9184-2fae70524c0e
+
+	measure 'OECD VC 2025 (USD B)' =
+			
+			CALCULATE (
+			    [OECD VC Investment (USD B)],
+			    REMOVEFILTERS ( DimYear ),
+			    DimYear[year] = 2025
+			)
+		formatString: 0.00
+		lineageTag: 5839b7fb-001a-4c23-b0d8-ef29d6e3c98e
+
+	measure 'OECD VC Recovery 2023-2025 (%)' =
+			
+			VAR Investment2023 =
+			    [OECD VC 2023 (USD B)]
+			VAR Investment2025 =
+			    [OECD VC 2025 (USD B)]
+			RETURN
+			    IF (
+			        NOT ISBLANK ( Investment2023 )
+			            && Investment2023 > 0
+			            && NOT ISBLANK ( Investment2025 ),
+			        DIVIDE (
+			            Investment2025 - Investment2023,
+			            Investment2023
+			        )
+			    )
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 2e391511-3991-49e0-9e86-7c9daa8eaea8
+
+	measure 'OECD Recovery Color' =
+			
+			VAR Growth =
+			    [OECD VC Recovery 2023-2025 (%)]
+			RETURN
+			    SWITCH (
+			        TRUE (),
+			        ISBLANK ( Growth ), "#CBD5E1",
+			        Growth > 0, "#2251FF",
+			        Growth < 0, "#C4425C",
+			        "#64748B"
+			    )
+		lineageTag: a77909a8-db00-4b81-896a-6a06f67c3aca
+
 	column Placeholder
 		dataType: int64
 		isHidden
