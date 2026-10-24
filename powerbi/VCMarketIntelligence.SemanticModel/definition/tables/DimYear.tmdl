@@ -19,6 +19,38 @@ table DimYear
 
 		annotation SummarizationSetBy = Automatic
 
+	column 'Market Regime' =
+			
+			SWITCH (
+			    TRUE (),
+			    DimYear[year] >= 2019 && DimYear[year] <= 2021, "Pre-GPT",
+			    DimYear[year] = 2022, "Transition",
+			    DimYear[year] >= 2023 && DimYear[year] <= 2025, "Post-GPT",
+			    BLANK ()
+			)
+		lineageTag: b67e8eac-03fa-4a8e-9d5c-fa121967eafa
+		summarizeBy: none
+		sortByColumn: 'Market Regime Order'
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Market Regime Order' =
+			
+			SWITCH (
+			    TRUE (),
+			    DimYear[year] >= 2019 && DimYear[year] <= 2021, 1,
+			    DimYear[year] = 2022, 2,
+			    DimYear[year] >= 2023 && DimYear[year] <= 2025, 3,
+			    BLANK ()
+			)
+		formatString: 0
+		lineageTag: 2ee24c3e-dd45-490b-a0fe-2ce6eb8b159d
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
 	partition DimYear = m
 		mode: import
 		source =

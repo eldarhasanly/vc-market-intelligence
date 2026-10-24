@@ -187,6 +187,38 @@ table _Measures
 		formatString: 0
 		lineageTag: 8093e1c7-1eeb-4c26-bb68-201b157caa1c
 
+	measure 'Pre-GPT Average Annual VC (USD B)' =
+			
+			VAR PreGPTInvestment = CALCULATE([OECD VC Investment (USD B)], REMOVEFILTERS(DimYear), DimYear[year] >= 2019, DimYear[year] <= 2021)
+			RETURN DIVIDE (PreGPTInvestment, 3)
+		formatString: 0.00
+		lineageTag: 011311b7-88ba-4add-8936-1a574b235f21
+
+	measure 'Post-GPT Average Annual VC (USD B)' =
+			
+			VAR PostGPTInvestment = CALCULATE([OECD VC Investment (USD B)], REMOVEFILTERS(DimYear), DimYear[year] >= 2023, DimYear[year] <= 2025)
+			RETURN DIVIDE (PostGPTInvestment, 3)
+		formatString: 0.00
+		lineageTag: 85faeca6-9a31-454b-9525-6896b17980fc
+
+	measure 'Post-GPT VC Change (%)' = DIVIDE ([Post-GPT Average Annual VC (USD B)] - [Pre-GPT Average Annual VC (USD B)], [Pre-GPT Average Annual VC (USD B)])
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: c529c9ef-6d69-44af-8119-b27729559aa4
+
+	measure 'VC Regime Color' =
+			
+			VAR SelectedYear =
+			    SELECTEDVALUE ( DimYear[year] )
+			RETURN
+			    SWITCH (
+			        TRUE (),
+			        SelectedYear >= 2019 && SelectedYear <= 2021, "#64748B",
+			        SelectedYear = 2022, "#A7B0BF",
+			        SelectedYear >= 2023 && SelectedYear <= 2025, "#2251FF",
+			        "#E2E8F0"
+			    )
+		lineageTag: fa795e76-abd9-4fa7-8ccf-032ad9401752
+
 	column Placeholder
 		dataType: int64
 		isHidden
