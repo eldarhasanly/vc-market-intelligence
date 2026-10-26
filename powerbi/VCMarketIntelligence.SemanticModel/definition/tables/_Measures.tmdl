@@ -393,6 +393,63 @@ table _Measures
 			    )
 		lineageTag: c4ebfbc9-f68e-4e99-b1f0-850a853385bd
 
+	measure 'EdTech VC 2021 Peak (USD B)' = CALCULATE([EdTech VC Investment (USD B)], REMOVEFILTERS(DimYear), DimYear[year] = 2021)
+		formatString: 0.00
+		lineageTag: 58fb93c2-2ca2-4d61-8eea-0c980f9b20f2
+
+	measure 'EdTech VC 2025 (USD B)' = CALCULATE([EdTech VC Investment (USD B)], REMOVEFILTERS(DimYear), DimYear[year] = 2025)
+		formatString: 0.00
+		lineageTag: accfb3ff-2e28-4e49-b04c-66230d4115ca
+
+	measure 'EdTech VC Change vs Peak (%)' =
+			
+			VAR PeakInvestment = [EdTech VC 2021 Peak (USD B)]
+			VAR CurrentInvestment = [EdTech VC 2025 (USD B)]
+			RETURN IF(NOT ISBLANK(PeakInvestment) && NOT ISBLANK (CurrentInvestment), DIVIDE(CurrentInvestment - PeakInvestment, PeakInvestment))
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: fbe6454b-08b8-48d9-8bb4-fcd245e1d777
+
+	measure 'EdTech VC Waterfall Contribution (USD B)' =
+			
+			VAR CurrentYear =
+			    SELECTEDVALUE ( DimYear[year] )
+			VAR CurrentInvestment =
+			    [EdTech VC Investment (USD B)]
+			VAR PreviousInvestment =
+			    CALCULATE (
+			        [EdTech VC Investment (USD B)],
+			        REMOVEFILTERS ( DimYear ),
+			        DimYear[year] = CurrentYear - 1
+			    )
+			RETURN
+			    SWITCH (
+			        TRUE (),
+			        ISBLANK ( CurrentYear ), BLANK (),
+			        CurrentYear = 2021, CurrentInvestment,
+			        CurrentYear >= 2022
+			            && CurrentYear <= 2025
+			            && NOT ISBLANK ( PreviousInvestment )
+			            && NOT ISBLANK ( CurrentInvestment ),
+			            CurrentInvestment - PreviousInvestment,
+			        BLANK ()
+			    )
+		formatString: 0.00
+		lineageTag: acf35ab0-9782-4cdc-9ca3-54369e4bdc90
+
+	measure 'EdTech VC Growth Color' =
+			
+			VAR Growth =
+			    [EdTech VC YoY Growth (%)]
+			RETURN
+			    SWITCH (
+			        TRUE (),
+			        ISBLANK ( Growth ), "#CBD5E1",
+			        Growth > 0, "#167D76",
+			        Growth < 0, "#C4425C",
+			        "#64748B"
+			    )
+		lineageTag: d3df76c1-3c78-4b28-983a-549538f4d62b
+
 	column Placeholder
 		dataType: int64
 		isHidden

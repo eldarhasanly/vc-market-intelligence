@@ -36,10 +36,10 @@ The analytical scope, research questions, period definitions, and methodological
 | OECD.AI published benchmark indicators | ✅ Complete |
 | AI and GenAI private-investment time series | ✅ Complete |
 | EdTech data acquisition | ✅ Complete |
-| Power BI semantic model | ⏳ Next |
-| DAX measures | Planned |
-| VC market dashboard | Planned |
-| EdTech deep dive | Planned |
+| Power BI semantic model | ✅ Complete |
+| DAX measures | ✅ Complete |
+| VC market dashboard | ✅ Complete |
+| EdTech deep dive | ⏳ Ongoing |
 | Final documentation and release | Planned |
 
 ## Tech Stack
