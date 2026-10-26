@@ -450,6 +450,14 @@ table _Measures
 			    )
 		lineageTag: d3df76c1-3c78-4b28-983a-549538f4d62b
 
+	measure 'Curated EdTech Company Funding Share (%)' = DIVIDE([Curated EdTech Funding (USD M)], CALCULATE([Curated EdTech Funding (USD M)], REMOVEFILTERS(DimEdTechCompany)))
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 9b3d9509-d8d5-485b-a8a7-1ad4fe7cca0c
+
+	measure 'Curated EdTech Stage Funding Share (%)' = DIVIDE([Curated EdTech Funding (USD M)], CALCULATE([Curated EdTech Funding (USD M)], REMOVEFILTERS(DimEdTechStage)))
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 5c652305-1648-42da-9e2d-88ddbe7f52c4
+
 	column Placeholder
 		dataType: int64
 		isHidden

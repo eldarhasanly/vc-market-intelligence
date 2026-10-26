@@ -39,8 +39,8 @@ The analytical scope, research questions, period definitions, and methodological
 | Power BI semantic model | ✅ Complete |
 | DAX measures | ✅ Complete |
 | VC market dashboard | ✅ Complete |
-| EdTech deep dive | ⏳ Ongoing |
-| Final documentation and release | Planned |
+| EdTech deep dive | ✅ Complete |
+| Final documentation and release | ⏳ Next |
 
 ## Tech Stack
 

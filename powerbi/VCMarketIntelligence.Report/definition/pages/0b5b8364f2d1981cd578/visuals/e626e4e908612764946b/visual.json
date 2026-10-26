@@ -4,10 +4,10 @@
   "position": {
     "x": 971.46035887464,
     "y": 301.1356979348709,
-    "z": 4001,
+    "z": 5000,
     "height": 733,
     "width": 930,
-    "tabOrder": 4001
+    "tabOrder": 5000
   },
   "visual": {
     "visualType": "clusteredColumnChart",
@@ -417,37 +417,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "051173753d4ba935901b",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "DimYear"
-              }
-            },
-            "Property": "year"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "92a2f04201c00cb801a0",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "_Measures"
-              }
-            },
-            "Property": "EdTech VC YoY Growth (%)"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }
