@@ -3,7 +3,7 @@
   "name": "dfedf5bebde4fcf0a7da",
   "position": {
     "x": 1301,
-    "y": 112.28788736554505,
+    "y": 173,
     "z": 3000,
     "height": 175.23715755532035,
     "width": 600,
@@ -193,7 +193,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#FA1111'"
+                      "Value": "'#C4425C'"
                     }
                   }
                 }
@@ -421,7 +421,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
                 }
               }
             },

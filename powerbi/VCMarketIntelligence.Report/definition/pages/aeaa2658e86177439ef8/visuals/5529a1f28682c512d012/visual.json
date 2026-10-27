@@ -3,9 +3,9 @@
   "name": "5529a1f28682c512d012",
   "position": {
     "x": 842.15915524158811,
-    "y": 301.1356979348709,
+    "y": 362,
     "z": 5000,
-    "height": 733.27393112954439,
+    "height": 670.324660939769,
     "width": 1059.9296034656754,
     "tabOrder": 5000
   },
@@ -78,7 +78,8 @@
                 }
               },
               "queryRef": "_Measures.GenAI Share YoY Change (pp)",
-              "nativeQueryRef": "GenAI Share YoY Change (pp)"
+              "nativeQueryRef": "GenAI Share YoY Change (pp)",
+              "format": "+0.0\" pp\";-0.0\" pp\";0.0\" pp\""
             }
           ]
         }
@@ -105,7 +106,34 @@
     "objects": {
       "categoryAxis": [
         {
-          "properties": {}
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            },
+            "labelColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.2
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ],
       "valueAxis": [
@@ -122,6 +150,13 @@
               "expr": {
                 "Literal": {
                   "Value": "-2D"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }
@@ -221,7 +256,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "20D"
+                  "Value": "22D"
                 }
               }
             },
@@ -237,7 +272,27 @@
       ],
       "border": [
         {
-          "properties": {}
+          "properties": {
+            "radius": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.3
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ],
       "subTitle": [
@@ -253,7 +308,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "16D"
+                  "Value": "18D"
                 }
               }
             },

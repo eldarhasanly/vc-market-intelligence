@@ -9846,6 +9846,16 @@ cultureInfo en-US
 			            "State": "Generated",
 			            "Weight": 0.75
 			          }
+			        },
+			        {
+			          "Funding": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -9871,6 +9881,16 @@ cultureInfo en-US
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "Round Count": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -11374,6 +11394,493 @@ cultureInfo en-US
 			          }
 			        }
 			      ]
+			    },
+			    "entity__measure.EdTech_VC_2021_peak_USD_b": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "EdTech VC 2021 Peak (USD B)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "EdTech VC 2021 peak (USD b)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EdTech VC 2021 peak": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.EdTech_VC_2025_USD_b": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "EdTech VC 2025 (USD B)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "EdTech VC 2025 (USD b)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EdTech VC 2025": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.EdTech_VC_change_vs_peak": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "EdTech VC Change vs Peak (%)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "EdTech VC change vs peak": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EdTech VC change vs peak (%)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "edtech vc change vs mountaintop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        },
+			        {
+			          "edtech vc change vs height": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        },
+			        {
+			          "edtech vc change vs alp": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        },
+			        {
+			          "edtech vc change vs mountain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        },
+			        {
+			          "edtech vc change vs summit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        },
+			        {
+			          "edtech vc change vs crest": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        },
+			        {
+			          "edtech vc change vs point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        },
+			        {
+			          "edtech vc change vs mount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        },
+			        {
+			          "edtech vc change vs pike": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        },
+			        {
+			          "edtech vc change vs zenith": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.469
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "percentage",
+			        "%"
+			      ]
+			    },
+			    "entity__measure.EdTech_VC_waterfall_contribution_USD_b": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "EdTech VC Waterfall Contribution (USD B)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "EdTech VC waterfall contribution (USD b)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EdTech VC waterfall contribution": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.EdTech_VC_growth_color": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "EdTech VC Growth Color"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "EdTech VC growth color": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "edtech vc growth hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "edtech vc growth tint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "edtech vc growth shade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "edtech vc growth dye": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "edtech vc growth paint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "edtech vc growth pigment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.curated_EdTech_company_funding_share": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Curated EdTech Company Funding Share (%)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "curated EdTech company funding share": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "curated EdTech company funding share (%)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "curated edtech co funding share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "curated edtech corp funding share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "curated edtech corporation funding share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "curated edtech corps funding share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "curated edtech employer funding share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "curated edtech enterprise funding share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "curated edtech business funding share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "curated edtech group funding share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "curated edtech conglomerate funding share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "curated edtech co inc funding share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.518
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "percentage",
+			        "%"
+			      ]
+			    },
+			    "entity__measure.curated_EdTech_stage_funding_share": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Curated EdTech Stage Funding Share (%)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "curated EdTech stage funding share": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "curated EdTech stage funding share (%)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "curated edtech stage funding part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "curated edtech stage funding portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "curated edtech stage funding segment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "curated edtech stage funding cut": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "curated edtech stage funding stake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "curated edtech stage funding bit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "curated edtech stage funding piece": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "percentage",
+			        "%"
+			      ]
 			    }
 			  },
 			  "Relationships": {
@@ -12021,6 +12528,303 @@ cultureInfo en-US
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "dim_years_have_fact_OECDVC_totals"
+			        }
+			      ]
+			    },
+			    "fact_ed_tech_round_has_entity__measure_curated_EdTech_stage_funding_share": {
+			      "Binding": {
+			        "ConceptualEntity": "FactEdTechRounds"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ed_tech_round": {
+			          "Target": {
+			            "Entity": "fact_ed_tech_round"
+			          }
+			        },
+			        "entity__measure.curated_EdTech_stage_funding_share": {
+			          "Target": {
+			            "Entity": "entity__measure.curated_EdTech_stage_funding_share"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ed_tech_round"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.curated_EdTech_stage_funding_share"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ed_tech_round_have_curated_EdTech_stage_funding_share"
+			        }
+			      ]
+			    },
+			    "fact_ed_tech_round_has_entity__measure_curated_EdTech_company_funding_share": {
+			      "Binding": {
+			        "ConceptualEntity": "FactEdTechRounds"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ed_tech_round": {
+			          "Target": {
+			            "Entity": "fact_ed_tech_round"
+			          }
+			        },
+			        "entity__measure.curated_EdTech_company_funding_share": {
+			          "Target": {
+			            "Entity": "entity__measure.curated_EdTech_company_funding_share"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ed_tech_round"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.curated_EdTech_company_funding_share"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ed_tech_round_have_curated_EdTech_company_funding_share"
+			        }
+			      ]
+			    },
+			    "fact_ed_tech_market_has_entity__measure_EdTech_VC_growth_color": {
+			      "Binding": {
+			        "ConceptualEntity": "FactEdTechMarket"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ed_tech_market": {
+			          "Target": {
+			            "Entity": "fact_ed_tech_market"
+			          }
+			        },
+			        "entity__measure.EdTech_VC_growth_color": {
+			          "Target": {
+			            "Entity": "entity__measure.EdTech_VC_growth_color"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ed_tech_market"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.EdTech_VC_growth_color"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ed_tech_markets_have_EdTech_VC_growth_color"
+			        }
+			      ]
+			    },
+			    "dim_year_has_entity__measure_EdTech_VC_growth_color": {
+			      "Binding": {
+			        "ConceptualEntity": "DimYear"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_year": {
+			          "Target": {
+			            "Entity": "dim_year"
+			          }
+			        },
+			        "entity__measure.EdTech_VC_growth_color": {
+			          "Target": {
+			            "Entity": "entity__measure.EdTech_VC_growth_color"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_year"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.EdTech_VC_growth_color"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_years_have_EdTech_VC_growth_color"
+			        }
+			      ]
+			    },
+			    "fact_ed_tech_market_has_entity__measure_EdTech_VC_waterfall_contribution_USD_b": {
+			      "Binding": {
+			        "ConceptualEntity": "FactEdTechMarket"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ed_tech_market": {
+			          "Target": {
+			            "Entity": "fact_ed_tech_market"
+			          }
+			        },
+			        "entity__measure.EdTech_VC_waterfall_contribution_USD_b": {
+			          "Target": {
+			            "Entity": "entity__measure.EdTech_VC_waterfall_contribution_USD_b"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ed_tech_market"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.EdTech_VC_waterfall_contribution_USD_b"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ed_tech_markets_have_EdTech_VC_waterfall_contribution_USD_b"
+			        }
+			      ]
+			    },
+			    "dim_year_has_entity__measure_EdTech_VC_waterfall_contribution_USD_b": {
+			      "Binding": {
+			        "ConceptualEntity": "DimYear"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_year": {
+			          "Target": {
+			            "Entity": "dim_year"
+			          }
+			        },
+			        "entity__measure.EdTech_VC_waterfall_contribution_USD_b": {
+			          "Target": {
+			            "Entity": "entity__measure.EdTech_VC_waterfall_contribution_USD_b"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_year"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.EdTech_VC_waterfall_contribution_USD_b"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_years_have_EdTech_VC_waterfall_contribution_USD_b"
+			        }
+			      ]
+			    },
+			    "fact_ed_tech_market_has_entity__measure_EdTech_VC_change_vs_peak": {
+			      "Binding": {
+			        "ConceptualEntity": "FactEdTechMarket"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ed_tech_market": {
+			          "Target": {
+			            "Entity": "fact_ed_tech_market"
+			          }
+			        },
+			        "entity__measure.EdTech_VC_change_vs_peak": {
+			          "Target": {
+			            "Entity": "entity__measure.EdTech_VC_change_vs_peak"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ed_tech_market"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.EdTech_VC_change_vs_peak"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ed_tech_markets_have_EdTech_VC_change_vs_peak"
+			        }
+			      ]
+			    },
+			    "fact_ed_tech_market_has_entity__measure_EdTech_VC_2025_USD_b": {
+			      "Binding": {
+			        "ConceptualEntity": "FactEdTechMarket"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ed_tech_market": {
+			          "Target": {
+			            "Entity": "fact_ed_tech_market"
+			          }
+			        },
+			        "entity__measure.EdTech_VC_2025_USD_b": {
+			          "Target": {
+			            "Entity": "entity__measure.EdTech_VC_2025_USD_b"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ed_tech_market"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.EdTech_VC_2025_USD_b"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ed_tech_markets_have_EdTech_VC_2025_USD_b"
+			        }
+			      ]
+			    },
+			    "fact_ed_tech_market_has_entity__measure_EdTech_VC_2021_peak_USD_b": {
+			      "Binding": {
+			        "ConceptualEntity": "FactEdTechMarket"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ed_tech_market": {
+			          "Target": {
+			            "Entity": "fact_ed_tech_market"
+			          }
+			        },
+			        "entity__measure.EdTech_VC_2021_peak_USD_b": {
+			          "Target": {
+			            "Entity": "entity__measure.EdTech_VC_2021_peak_USD_b"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ed_tech_market"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.EdTech_VC_2021_peak_USD_b"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ed_tech_markets_have_EdTech_VC_2021_peak_USD_b"
 			        }
 			      ]
 			    },

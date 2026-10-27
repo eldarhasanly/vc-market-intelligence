@@ -3,11 +3,11 @@
   "name": "8cdbd66eae9c16e24869",
   "position": {
     "x": 1289.6093730770176,
-    "y": 301.1356979348709,
-    "z": 6001,
-    "height": 733.27393112954439,
+    "y": 362.38363649789545,
+    "z": 7000,
+    "height": 672.02599256651979,
     "width": 619.28471213724856,
-    "tabOrder": 6001
+    "tabOrder": 7000
   },
   "visual": {
     "visualType": "treemap",
@@ -78,7 +78,8 @@
                 }
               },
               "queryRef": "_Measures.Curated EdTech Funding (USD M)",
-              "nativeQueryRef": "Curated EdTech Funding (USD M)"
+              "nativeQueryRef": "Curated EdTech Funding (USD M)",
+              "format": "$#,0.0\"M\""
             }
           ]
         }
@@ -95,6 +96,13 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
                 }
               }
             }
@@ -132,6 +140,200 @@
                       "Value": "'#2251FF'"
                     }
                   }
+                }
+              }
+            }
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 3,
+                      "Percent": -0.25
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "DimEdTechStage"
+                          }
+                        },
+                        "Property": "stage_group"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'Early'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.25
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "DimEdTechStage"
+                          }
+                        },
+                        "Property": "stage_group"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'Late/Growth'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.4
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "DimEdTechStage"
+                          }
+                        },
+                        "Property": "stage_group"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'Seed'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "DimEdTechStage"
+                          }
+                        },
+                        "Property": "stage_group"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'Unspecified'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "layout": [
+        {
+          "properties": {
+            "tilingMethod": {
+              "expr": {
+                "Literal": {
+                  "Value": "'stableSquarified'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "categoryLabels": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
                 }
               }
             }
@@ -187,7 +389,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
                 }
               }
             },
@@ -247,7 +449,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "16D"
+                  "Value": "18D"
                 }
               }
             }

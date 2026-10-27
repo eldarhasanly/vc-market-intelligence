@@ -1,8 +1,50 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
   "name": "c10a1bd9c87c0d3c7c56",
-  "displayName": "02 - Post-GPT Market Regime",
+  "displayName": "02 - Post-GPT",
   "displayOption": "FitToPage",
   "height": 1080,
-  "width": 1920
+  "width": 1920,
+  "visualInteractions": [
+    {
+      "source": "a48c8ade79b210056852",
+      "target": "3d2af859087fc2f648a1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "a48c8ade79b210056852",
+      "target": "64954ec93211a0260e03",
+      "type": "NoFilter"
+    },
+    {
+      "source": "a48c8ade79b210056852",
+      "target": "7577cc92a650be57337b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "a48c8ade79b210056852",
+      "target": "ef7f24abf833a1a971b3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "ef7f24abf833a1a971b3",
+      "target": "3d2af859087fc2f648a1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "ef7f24abf833a1a971b3",
+      "target": "64954ec93211a0260e03",
+      "type": "NoFilter"
+    },
+    {
+      "source": "ef7f24abf833a1a971b3",
+      "target": "7577cc92a650be57337b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "ef7f24abf833a1a971b3",
+      "target": "a48c8ade79b210056852",
+      "type": "NoFilter"
+    }
+  ]
 }

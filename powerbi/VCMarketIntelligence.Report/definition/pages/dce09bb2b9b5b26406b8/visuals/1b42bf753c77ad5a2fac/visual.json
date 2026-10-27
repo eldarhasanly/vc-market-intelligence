@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "1b42bf753c77ad5a2fac",
   "position": {
-    "x": 11.111111111111111,
-    "y": 355.55555555555554,
+    "x": 13.610653014005464,
+    "y": 437.24222807492555,
     "z": 7000,
-    "height": 634.44444444444446,
-    "width": 620,
+    "height": 605.67405912324318,
+    "width": 619.28471213724856,
     "tabOrder": 7000
   },
   "visual": {
@@ -46,7 +46,8 @@
                 }
               },
               "queryRef": "_Measures.OECD VC Investment (USD B)",
-              "nativeQueryRef": "OECD VC Investment (USD B)"
+              "nativeQueryRef": "OECD VC Investment (USD B)",
+              "format": "$#,0.0\"B\""
             }
           ]
         }
@@ -80,6 +81,18 @@
                   "Value": "11D"
                 }
               }
+            },
+            "labelColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.2
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -94,6 +107,13 @@
                 }
               }
             },
+            "invertAxis": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
             "end": {
               "expr": {
                 "Literal": {
@@ -101,10 +121,22 @@
                 }
               }
             },
-            "invertAxis": {
+            "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "11D"
+                }
+              }
+            },
+            "labelColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.2
+                    }
+                  }
                 }
               }
             }
@@ -184,7 +216,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "22D"
+                  "Value": "20D"
                 }
               }
             },
@@ -192,6 +224,13 @@
               "expr": {
                 "Literal": {
                   "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }
@@ -230,7 +269,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
                 }
               }
             }

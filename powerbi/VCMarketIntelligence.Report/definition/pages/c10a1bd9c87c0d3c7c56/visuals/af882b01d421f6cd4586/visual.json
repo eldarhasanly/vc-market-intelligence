@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
-  "name": "68a249d0960aec48eed0",
+  "name": "af882b01d421f6cd4586",
   "position": {
-    "x": 6.8053265070027322,
-    "y": 1048.0202820784207,
-    "z": 6000,
+    "x": 9.4045831589830868,
+    "y": 1051.4229453319222,
+    "z": 7001,
     "height": 27.221306028010929,
     "width": 1910.5954168410169,
-    "tabOrder": 6000
+    "tabOrder": 7001
   },
   "visual": {
     "visualType": "shape",
@@ -53,7 +53,33 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Source: OECD Venture Capital Investments. Percentage changes compare reported investment in 2023 and 2025. Countries require valid observations in both years. Rankings use 2025 investment levels.'"
+                  "Value": "'Source: OECD Venture Capital Investments, 2019–2025. Pre-GPT: 2019–2021; transition: 2022; post-GPT: 2023–2025. Period comparisons use average annual reported investment and exclude 2022. Funding-stage shares are calculated from reported stage-disaggregated investment, which has narrower coverage than total VC investment. Country coverage varies across years. Comparisons are descriptive and do not establish causality.'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.4
+                    }
+                  }
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'left'"
                 }
               }
             }

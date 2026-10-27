@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
-  "name": "b5b0a8ffccc1cdd9fbb2",
+  "name": "9e5c2f31ac0994ba7b46",
   "position": {
-    "x": 6.8053265070027322,
-    "y": 1048.0202820784207,
-    "z": 6000,
+    "x": 9.4045831589830868,
+    "y": 1051.4229453319222,
+    "z": 7002,
     "height": 27.221306028010929,
     "width": 1910.5954168410169,
-    "tabOrder": 6000
+    "tabOrder": 7002
   },
   "visual": {
     "visualType": "shape",
@@ -53,21 +53,33 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Source: Our World in Data / Stanford AI Index (Quid), 2019–2025. Global private investment in constant 2021 USD; figures are not limited to venture capital. GenAI is included in total AI investment; non-GenAI is calculated as the residual.'"
+                  "Value": "'Source: Curated dataset of 12 publicly documented financing rounds involving six AI-enabled EdTech companies, 2022–2025, compiled from company financing sources. Funding amounts are expressed in nominal USD millions and represent individual disclosed rounds, not company valuations or lifetime funding. Company and funding-stage shares are calculated from the documented rounds. The purposively selected sample is not representative of the global EdTech VC market; findings cannot be generalized to broader industry trends.'"
                 }
               }
             },
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "15D"
+                  "Value": "11D"
                 }
               }
             },
-            "titleWrap": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.4
+                    }
+                  }
+                }
+              }
+            },
+            "alignment": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "'left'"
                 }
               }
             }

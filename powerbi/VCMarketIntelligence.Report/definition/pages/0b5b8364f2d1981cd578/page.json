@@ -1,8 +1,50 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
   "name": "0b5b8364f2d1981cd578",
-  "displayName": "05 - EdTech VC Market Analysis",
+  "displayName": "05 - EdTech Market",
   "displayOption": "FitToPage",
   "height": 1080,
-  "width": 1920
+  "width": 1920,
+  "visualInteractions": [
+    {
+      "source": "cd189efd72067a105ad3",
+      "target": "bec96a7245c6a7130b58",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cd189efd72067a105ad3",
+      "target": "6c71279fdcd8b810e3ef",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cd189efd72067a105ad3",
+      "target": "dfedf5bebde4fcf0a7da",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cd189efd72067a105ad3",
+      "target": "e626e4e908612764946b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "e626e4e908612764946b",
+      "target": "cd189efd72067a105ad3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "e626e4e908612764946b",
+      "target": "bec96a7245c6a7130b58",
+      "type": "NoFilter"
+    },
+    {
+      "source": "e626e4e908612764946b",
+      "target": "6c71279fdcd8b810e3ef",
+      "type": "NoFilter"
+    },
+    {
+      "source": "e626e4e908612764946b",
+      "target": "dfedf5bebde4fcf0a7da",
+      "type": "NoFilter"
+    }
+  ]
 }

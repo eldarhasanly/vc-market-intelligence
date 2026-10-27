@@ -309,7 +309,7 @@ table _Measures
 			    SWITCH (
 			        TRUE (),
 			        ISBLANK ( Growth ), "#CBD5E1",
-			        Growth > 0, "#2251FF",
+			        Growth > 0, "#0E1A77",
 			        Growth < 0, "#C4425C",
 			        "#64748B"
 			    )
@@ -387,7 +387,7 @@ table _Measures
 			    SWITCH (
 			        TRUE (),
 			        ISBLANK ( ChangePP ), "#CBD5E1",
-			        ChangePP > 0, "#00A9F4",
+			        ChangePP > 0, "#0D6ABF",
 			        ChangePP < 0, "#C4425C",
 			        "#64748B"
 			    )

@@ -4,5 +4,82 @@
   "displayName": "06 - AI-Enabled EdTech Deals",
   "displayOption": "FitToPage",
   "height": 1080,
-  "width": 1920
+  "width": 1920,
+  "visualInteractions": [
+    {
+      "source": "0e67cb4fd9d188ffda1b",
+      "target": "abe4c72dd8b20662e698",
+      "type": "DataFilter"
+    },
+    {
+      "source": "0e67cb4fd9d188ffda1b",
+      "target": "8cdbd66eae9c16e24869",
+      "type": "DataFilter"
+    },
+    {
+      "source": "0e67cb4fd9d188ffda1b",
+      "target": "76c4f7578e4c777d60e0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "0e67cb4fd9d188ffda1b",
+      "target": "0d8a8630d00d67810e7a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "0e67cb4fd9d188ffda1b",
+      "target": "839970e83e75a664bb32",
+      "type": "NoFilter"
+    },
+    {
+      "source": "abe4c72dd8b20662e698",
+      "target": "76c4f7578e4c777d60e0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "abe4c72dd8b20662e698",
+      "target": "0d8a8630d00d67810e7a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "abe4c72dd8b20662e698",
+      "target": "0e67cb4fd9d188ffda1b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "abe4c72dd8b20662e698",
+      "target": "839970e83e75a664bb32",
+      "type": "NoFilter"
+    },
+    {
+      "source": "abe4c72dd8b20662e698",
+      "target": "8cdbd66eae9c16e24869",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8cdbd66eae9c16e24869",
+      "target": "abe4c72dd8b20662e698",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8cdbd66eae9c16e24869",
+      "target": "0e67cb4fd9d188ffda1b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8cdbd66eae9c16e24869",
+      "target": "76c4f7578e4c777d60e0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8cdbd66eae9c16e24869",
+      "target": "0d8a8630d00d67810e7a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8cdbd66eae9c16e24869",
+      "target": "839970e83e75a664bb32",
+      "type": "NoFilter"
+    }
+  ]
 }

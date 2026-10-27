@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
   "name": "dce09bb2b9b5b26406b8",
-  "displayName": "01 - VC Market Overview",
+  "displayName": "01 - Overview",
   "displayOption": "FitToPage",
   "height": 1080,
   "width": 1920,
@@ -31,5 +31,127 @@
         }
       }
     ]
-  }
+  },
+  "visualInteractions": [
+    {
+      "source": "1b42bf753c77ad5a2fac",
+      "target": "f8e46efb5b37e14f9b3c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "1b42bf753c77ad5a2fac",
+      "target": "e141cb2915bd9d5b7a3c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "1b42bf753c77ad5a2fac",
+      "target": "3ccc96960fa89939f8fc",
+      "type": "NoFilter"
+    },
+    {
+      "source": "1b42bf753c77ad5a2fac",
+      "target": "6b2ca372b7a440cff5ee",
+      "type": "NoFilter"
+    },
+    {
+      "source": "1b42bf753c77ad5a2fac",
+      "target": "7a6d832e57109cfe179b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "1b42bf753c77ad5a2fac",
+      "target": "575438a56174ea16e8a4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "1b42bf753c77ad5a2fac",
+      "target": "0b97391fac2e152271c7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "1b42bf753c77ad5a2fac",
+      "target": "03fdf130705b1eafad1e",
+      "type": "NoFilter"
+    },
+    {
+      "source": "7a6d832e57109cfe179b",
+      "target": "f8e46efb5b37e14f9b3c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "7a6d832e57109cfe179b",
+      "target": "1b42bf753c77ad5a2fac",
+      "type": "NoFilter"
+    },
+    {
+      "source": "7a6d832e57109cfe179b",
+      "target": "e141cb2915bd9d5b7a3c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "7a6d832e57109cfe179b",
+      "target": "3ccc96960fa89939f8fc",
+      "type": "NoFilter"
+    },
+    {
+      "source": "7a6d832e57109cfe179b",
+      "target": "6b2ca372b7a440cff5ee",
+      "type": "NoFilter"
+    },
+    {
+      "source": "7a6d832e57109cfe179b",
+      "target": "0b97391fac2e152271c7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "7a6d832e57109cfe179b",
+      "target": "575438a56174ea16e8a4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "7a6d832e57109cfe179b",
+      "target": "03fdf130705b1eafad1e",
+      "type": "NoFilter"
+    },
+    {
+      "source": "575438a56174ea16e8a4",
+      "target": "f8e46efb5b37e14f9b3c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "575438a56174ea16e8a4",
+      "target": "e141cb2915bd9d5b7a3c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "575438a56174ea16e8a4",
+      "target": "1b42bf753c77ad5a2fac",
+      "type": "NoFilter"
+    },
+    {
+      "source": "575438a56174ea16e8a4",
+      "target": "3ccc96960fa89939f8fc",
+      "type": "NoFilter"
+    },
+    {
+      "source": "575438a56174ea16e8a4",
+      "target": "6b2ca372b7a440cff5ee",
+      "type": "NoFilter"
+    },
+    {
+      "source": "575438a56174ea16e8a4",
+      "target": "7a6d832e57109cfe179b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "575438a56174ea16e8a4",
+      "target": "03fdf130705b1eafad1e",
+      "type": "NoFilter"
+    },
+    {
+      "source": "575438a56174ea16e8a4",
+      "target": "0b97391fac2e152271c7",
+      "type": "NoFilter"
+    }
+  ]
 }

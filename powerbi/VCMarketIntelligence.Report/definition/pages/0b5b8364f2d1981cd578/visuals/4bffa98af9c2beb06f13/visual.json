@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
-  "name": "44b26feb67761fe4a7ca",
+  "name": "4bffa98af9c2beb06f13",
   "position": {
-    "x": 6.8053265070027322,
-    "y": 1048.0202820784207,
-    "z": 6000,
+    "x": 9.4045831589830868,
+    "y": 1051.4229453319222,
+    "z": 6002,
     "height": 27.221306028010929,
     "width": 1910.5954168410169,
-    "tabOrder": 6000
+    "tabOrder": 6002
   },
   "visual": {
     "visualType": "shape",
@@ -53,7 +53,33 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Source: OECD Venture Capital Investments. Pre-GPT: 2019–2021; post-GPT: 2023–2025. Stage shares are based on reported stage-disaggregated investment. Country coverage varies. Comparisons are descriptive, not causal.'"
+                  "Value": "'Source: HolonIQ, 2026 Global Education Outlook (December 2025 publication vintage). Global EdTech venture capital investment, 2019–2025, reported in nominal USD billions. Annual growth rates and funding changes are calculated from reported investment values. The 2025 stabilization reflects unchanged annual funding, not evidence of a sustained recovery. Findings are descriptive and do not establish causality.'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.4
+                    }
+                  }
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'left'"
                 }
               }
             }

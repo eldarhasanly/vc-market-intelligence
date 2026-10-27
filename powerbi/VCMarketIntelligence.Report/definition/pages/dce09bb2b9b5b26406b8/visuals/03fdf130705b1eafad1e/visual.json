@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "03fdf130705b1eafad1e",
   "position": {
-    "x": 1286.2067098235163,
-    "y": 168.4318310483176,
+    "x": 1289.6093730770176,
+    "y": 246.69308587884905,
     "z": 13000,
     "height": 175.23715755532035,
     "width": 299.43436630812022,
-    "tabOrder": 13000
+    "tabOrder": 11000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -422,7 +422,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
                 }
               }
             },
@@ -568,6 +568,20 @@
           ]
         },
         "howCreated": "User"
+      },
+      {
+        "name": "0814155f9f9b2a336d59",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "_Measures"
+              }
+            },
+            "Property": "EdTech VC Investment (USD B)"
+          }
+        },
+        "type": "Advanced"
       }
     ]
   }

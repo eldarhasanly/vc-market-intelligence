@@ -3,10 +3,10 @@
   "name": "cd189efd72067a105ad3",
   "position": {
     "x": 18.714647894257514,
-    "y": 301,
+    "y": 362,
     "z": 4000,
-    "height": 733,
-    "width": 930,
+    "height": 672,
+    "width": 930.62839983262359,
     "tabOrder": 4000
   },
   "visual": {
@@ -46,7 +46,8 @@
                 }
               },
               "queryRef": "_Measures.EdTech VC Waterfall Contribution (USD B)",
-              "nativeQueryRef": "EdTech VC Waterfall Contribution (USD B)"
+              "nativeQueryRef": "EdTech VC Waterfall Contribution (USD B)",
+              "format": "$#,0.0\"B\""
             }
           ]
         }
@@ -79,6 +80,25 @@
                   "Value": "true"
                 }
               }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            },
+            "labelColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.2
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -96,7 +116,7 @@
             "labelPosition": {
               "expr": {
                 "Literal": {
-                  "Value": "'InsideCenter'"
+                  "Value": "'Auto'"
                 }
               }
             },
@@ -104,6 +124,13 @@
               "expr": {
                 "Literal": {
                   "Value": "11D"
+                }
+              }
+            },
+            "labelDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
                 }
               }
             }
@@ -160,6 +187,13 @@
                   "Value": "false"
                 }
               }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
             }
           }
         }
@@ -195,7 +229,27 @@
       ],
       "border": [
         {
-          "properties": {}
+          "properties": {
+            "radius": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.3
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ],
       "subTitle": [

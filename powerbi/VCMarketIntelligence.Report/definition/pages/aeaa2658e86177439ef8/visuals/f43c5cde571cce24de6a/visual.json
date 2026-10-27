@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
-  "name": "5df50a75ab7526a477bd",
+  "name": "f43c5cde571cce24de6a",
   "position": {
-    "x": 6.8053265070027322,
-    "y": 1048.0202820784207,
-    "z": 4000,
+    "x": 9.4045831589830868,
+    "y": 1051.4229453319222,
+    "z": 6002,
     "height": 27.221306028010929,
     "width": 1910.5954168410169,
-    "tabOrder": 4000
+    "tabOrder": 6002
   },
   "visual": {
     "visualType": "shape",
@@ -53,28 +53,33 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Source: Curated dataset of 12 publicly documented financing rounds involving six AI-enabled EdTech companies, 2022–2025. Funding amounts are reported in nominal USD millions and represent individual disclosed rounds.'"
+                  "Value": "'Source: Our World in Data / Stanford AI Index (Quid), 2019–2025. Global private AI investment in constant 2021 USD; coverage is broader than venture capital alone. GenAI investment is included within total private AI investment, while non-GenAI investment is calculated as the residual. Annual changes in investment shares are expressed in percentage points. Trends are descriptive and do not establish causal effects.'"
                 }
               }
             },
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "15D"
+                  "Value": "11D"
                 }
               }
             },
-            "titleWrap": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.4
+                    }
+                  }
                 }
               }
             },
-            "bold": {
+            "alignment": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "'left'"
                 }
               }
             }

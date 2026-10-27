@@ -2,8 +2,8 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "bda236acbd0ed4c6caad",
   "position": {
-    "x": 6.8053265070027322,
-    "y": 1048.0202820784207,
+    "x": 9.408363895931231,
+    "y": 1051.4229453319222,
     "z": 4000,
     "height": 27.221306028010929,
     "width": 1910.5954168410169,
@@ -53,7 +53,33 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Sources: OECD, Stanford AI Index / OWID, HolonIQ | Measurements differ'"
+                  "Value": "'Source: OECD Venture Capital Investments; Our World in Data / Stanford AI Index (Quid); HolonIQ (December 2025 vintage). OECD measures reported VC investment across available countries in nominal USD; OWID measures broader global private AI investment in constant 2021 USD; HolonIQ reports global EdTech VC investment in nominal USD. Geographic coverage, investment definitions, and price bases differ; absolute values should not be directly compared or aggregated.'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.4
+                    }
+                  }
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'left'"
                 }
               }
             }

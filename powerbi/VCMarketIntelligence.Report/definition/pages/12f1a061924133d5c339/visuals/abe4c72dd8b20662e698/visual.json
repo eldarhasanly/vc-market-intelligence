@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "abe4c72dd8b20662e698",
   "position": {
-    "x": 18,
-    "y": 301,
+    "x": 18.714647894257514,
+    "y": 362.38363649789545,
     "z": 5000,
-    "height": 733,
-    "width": 620,
+    "height": 672.02599256651979,
+    "width": 619.28471213724856,
     "tabOrder": 5000
   },
   "visual": {
@@ -64,7 +64,9 @@
                 }
               },
               "queryRef": "_Measures.Curated EdTech Funding (USD M)",
-              "nativeQueryRef": "Curated EdTech Funding (USD M)"
+              "nativeQueryRef": "Funding",
+              "displayName": "Funding",
+              "format": "$#,0.0\"M\""
             }
           ]
         },
@@ -82,7 +84,8 @@
                 }
               },
               "queryRef": "_Measures.Curated EdTech Round Count",
-              "nativeQueryRef": "Curated EdTech Round Count"
+              "nativeQueryRef": "Round Count",
+              "displayName": "Round Count"
             }
           ]
         }
@@ -116,6 +119,25 @@
                   "Value": "11D"
                 }
               }
+            },
+            "labelColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.2
+                    }
+                  }
+                }
+              }
+            },
+            "innerPadding": {
+              "expr": {
+                "Literal": {
+                  "Value": "50L"
+                }
+              }
             }
           }
         }
@@ -141,6 +163,39 @@
               "expr": {
                 "Literal": {
                   "Value": "0D"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "secShow": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "secFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            },
+            "secLabelColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.2
+                    }
+                  }
                 }
               }
             }
@@ -174,6 +229,25 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
                 }
               }
             }
@@ -244,7 +318,51 @@
                   "Value": "'TopRight'"
                 }
               }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
             }
+          }
+        }
+      ],
+      "dataPoint": [
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.25
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 3,
+                      "Percent": -0.25
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "_Measures.Curated EdTech Round Count"
           }
         }
       ]
@@ -309,7 +427,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
                 }
               }
             }
@@ -336,7 +454,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "16D"
+                  "Value": "18D"
                 }
               }
             }
