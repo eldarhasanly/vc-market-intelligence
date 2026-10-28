@@ -1,475 +1,153 @@
 # Project Scope and Analytical Framework
 
-## 1. Project Overview
+## 1. Project overview
 
-**Project title:** VC Market Intelligence: Venture Capital in the Post-GPT Era
+**Project:** VC Market Intelligence: Venture Capital in the Post-GPT Era  
+**Implementation:** Python, pandas, Jupyter, Power Query, Power BI, DAX, Git and GitHub  
+**Historical coverage:** 2019–2025 (subject to the availability of each source)
 
-This project develops an end-to-end venture capital (VC) market intelligence solution using Python, Power BI, Power Query, and DAX.
+This project is an end-to-end business intelligence case study examining reported venture capital (VC) investment, the changing geography and stage composition of VC funding, global private investment in AI and generative AI (GenAI), and the EdTech funding market. It combines source-aware data preparation, quality controls, a dimensional semantic model, and six Power BI report pages.
 
-The analysis investigates how VC activity changed during the period following the emergence of GenAI, with particular attention to funding concentration, AI investment, mega-round activity, geography, investment stage, and the EdTech sector.
+The analysis is **descriptive, not causal**. “Post-GPT” denotes a historical period following the public release of ChatGPT in November 2022. Changes during this period must not be attributed to that release without a separate causal research design.
 
-The project is designed as a market intelligence and business intelligence case study rather than as a causal economic study. Its objective is to identify and communicate observable changes in VC allocation across different market periods.
+## 2. Questions addressed by the delivered report
 
-## 2. Analytical Problem
+1. How did reported VC investment change across the 2019–2025 period, especially between the defined pre-GPT and post-GPT windows?
+2. How did the observed allocation of VC investment across Seed, Start-up/Early and Later stages change between these windows?
+3. How concentrated was reported 2025 VC investment across countries, and how did major reporting markets change between 2023 and 2025?
+4. How did the two OWID/Stanford private-investment series for AI and GenAI evolve, including their reported relative magnitudes and annual changes?
+5. How did HolonIQ's global EdTech VC funding estimate change from its 2021 peak through 2025?
+6. What financing patterns appear **within a deliberately selected sample** of AI-enabled EdTech funding rounds, by year, company and funding stage?
 
-Headline VC investment can increase even when financing conditions do not improve broadly across the startup market.
+The project does **not** answer whether ChatGPT caused investment changes, nor whether AI-enabled companies captured a specified share of the whole EdTech VC market.
 
-A relatively small number of very large funding rounds, particularly in AI, can substantially increase aggregate investment while deal counts, early-stage activity, or investment in other sectors remain comparatively weak.
+## 3. Time scope and period conventions
 
-For this reason, aggregate funding alone is insufficient for evaluating the condition of the VC market.
+The completed report uses **annual observations from 2019 through 2025**, except where an individual source is sparse or covers fewer years. It does not include 2026 year-to-date observations.
 
-The project therefore examines both the scale and the distribution of VC investment.
+The annual OECD comparison on Page 2 uses the following convention:
 
-My central analytical question is:
+| Classification | Annual observations | Use |
+|---|---|---|
+| Pre-GPT | 2019–2021 | Three-year average annual reported VC investment |
+| Transition | 2022 | Shown in the annual trend; excluded from the pre/post average comparison |
+| Post-GPT | 2023–2025 | Three-year average annual reported VC investment |
 
-> How much has the VC market changed in the post-GPT era? Is the apparent rebound a reflection of broad-based increase in investments, or is it a story of capital concentration in AI companies, mega-rounds, select stages and geographies?
+The event-time rationale is more granular: **Q4 2022** contains the November 2022 launch of ChatGPT and can reasonably be treated as a transition quarter. Because the completed OECD dashboard uses **annual**, rather than quarterly, data, it excludes **all of 2022** from direct pre/post averages rather than attempting to split that year's observation. These are **different classification granularities**, not interchangeable period definitions.
 
-A dedicated EdTech analysis investigates how these broader structural changes are reflected within a sector directly affected by GenAI.
+The company-round source can retain its own announcement-level time and transition classification. Those event labels should not be used to reinterpret the annual OECD comparison.
 
-## 3. Research Questions
+The pre/post averages compare annual reported totals. They are affected by varying country coverage and the exceptionally elevated 2021 investment figure; they are not like-for-like balanced-panel or causal estimates.
 
-The project addresses the following questions:
+## 4. Sources, definitions and measurement bases
 
-1. How have VC funding and deal activity evolved over time?
+| Source | Delivered use | Observation grain | Measurement and constraint |
+|---|---|---|---|
+| OECD Venture Capital Investments | Overall VC totals; country rankings; country recovery; funding-stage allocation | Country × year for totals; country × year × stage for complete stage groups | Nominal USD millions before DAX conversion to billions; reporting-country coverage varies |
+| Our World in Data / Stanford AI Index (Quid) | Annual private AI and private GenAI investment trends | World × year × metric | Constant 2021 USD billions; external private investment, **not exclusively VC** |
+| OECD.AI / Preqin | Curated, published AI/GenAI VC benchmark observations in the data layer | Year × geography × indicator, irregular years | VC-specific; nominal USD billions for amount indicators, proportions for share indicators; **not a continuous annual panel** |
+| HolonIQ | Global EdTech VC funding trend and year-on-year changes | Year | Nominal USD billions; **December 2025 publication vintage** (2025 value $2.4B); later reports may revise it |
+| Source-linked AI-enabled EdTech company announcements | Deal-sample funding by year, company and funding-stage group | Individually announced financing round | 12 purposively selected USD rounds for six companies, 2022–2025; nominal USD millions |
 
-2. How do funding levels, deal counts, and deal sizes differ between the pre-GPT and post-GPT periods?
+Provider universes, taxonomies, geographic coverage, reporting dates, currency bases and financing definitions vary. **Do not sum, subtract or calculate market shares across unrelated provider series**. An apparent difference between one provider's AI total and another provider's AI or GenAI figure is not a meaningful funding residual.
 
-3. What proportion of VC investment is allocated to AI and GenAI companies?
+Source documentation: [`data_sources.md`](data_sources.md), [`owid_ai_methodology.md`](owid_ai_methodology.md), [`edtech_market_methodology.md`](edtech_market_methodology.md), and [`edtech_rounds_methodology.md`](edtech_rounds_methodology.md).
 
-4. To what extent are recent funding totals driven by mega-rounds?
+### AI / GenAI subset comparability — verified aggregate interpretation and limitations
 
-5. Has VC become more concentrated among a smaller number of companies?
+The OWID AI and GenAI series share the underlying **Quid / Stanford AI Index Report 2026** provider vintage and the same constant-2021-USD price basis. The original [Stanford AI Index 2026, Chapter 4, Section 4.2, p. 179](https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_4_economy.pdf) describes the private-investment universe as AI/ML companies with over **$1.5 million in funding since 2013**. It expressly states that GenAI companies account for **$170.9 billion of the $344.7 billion private AI total** in 2025, establishing the source's **aggregate GenAI-as-subset** interpretation. The ratio from the nominal report figures (approximately **49.58%**) agrees with the 2025 ratio from OWID's inflation-adjusted versions of those series. The GenAI OWID chart metadata does not independently repeat the threshold; the primary report is the appropriate additional evidence.
 
-6. How does capital allocation differ across funding stages?
+Page 4 therefore uses the two **same-vintage, source-defined** annual aggregates to calculate a GenAI share and an **arithmetic non-GenAI residual**. The resulting 100%-stacked chart is an analytical decomposition, **not a separate Quid-published non-GenAI category or a company-level matched-deal audit**. Classification, funding thresholds, underlying data revisions, and the absence of independently audited company-level overlaps remain limitations. Cross-provider fractions or residuals (e.g., OECD.AI versus OWID) remain inappropriate. Details and source links: [`owid_ai_methodology.md`](owid_ai_methodology.md).
 
-7. How does venture investment differ across major geographic markets?
+## 5. Geographic scope
 
-8. How has EdTech venture funding evolved relative to the broader VC market?
+The OECD country-level extract contains **37 distinct countries** during 2019–2025, with **32 reporting 2025 total-VC observations** in the validated snapshot. Countries included in a particular annual ranking are those with usable records in that year. OECD-reported country totals are **not a comprehensive worldwide VC census**.
 
-9. Within EdTech, has GenAI contributed to a broad funding recovery or primarily increased investment in a smaller set of AI-enabled companies?
+The 2025 Top 10 concentration calculation divides the investment of the ten largest reporting countries by the **same year's reported-country total**. The country-recovery chart uses a 2023 baseline and 2025 endpoint, requiring valid observations for both dates and a positive 2023 denominator. Its countries are selected by **2025 investment level**, not by the rate of growth.
 
-## 4. Time Scope
+Other providers report global indicators under their own methodologies; these are presented separately from the OECD country totals.
 
-The primary historical analysis will cover:
+## 6. Funding-stage framework
 
-**2019–2025**
+The OECD stage analysis preserves its native categories: `SEED`, `START` and `LATER`. The `_T` code denotes **total VC**, not an additional additive stage. The fact model therefore separates `FactOECDVCTotal` and `FactOECDVCStage`.
 
-This period provides several years of observations before and after the emergence of generative AI while avoiding direct comparison between complete historical years and an incomplete current year.
+Stage-level results use country-years with all three reported stage components; the resulting observed universe is narrower than the total-VC fact. Stage shares are calculated as stage-level investments divided by the sum of the reported stage components **within the same period and eligible country-year set**, not as the mean of annual percentages. A change in shares should not be presented as traced capital physically moving between funding stages.
 
-Where sufficiently complete and methodologically compatible data are available, **2026 year-to-date (YTD)** results may be included as a separate current-market indicator.
+The EdTech deal-sample stage groups are a **separate project classification**. They must not be treated as equivalent to the OECD stages without an explicit mapping and comparability assessment. See [`edtech_taxonomy.md`](edtech_taxonomy.md).
 
-2026 YTD values will not be directly compared with complete annual observations unless equivalent YTD periods are used.
+## 7. EdTech scope and classification
 
-### Analytical Periods
+EdTech refers to businesses whose primary products serve education, learning, training, skills development or education workflows. The project includes:
 
-For comparative analysis, the timeline will be divided into three regimes:
+- **A market-level historical series:** HolonIQ's global EdTech VC annual funding estimates, 2019–2025.
+- **A separate company-round sample:** twelve documented rounds involving six selected AI-enabled EdTech companies, 2022–2025.
 
-| Period | Definition |
-|---|---|
-| Pre-GPT | Q1 2019 – Q3 2022 |
-| Transition | Q4 2022 |
-| Post-GPT | Q1 2023 – Q4 2025 |
-| Current | 2026 YTD, where available |
+The case-study sample is **purposively selected** and disproportionately reflects companies with public financing announcements. Its round dates are announcement/publication dates when documented as such, and its amounts are the **newly announced round amounts**, not company lifetime funding, valuations, acquisitions or undisclosed transactions. Company counts are distinct counts; the number of companies across years must not be added to estimate the full-period count.
 
-ChatGPT was publicly released on [30 November 2022.](https://x.com/sama/status/1598038815599661056?s=20)
+The sample may support rankings, observed funding concentrations, round counts and stage mix **within that sample only**. It cannot establish worldwide EdTech deal counts, the market-wide share of AI-enabled EdTech, the sector's median deal size, or a representative sector recovery trend. Do not divide the selected-round sum by the HolonIQ aggregate to infer a market share.
 
-Q4 2022 is treated as a transition period because assigning the entire quarter to either the pre-GPT or post-GPT regime would create an artificial classification.
+## 8. Delivered analytical pages
 
-The transition quarter will therefore normally be excluded from direct pre/post averages.
+| Page | Title | Primary analytical content |
+|---|---|---|
+| 01 | VC Market Overview | Separate executive views of OECD-reported VC, OWID private AI/GenAI, and HolonIQ EdTech VC |
+| 02 | Post-GPT Market Regime | Three-year pre/post mean investment, annual VC investment, observed stage allocation |
+| 03 | Geographic VC Investment Analysis | 2025 country ranking/concentration and 2023–2025 recovery among leading reporting markets |
+| 04 | AI Investment and the GenAI Funding Shift | Private AI/GenAI series, same-vintage source-defined composition and annual share changes **subject to Section 4 limitations** |
+| 05 | EdTech VC Market Analysis | Peak-versus-2025 comparison, waterfall of annual changes, year-on-year growth |
+| 06 | AI-Enabled EdTech Deal Intelligence | Selected-round funding activity, company ranking and funding-stage distribution |
 
-### Frequency and Geographic Coverage
+The report contains **six analytical pages**. Source and methodology details are maintained primarily in GitHub documentation and concise page footnotes; there is no separate seventh methodology report page.
 
-Global market analysis will primarily use annual observations.
+The OECD.AI benchmark mart exists in the semantic model as a **sparse supporting source**, but the originally proposed separate benchmark table was omitted from the final Page 4 layout.
 
-Quarterly pre-GPT/post-GPT structural analysis will initially focus on the United States, where consistent quarterly PitchBook-NVCA data are publicly available.
+## 9. Analytical measures and interpretation
 
-Global quarterly statistics from commercial market intelligence providers may be used for external validation but will not be treated as a redistributable primary dataset.
+The completed dashboard uses existing DAX measures and derived visuals to describe:
 
-## 5. Interpretation of the Post-GPT Period
+- Reported annual investment levels, year-on-year growth and fixed-year comparisons.
+- Pre- versus post-GPT average annual OECD VC investment (2022 excluded), alongside the full annual trajectory.
+- Funding-stage composition based on eligible, stage-disaggregated OECD observations.
+- Geographic shares within the 2025 OECD reporting universe and observed investment changes between 2023 and 2025.
+- Private AI and GenAI investment trends, their same-vintage source-defined share, and a derived non-GenAI residual (see Section 4).
+- HolonIQ EdTech investment changes: its 2021 peak, subsequent annual declines and the flat 2024–2025 comparison. The waterfall is a **reconciliation of annual-level changes**, not a causal attribution.
+- Selected funding-round totals and distribution by company, year and funding stage.
 
-The term **post-GPT** is used as a temporal market classification.
+Some source-specific OECD.AI metrics (including its published mega-deal share indicator) are retained as sparse benchmarks, **not as independently calculated market-wide mega-round statistics**. No comprehensive deal-level market database exists in this project for deriving global deal counts, market-wide median deal size, market concentration indices or the impact of individual mega-rounds.
 
-It does not imply that the release of ChatGPT caused subsequent changes in VC markets.
+## 10. Data engineering and semantic-model design
 
-VC activity during this period was also affected by:
+Python extraction/transformation and validation code prepares source-aware local outputs. The Power BI dataset is loaded from **11 CSV marts: five dimensions and six fact tables**. The model uses **11 active, single-direction one-to-many dimension-to-fact relationships**, with a separate DAX-measures table.
 
-- interest rates,
-- monetary conditions,
-- startup valuations,
-- public-market conditions,
-- exit markets,
-- geopolitical developments,
-- investor risk appetite,
-- technological developments beyond GenAI.
+Key design safeguards:
 
-The dashboard will therefore describe market changes associated with the period.
+- The OECD `_T` totals and additive stage components are never summed together.
+- Source fact tables remain separate even where they share year keys.
+- The selected EdTech rounds are not joined or aggregated into the HolonIQ market totals.
+- Missing OECD.AI benchmark observations remain blank rather than being fabricated or interpolated.
+- Numeric measures remain numeric despite report display formatting.
 
-## 6. Geographic Scope
+See [`powerbi_data_model.md`](powerbi_data_model.md) for grains, prerequisites, and model details.
 
-The primary scope is the **global VC market**, subject to data availability and consistency.
+## 11. Data governance, licensing and reproducibility
 
-Regional analysis will prioritize:
+The public repository contains project code, tests, documentation, manifests and Power BI model/report definitions. Some raw, processed and provider-derived files are maintained **locally and excluded from Git**, consistent with provider-use restrictions and the project's conservative redistribution policy. An initial checkout may therefore **not** be sufficient to reproduce all report values without retrieving approved inputs.
 
-- United States / North America
-- Europe
-- Asia
-- Other regions where sufficient observations exist
+Rebuilding the marts requires five source-specific processed inputs. The Power BI project snapshot also contains **machine-specific absolute CSV paths** that need adjustment before refresh on another computer. Validation results obtained from the local snapshot do not guarantee portability of data refresh from a public clone.
 
-Country-level analysis may be included where the underlying source provides reliable and comparable data.
+The MIT license applies to the author's original code and documentation and does **not** automatically license third-party underlying data. Dashboard screenshots or extracts reproducing materially restricted provider data should not be published until the applicable reuse conditions are checked.
 
-Geographic classifications will be standardized during the data transformation stage.
+## 12. Limitations and non-causal interpretation
 
-## 7. Sector Scope
+1. **Coverage and reporting:** OECD country coverage varies across years; complete stage groups cover fewer observations. Recently published numbers may be revised.
+2. **Comparability:** OECD, OWID, OECD.AI and HolonIQ differ in source universes, funding definitions, classification and/or price bases. OWID AI/GenAI subset interpretation and the limits of the derived residual are described in Section 4.
+3. **Pre/post inference:** Annual periods are convenient descriptive groupings. The 2021 peak and changing coverage can affect averages. Interest rates, valuations, exit markets and other changes are confounders.
+4. **Deal-sample bias:** The company-round dataset is selected and non-exhaustive; public announcement availability favors visible transactions. No market-representative inference follows.
+5. **EdTech vintage:** HolonIQ's December 2025 estimate is retained consistently instead of mixing numbers from later revised vintages.
+6. **Publication rights:** Provider data and certain image reproductions may have redistribution restrictions independent of repository-code licensing.
 
-The project will analyze the broader VC market while giving particular attention to:
+## 13. Explicitly out of scope for the delivered version
 
-- Artificial Intelligence
-- Generative AI
-- EdTech
+The completed report does **not** implement quarterly US VC analysis, 2026 YTD VC comparisons, comprehensive global deal counts, median or mean deal size across the VC population, HHI market concentration, estimated investment returns, investor rankings, private-company valuations, causal estimates of ChatGPT's impact, or a representative AI-versus-non-AI EdTech funding-share comparison.
 
-Other sectors may be retained for benchmarking and comparison.
-
-Sector classifications will follow source-provided taxonomies where possible.
-
-Because different market intelligence providers may use different sector definitions, incompatible classifications will not be combined without documented harmonization rules.
-
-## 8. AI and GenAI Definitions
-
-### Artificial Intelligence
-
-A company or investment will be classified as AI-related when it is identified as such by the underlying data provider or by a documented classification methodology.
-
-### GenAI
-
-GenAI represents a subset of AI involving systems capable of generating new content such as text, images, audio, video, software code, or other structured outputs.
-
-Where source datasets provide explicit GenAI classifications, those classifications will be preserved.
-
-If manual company-level classification is required, the classification rules and evidence will be documented separately.
-
-AI and GenAI classifications will not be inferred solely from company names.
-
-## 9. EdTech Definition
-
-EdTech refers to technology companies whose primary products or services support education, learning, training, skills development, or educational administration.
-
-Potential EdTech subsectors include:
-
-- K-12 education
-- Higher education
-- Workforce learning and upskilling
-- Corporate learning
-- Language learning
-- Tutoring
-- Learning platforms
-- Education infrastructure
-- AI-enabled learning products
-
-The final subsector taxonomy will depend on the available data.
-
-Companies whose educational activity is secondary to their principal business will not automatically be classified as EdTech.
-
-## 10. Funding Stage Framework
-
-Funding-stage labels differ across data providers.
-
-Where harmonization is required, detailed stages will be mapped into broader analytical categories:
-
-| Analytical Stage | Examples |
-|---|---|
-| Pre-seed / Seed | Pre-seed, Seed |
-| Early Stage | Series A, Series B |
-| Late / Growth Stage | Series C+, Growth |
-| Other / Unknown | Unclassified, corporate, other |
-
-The exact mapping will be documented once the datasets have been selected.
-
-Original source-stage values will be preserved before transformation.
-
-## 11. Mega-Round Definition
-
-A **mega-round** is defined as a venture funding round of:
-
-**USD 100 million or more**
-
-Where company-level funding-round data are available, the following metrics will be calculated:
-
-- Mega-round count
-- Mega-round funding
-- Mega-round share of total VC investment
-
-Mega-round share is defined as:
-
-$$
-\text{Mega-Round Share}
-=
-\frac{\text{Funding from rounds } \geq \$100\text{M}}
-{\text{Total VC Funding}}
-$$
-
-This measure will help determine whether aggregate funding growth reflects broad market participation or a relatively small number of large transactions.
-
-## 12. Core Market Metrics
-
-The dashboard will prioritize the following measures:
-
-### Funding Activity
-
-- Total VC funding
-- Deal count
-- Average deal size
-- Median deal size
-- Quarter-over-quarter funding growth
-- Year-over-year funding growth
-- Year-over-year deal growth
-
-### AI Metrics
-
-- AI funding
-- AI deal count
-- AI share of VC funding
-- GenAI funding
-- GenAI share of AI funding
-
-### Capital Concentration
-
-- Mega-round funding
-- Mega-round share
-- Top 5 company funding share
-- Top 10 company funding share
-- Funding concentration index
-
-### Market Segmentation
-
-- Funding by geography
-- Funding by stage
-- Funding by sector
-- Deal count by geography
-- Deal count by stage
-
-### EdTech Metrics
-
-- EdTech funding
-- EdTech deal count
-- Median EdTech round
-- EdTech share of total VC
-- AI-enabled EdTech funding share
-- EdTech funding by subsector
-- EdTech funding by geography
-- EdTech funding by stage
-- Top-company concentration
-
-## 13. Capital Concentration
-
-Where sufficiently granular company-level data are available, concentration will be measured using both simple concentration ratios and the Herfindahl-Hirschman Index (HHI).
-
-For company-level funding shares:
-
-$$
-HHI = \sum_{i=1}^{n} s_i^2
-$$
-
-where:
-
-- $s_i$ represents company $i$'s share of total funding within the selected market and period;
-- $n$ represents the number of companies.
-
-The metric will be used comparatively rather than as a regulatory antitrust measure.
-
-Increasing HHI values indicate that funding is becoming more concentrated among fewer recipients.
-
-## 14. Primary Comparative Framework
-
-The main comparison will evaluate:
-
-**Pre-GPT vs Post-GPT**
-
-across:
-
-- total funding,
-- deal count,
-- average and median deal size,
-- AI funding share,
-- mega-round share,
-- company concentration,
-- stage distribution,
-- geographic distribution,
-- EdTech investment.
-
-Quarterly observations will generally be preferred over annual observations for structural comparisons because they preserve more information about market timing.
-
-## 15. EdTech Analytical Framework
-
-The EdTech section will operate as a sector-level case study within the broader venture market.
-
-It will investigate three dimensions.
-
-### Market Performance
-
-How did EdTech funding and deal activity change before and after 2022?
-
-### Relative Performance
-
-Did EdTech outperform or underperform the overall VC market?
-
-### AI Reallocation
-
-Within EdTech, did GenAI produce broad investment growth or increase concentration around a smaller number of AI-enabled companies?
-
-Where data allow, AI-enabled and non-AI EdTech companies will be compared directly.
-
-## 16. Unit of Analysis
-
-The project may contain two analytical levels depending on source availability.
-
-### Market-Level Data
-
-Typical unit:
-
-**Quarter × Geography × Sector × Stage**
-
-Used for long-term market trends and comparisons.
-
-### Deal-Level Data
-
-Typical unit:
-
-**Individual funding round**
-
-Used for:
-
-- company rankings,
-- mega-round analysis,
-- median round calculations,
-- concentration metrics,
-- AI/EdTech classification.
-
-Market-level aggregates and deal-level observations will not be combined as though they represent the same unit of analysis.
-
-## 17. Data Source Principles
-
-Data sources will be selected according to:
-
-1. provenance,
-2. methodological transparency,
-3. historical coverage,
-4. reproducibility,
-5. licensing or redistribution conditions,
-6. granularity,
-7. consistency over time.
-
-Preference will be given to original market intelligence providers, official statistical sources, and downloadable structured datasets.
-
-Third-party datasets will not be used solely because they are convenient if their origin or methodology cannot be established.
-
-Every source used in the final analytical model will be documented with:
-
-- provider,
-- dataset/report name,
-- URL,
-- coverage,
-- access date,
-- unit of analysis,
-- important definitions,
-- transformations,
-- known limitations,
-- redistribution conditions.
-
-## 18. Data Harmonization Principles
-
-The project will not assume that funding statistics published by different providers are directly comparable.
-
-Differences may result from:
-
-- definition of VC,
-- company classification,
-- geography definitions,
-- funding-stage taxonomy,
-- treatment of debt,
-- accelerator funding,
-- corporate venture transactions,
-- undisclosed transactions,
-- currency conversion,
-- data revision practices.
-
-Where datasets cannot be reconciled reliably, they will be presented as separate analytical series or used only as external benchmarks.
-
-A single canonical source will be selected for each major time series wherever possible.
-
-## 19. Analytical Limitations
-
-The project is expected to face several limitations.
-
-### Source Coverage
-
-No public dataset necessarily captures every private venture transaction.
-
-### Classification Differences
-
-AI, GenAI, and EdTech definitions may vary across providers.
-
-### Reporting Lag
-
-Recent funding observations may be incomplete and subsequently revised.
-
-### Survivorship and Visibility Bias
-
-Large or publicly announced rounds are more likely to appear in public datasets.
-
-### Causal Interpretation
-
-Pre/post comparisons identify temporal differences but do not establish causal effects.
-
-### Current-Year Comparability
-
-2026 YTD observations are incomplete and must not be interpreted as directly equivalent to full-year totals.
-
-These limitations will be incorporated into dashboard documentation and interpretation.
-
-## 20. Out of Scope
-
-Version 1.0 of the project will not attempt to:
-
-- predict startup success,
-- recommend individual VC investments,
-- value private companies,
-- estimate investment returns,
-- construct VC fund portfolios,
-- establish causal effects of ChatGPT,
-- rank individual investors unless sufficiently reliable investor-level data are obtained.
-
-These areas may become extensions of the project but are not required for the initial portfolio release.
-
-## 21. Expected Deliverable
-
-The final output will be an interactive Power BI market intelligence report supported by a reproducible analytical workflow.
-
-The report is expected to contain six analytical pages:
-
-1. VC Market Overview
-2. Post-GPT Market Regime
-3. AI and Capital Concentration
-4. Geography and Funding Stage
-5. EdTech Deep Dive
-6. Methodology and Data Quality
-
-Supporting repository documentation will describe the data sources, transformations, semantic model, DAX measures, analytical findings, and project limitations.
-
-## 22. Technology Stack
-
-The planned stack is:
-
-- Python
-- pandas
-- Jupyter Notebook
-- Power Query
-- Power BI
-- DAX
-- Git
-- GitHub
-
-Python will primarily support reproducible data preparation, validation, and exploratory analysis.
-
-Power Query will support BI-specific transformation and ingestion tasks.
-
-Power BI and DAX will provide the semantic model, analytical measures, and interactive reporting layer.
+These were possible extensions in the original project plan, **not delivered analyses**. Any future extension requires appropriately granular, validated data and an updated methodology.

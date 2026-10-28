@@ -53,7 +53,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Source: Our World in Data / Stanford AI Index (Quid), 2019–2025. Global private AI investment in constant 2021 USD; coverage is broader than venture capital alone. GenAI investment is included within total private AI investment, while non-GenAI investment is calculated as the residual. Annual changes in investment shares are expressed in percentage points. Trends are descriptive and do not establish causal effects.'"
+                  "Value": "'Source: Our World in Data / Stanford AI Index 2026 (Quid), 2019–2025. Global external private investment in constant 2021 USD, including financing beyond venture capital. GenAI is treated as a subset of private AI investment in the source''s published aggregates; non-GenAI investment is calculated as the residual, not independently observed. Annual share changes are expressed in percentage points. Classification and historical estimates are subject to revision.'"
                 }
               }
             },
