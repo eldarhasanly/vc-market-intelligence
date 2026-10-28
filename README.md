@@ -17,9 +17,68 @@ This project studies reported venture capital (VC) investment before and after t
 | 03 · Geography | 2025 concentration among OECD reporting countries and country-level growth between 2023 and 2025 |
 | 04 · GenAI Shift | GenAI versus non-GenAI composition of private AI investment and annual change in GenAI share |
 | 05 · EdTech Market | Global EdTech funding contraction, waterfall decomposition, and year-over-year change |
-| 06 · EdTech Deals | Disclosed financing activity, company concentration, and stage distribution in a selected deal sample |
+| 06 · AI-Enabled EdTech Deals | Disclosed financing activity, company concentration, and stage distribution in a selected deal sample |
 
 The Power BI project file is [`powerbi/VCMarketIntelligence.pbip`](powerbi/VCMarketIntelligence.pbip). The repository contains the report and semantic-model definitions; local source files and configuration are needed to refresh the model on another machine.
+
+## Dashboard Preview
+
+The Power BI report contains six interactive analytical pages, covering venture capital investment, the post-GPT market regime, geographic concentration, generative AI, and EdTech financing.
+
+### 01 — VC Market Overview
+
+Executive overview of reported VC investment, private AI investment, and global EdTech venture funding from 2019 to 2025.
+
+![VC Market Overview](assets/screenshots/01_overview.png)
+
+## Explore the Dashboard
+
+<details>
+<summary><b>02 — Post-GPT Market Regime</b></summary>
+
+Annual investment trends and changes in funding-stage allocation between the pre-GPT and post-GPT periods.
+
+![Post-GPT Market Regime](assets/screenshots/02_post_gpt.png)
+
+</details>
+
+<details>
+<summary><b>03 — Geographic VC Investment Analysis</b></summary>
+
+Country-level investment concentration and recovery dynamics across the leading reporting markets.
+
+![Geographic VC Analysis](assets/screenshots/03_geography.png)
+
+</details>
+
+<details>
+<summary><b>04 — AI Investment and the GenAI Funding Shift</b></summary>
+
+Evolution of generative AI's share of private AI investment and annual changes in funding composition.
+
+![GenAI Investment Shift](assets/screenshots/04_genai_shift.png)
+
+</details>
+
+<details>
+<summary><b>05 — EdTech VC Market Analysis</b></summary>
+
+Global EdTech venture funding contraction from its 2021 peak and signs of stabilization in 2025.
+
+![EdTech VC Market](assets/screenshots/05_edtech_market.png)
+
+</details>
+
+<details>
+<summary><b>06 — AI-Enabled EdTech Deal Intelligence</b></summary>
+
+Financing activity, company concentration, and stage distribution across a curated sample of 12 rounds involving six companies.
+
+![AI-Enabled EdTech Deals](assets/screenshots/06_ai-enabled_edtech_deals.png)
+
+</details>
+
+*Data sources and measurement definitions differ by page. See the methodology documentation for coverage and limitations.*
 
 ## Data and scope
 
