@@ -21,7 +21,7 @@ table DimOECDCountry
 		mode: import
 		source =
 				let
-				    Source = Csv.Document(File.Contents("C:\Users\eldar\Desktop\portfolio\power_bi\VC Market Intelligence\data\mart\powerbi\DimOECDCountry.csv"),[Delimiter=",", Columns=2, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    Source = Csv.Document(File.Contents(pMartFolder & "DimOECDCountry.csv"),[Delimiter=",", Columns=2, Encoding=1252, QuoteStyle=QuoteStyle.None]),
 				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", type text}, {"Column2", type text}}),
 				    #"Promoted Headers" = Table.PromoteHeaders(#"Changed Type", [PromoteAllScalars=true]),
 				    #"Changed Type1" = Table.TransformColumnTypes(#"Promoted Headers",{{"country_code", type text}, {"country", type text}})

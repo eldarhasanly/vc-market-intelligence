@@ -80,7 +80,7 @@ table FactOWIDPrivateAI
 		mode: import
 		source =
 				let
-				    Source = Csv.Document(File.Contents("C:\Users\eldar\Desktop\portfolio\power_bi\VC Market Intelligence\data\mart\powerbi\FactOWIDPrivateAI.csv"),[Delimiter=",", Columns=9, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    Source = Csv.Document(File.Contents(pMartFolder & "FactOWIDPrivateAI.csv"),[Delimiter=",", Columns=9, Encoding=1252, QuoteStyle=QuoteStyle.None]),
 				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
 				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"year", Int64.Type}, {"geography", type text}, {"metric", type text}, {"value_usd_bn_2021_prices", type number}, {"unit", type text}, {"source_provider", type text}, {"original_provider", type text}, {"source_url", type text}, {"original_indicator", type text}})
 				in

@@ -55,7 +55,7 @@ table DimYear
 		mode: import
 		source =
 				let
-				    Source = Csv.Document(File.Contents("C:\Users\eldar\Desktop\portfolio\power_bi\VC Market Intelligence\data\mart\powerbi\DimYear.csv"),[Delimiter=",", Columns=2, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    Source = Csv.Document(File.Contents(pMartFolder & "DimYear.csv"),[Delimiter=",", Columns=2, Encoding=1252, QuoteStyle=QuoteStyle.None]),
 				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
 				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"year", Int64.Type}, {"year_label", Int64.Type}})
 				in

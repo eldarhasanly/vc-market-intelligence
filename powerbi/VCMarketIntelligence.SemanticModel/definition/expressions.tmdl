@@ -1,0 +1,7 @@
+expression pMartFolder = "C:\Users\eldar\Desktop\portfolio\power_bi\VC Market Intelligence\data\mart\powerbi\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 26d79bc0-a553-482c-9c0d-3ed73463d071
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+

@@ -112,7 +112,7 @@ table FactOECDAIBenchmarks
 		mode: import
 		source =
 				let
-				    Source = Csv.Document(File.Contents("C:\Users\eldar\Desktop\portfolio\power_bi\VC Market Intelligence\data\mart\powerbi\FactOECDAIBenchmarks.csv"),[Delimiter=",", Columns=12, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    Source = Csv.Document(File.Contents(pMartFolder & "FactOECDAIBenchmarks.csv"),[Delimiter=",", Columns=12, Encoding=1252, QuoteStyle=QuoteStyle.None]),
 				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
 				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"year", Int64.Type}, {"geography", type text}, {"metric", type text}, {"value", type number}, {"unit", type text}, {"precision", type text}, {"source_publisher", type text}, {"source_publication_date", type date}, {"source_url", type text}, {"underlying_provider", type text}, {"evidence", type text}, {"note", type text}})
 				in

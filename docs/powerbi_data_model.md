@@ -34,11 +34,18 @@ The mart output location is `data/mart/powerbi/` (eleven CSV files). The five lo
 
 The generator is intentionally **fail-fast** when inputs are unavailable; it does not fabricate data or automatically replace restricted providers. Source retrieval, vintages, licensing, and access instructions are explained in `docs/data_sources.md` and the provider-specific methodology files.
 
-### Important: local Power Query file paths
+### Configuring Power BI data sources
+The semantic model imports 11 CSV data marts through a shared Power Query parameter named `pMartFolder`.
 
-The uploaded PBIP snapshot contains absolute Windows file paths within the eleven Power Query `File.Contents(...)` expressions. **A clean GitHub clone is not plug-and-play:** opening and refreshing the report on another machine requires the mart CSVs to be generated locally and the data-source paths to be updated in Power Query. The repository does not include the restricted source data or generated marts. Do not publish any private source files just to make refresh easier.
+To configure the project:
 
-A reusable folder-path parameter would improve portability, but the current PBIP snapshot **does not yet implement one**. Do not describe the current setup as automatically portable or refreshable from GitHub alone.
+1. Generate or obtain the permitted CSV data marts.
+2. Open powerbi/VCMarketIntelligence.pbip` in Power BI Desktop.
+3. Navigate to **Transform data → Manage Parameters**.
+4. Set `pMartFolder` to the absolute path of the local `data/mart/powerbi/` directory, including the trailing path separator.
+5. Select **Close & Apply**, then refresh the model.
+
+The parameter allows all 11 imports to be redirected without editing individual queries. Generated marts and certain licensed source data are not distributed through the public repository. Successful refresh requires the corresponding local CSV files.
 
 ## 3. Tables, grains, and observed snapshot row counts
 

@@ -11,7 +11,7 @@ annotation __PBI_TimeIntelligenceEnabled = 1
 
 annotation PBI_ProTooling = ["DevMode"]
 
-annotation PBI_QueryOrder = ["DimYear","FactOECDVCTotal","DimOECDCountry","DimOECDStage","DimEdTechCompany","DimEdTechStage","FactOECDVCStage","FactOWIDPrivateAI","FactOECDAIBenchmarks","FactEdTechMarket","FactEdTechRounds","_Measures"]
+annotation PBI_QueryOrder = ["DimYear","FactOECDVCTotal","DimOECDCountry","DimOECDStage","DimEdTechCompany","DimEdTechStage","FactOECDVCStage","FactOWIDPrivateAI","FactOECDAIBenchmarks","FactEdTechMarket","FactEdTechRounds","_Measures","pMartFolder"]
 
 ref table DimYear
 ref table FactOECDVCTotal

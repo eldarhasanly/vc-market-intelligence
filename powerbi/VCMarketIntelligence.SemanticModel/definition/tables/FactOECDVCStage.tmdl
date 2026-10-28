@@ -48,7 +48,7 @@ table FactOECDVCStage
 		mode: import
 		source =
 				let
-				    Source = Csv.Document(File.Contents("C:\Users\eldar\Desktop\portfolio\power_bi\VC Market Intelligence\data\mart\powerbi\FactOECDVCStage.csv"),[Delimiter=",", Columns=5, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    Source = Csv.Document(File.Contents(pMartFolder & "FactOECDVCStage.csv"),[Delimiter=",", Columns=5, Encoding=1252, QuoteStyle=QuoteStyle.None]),
 				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
 				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"country_code", type text}, {"year", Int64.Type}, {"stage_code", type text}, {"vc_investment_usd_millions", type number}, {"source_provider", type text}})
 				in

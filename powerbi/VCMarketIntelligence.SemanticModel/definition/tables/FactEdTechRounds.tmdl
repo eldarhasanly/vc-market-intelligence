@@ -128,7 +128,7 @@ table FactEdTechRounds
 		mode: import
 		source =
 				let
-				    Source = Csv.Document(File.Contents("C:\Users\eldar\Desktop\portfolio\power_bi\VC Market Intelligence\data\mart\powerbi\FactEdTechRounds.csv"),[Delimiter=",", Columns=14, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    Source = Csv.Document(File.Contents(pMartFolder & "FactEdTechRounds.csv"),[Delimiter=",", Columns=14, Encoding=1252, QuoteStyle=QuoteStyle.None]),
 				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
 				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"round_id", type text}, {"company_id", type text}, {"year", Int64.Type}, {"quarter", type text}, {"source_publication_date", type date}, {"analysis_period", type text}, {"stage_group", type text}, {"round_stage_reported", type text}, {"round_amount_usd_millions", type number}, {"currency", type text}, {"lead_investor", type text}, {"funding_source_url", type text}, {"ai_evidence_url", type text}, {"source_type", type text}})
 				in

@@ -120,7 +120,7 @@ table FactEdTechMarket
 		mode: import
 		source =
 				let
-				    Source = Csv.Document(File.Contents("C:\Users\eldar\Desktop\portfolio\power_bi\VC Market Intelligence\data\mart\powerbi\FactEdTechMarket.csv"),[Delimiter=",", Columns=13, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    Source = Csv.Document(File.Contents(pMartFolder & "FactEdTechMarket.csv"),[Delimiter=",", Columns=13, Encoding=65001, QuoteStyle=QuoteStyle.None]),
 				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
 				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"year", Int64.Type}, {"edtech_vc_usd_billions", type number}, {"metric_code", type text}, {"geography", type text}, {"currency", type text}, {"price_basis", type text}, {"capital_type", type text}, {"value_precision", type text}, {"source_provider", type text}, {"source_publication_date", type date}, {"source_url", type text}, {"source_chart", type text}, {"series_vintage", type text}})
 				in
