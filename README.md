@@ -135,7 +135,7 @@ Generated marts appear in `data/mart/powerbi/` and are intentionally ignored by 
 ### Opening the Power BI report
 
 1. Open [`powerbi/VCMarketIntelligence.pbip`](powerbi/VCMarketIntelligence.pbip) in a compatible Power BI Desktop version.
-2. If refreshing data, generate the marts locally and update the **CSV source paths in Power Query**. The current project snapshot contains machine-specific absolute source paths.
+2. To refresh the report, generate the eleven CSV marts locally, then navigate to **Transform data → Manage Parameters** and set `pMartFolder` to the absolute path of the `data/mart/powerbi/` directory (including the trailing path separator). All eleven Power Query imports use this shared parameter.
 3. Verify imported tables and refresh behavior before using updated figures. A definition-only checkout is not guaranteed to contain the original imported data cache.
 
 ## Repository map
